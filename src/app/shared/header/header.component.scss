@@ -1,0 +1,33 @@
+header {
+    color: whitesmoke;
+    width: 100vw;
+    max-width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    position: absolute;
+
+    >h1 {
+        font-size: 42px;
+        font-weight: bold
+    }
+
+    >nav {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        width: 400px;
+        font-size: 23px;
+
+        >a {
+            color: whitesmoke;
+            text-decoration: none;
+
+            &:hover {
+                color: #00BEE8;
+            }
+        }
+    }
+}

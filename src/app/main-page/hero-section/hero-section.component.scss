@@ -1,0 +1,238 @@
+section {
+    background-color: #141D2F;
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .profile {
+        position: absolute;
+        left: 0;
+        bottom: 25%;
+        width: 800px;
+    }
+
+    .design {
+        position: absolute;
+        border: white;
+        width: 102vw;
+        height: 50%;
+        bottom: 0;
+        transform: rotate(-4deg);
+    }
+
+    .blue-shadow {
+        position: absolute;
+        left: 0;
+        width: 600px;
+    }
+
+    .purple-shadow {
+        position: absolute;
+        left: 300px;
+        height: 2;
+        width: 500px;
+        animation: move-shadow2 8s infinite alternate ease-in-out;
+    }
+
+
+    .blue-color-animation {
+        animation: blue-color-change 6s infinite alternate ease-in-out, move-shadow 6s infinite alternate ease-in-out;
+    }
+
+    .purple-color-animation {
+        animation: purple-color-change 6s infinite alternate ease-in-out;
+    }
+
+
+    @keyframes blue-color-change {
+        0% {
+            fill: #1cdae6;
+        }
+
+        25% {
+            fill: #3f8efc;
+        }
+
+        50% {
+            fill: #3f8efc;
+        }
+
+        75% {
+            fill: #3f8efc;
+        }
+
+        100% {
+            fill: #1cdae6;
+        }
+    }
+
+    @keyframes purple-color-change {
+        0% {
+            fill: #9747FF;
+        }
+
+        25% {
+            fill: #8752FF;
+        }
+
+        50% {
+            fill: #A757FF;
+        }
+
+        75% {
+            fill: #B470FF;
+        }
+
+        100% {
+            fill: #9747FF;
+        }
+    }
+
+
+    @keyframes move-shadow {
+        0% {
+            transform: translate(0, 0) scale(1);
+        }
+
+        50% {
+            transform: translate(5px, -5px) scale(1.05);
+        }
+
+        100% {
+            transform: translate(-5px, 5px) scale(0.95);
+        }
+    }
+
+
+    @keyframes move-shadow2 {
+        0% {
+            transform: translateY(0);
+            /* Ausgangsposition */
+        }
+
+        25% {
+            transform: translateY(-25px);
+            /* Leicht nach oben */
+        }
+
+        50% {
+            transform: translateY(0);
+            /* Zurück zur Ausgangsposition */
+        }
+
+        75% {
+            transform: translateY(25px);
+            /* Leicht nach unten */
+        }
+
+        100% {
+            transform: translateY(0);
+            /* Zurück zur Ausgangsposition */
+        }
+    }
+
+
+
+    .i-am-container {
+        position: absolute;
+        right: 80px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+        font-size: 54px;
+        color: whitesmoke;
+        gap: 50px;
+
+        .i-am-box {
+            display: flex;
+            align-items: center;
+
+            .rotate-text {
+                transform: rotate(-90deg);
+                width: fit-content;
+                height: fit-content;
+                font-size: 62px;
+            }
+
+            .name-box {
+                line-height: 80px;
+
+                .blue-txt {
+                    color: #00BEE8;
+                    width: 100%;
+                    font-size: 75px;
+                }
+            }
+        }
+
+
+        .contact-me-btn {
+            width: 165px;
+            height: 60px;
+            font-size: 23px;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            color: whitesmoke;
+            background-color: #4B47FF;
+            transition: all ease-in-out 100ms;
+
+            &:hover {
+                scale: 1.2;
+            }
+
+            &:active{
+                scale: 0.9;
+            }
+        }
+    }
+
+
+
+
+
+    .conact-box {
+        position: absolute;
+        width: 620px;
+        height: 100px;
+        bottom: 100px;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .line {
+            width: 100px;
+            height: 5px;
+            background: #4B47FF;
+        }
+
+        a {
+            color: whitesmoke;
+            text-decoration: none;
+            font-size: 23px;
+
+            img {
+                width: 30px;
+                height: 30px;
+                transition: all ease-in-out 100ms;
+
+                &:hover {
+                    scale: 1.3;
+                }
+            }
+        }
+    }
+
+
+
+
+
+}
