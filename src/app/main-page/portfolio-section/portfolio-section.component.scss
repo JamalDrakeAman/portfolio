@@ -1,0 +1,44 @@
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    max-width: 100%;
+    background-color: #121d2e;
+    padding: 100px 0 100px 120px;
+    gap: 100px;
+
+
+
+
+    .headline-container {
+        color: whitesmoke;
+        width: 1060px;
+        height: 110px;
+        border: solid 1px white;
+        align-self: self-end;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 30px;
+
+        .line1 {
+            width: 100px;
+            height: 5px;
+            background-color: #9747FF;
+        }
+
+        h1 {
+            font-size: 90px;
+        }
+
+
+        .line2 {
+            width: 510px;
+            height: 5px;
+            background-color: #9747FF;
+        }
+
+    }
+
+
+}
