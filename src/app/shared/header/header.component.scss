@@ -7,7 +7,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 100px;
-    position: absolute;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #121d2e;
 
     >h1 {
         font-size: 42px;

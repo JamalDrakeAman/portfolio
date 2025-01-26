@@ -6,12 +6,16 @@
         <span class="line2"></span>
     </div>
 
+    <div class="projects-container">
 
-    @for (item of projects; track $index) {
+        @for (item of projects; track $index; let i = $index) {
 
-        <app-project-comp [project]="item"></app-project-comp>
-    }
-    
+        <app-project-comp [projectIndex]="i" [project]="item"></app-project-comp>
+        }
+
+
+    </div>
+
 
 
 </section>

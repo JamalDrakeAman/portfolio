@@ -1,87 +1,91 @@
 section {
-    width: 1160px;
+    
     height: 340px;
-    border: solid 1px white;
+    // border: solid 1px white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    gap: 200px;
+    
     .project-img-box {
         display: flex;
 
         img {
-            width: 500px;
+            width: 750px;
         }
-
     }
 
-    .project-description-box {
+}
+
+
+.project-description-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+
+    h2 {
+        font-size: 32px;
+        color: #00BEE8;
+    }
+
+    span {
+        font-size: 23px;
+        color: #4B47FF;
+    }
+
+    p {
+        color: white;
+    }
+}
+
+
+.project-btns {
+    display: flex;
+    gap: 60px;
+    font-size: 23px;
+
+    .live-btn {
+        color: white;
+        text-decoration: none;
         display: flex;
-        flex-direction: column;
-        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 152px;
+        height: 60px;
+        border-radius: 10px;
+        background-color: #00BEE8;
+        transition: all ease-in-out 100ms;
 
-        h2 {
-            font-size: 32px;
-            color: #00BEE8;
+        &:hover {
+            scale: 1.1;
         }
-
-        span {
-            font-size: 23px;
-            color: #4B47FF;
-        }
-
-        p {
-            color: white;
-        }
-
-        .project-btns {
-            display: flex;
-            gap: 60px;
-            font-size: 23px;
-
-            .live-btn {
-                color: white;
-                text-decoration: none;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 152px;
-                height: 60px;
-                border-radius: 10px;
-                background-color: #00BEE8;
-                transition: all ease-in-out 100ms;
-
-                &:hover {
-                    scale: 1.1;
-                }
-            }
-
-            .github-btn {
-                color: white;
-                text-decoration: none;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 152px;
-                height: 60px;
-                border: solid 1px #4B47FF;
-                border-radius: 10px;
-                transition: all ease-in-out 100ms;
-
-                &:hover {
-                    scale: 1.1;
-                }
-
-                &:active {
-                    scale: 0.9;
-                }
-            }
-
-        }
-
     }
 
+    .github-btn {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 152px;
+        height: 60px;
+        border: solid 1px #4B47FF;
+        border-radius: 10px;
+        transition: all ease-in-out 100ms;
 
+        &:hover {
+            scale: 1.1;
+        }
 
+        &:active {
+            scale: 0.9;
+        }
+    }
 
+}
+
+.reverse-project{
+    align-items: end;
+    text-align: end;
 }
