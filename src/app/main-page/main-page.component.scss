@@ -1,5 +1,14 @@
-section{
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #141D2F;
+    width: 1920px;
+
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2),
+        /* Schatten links */
+        5px 0 10px rgba(0, 0, 0, 0.2);
+    /* Schatten rechts */
+
+    overflow: hidden;
 }

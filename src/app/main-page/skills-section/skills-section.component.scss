@@ -2,13 +2,13 @@ section {
     // height: 100vh;
     width: 100vw;
     max-width: 100%;
-    max-width: 2560px;
-    background-color: rgb(18, 29, 46);
+    max-width: 1920px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 150px 0 150px 120px;
+ 
 
     .skills-container {
         width: 700px;
@@ -45,16 +45,66 @@ section {
         width: 600px;
         height: 400px;
 
-        h1 {
-            font-size: 90px;
+        text-align: end;
+
+
+        .headline {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 30px;
+
+            h1 {
+                font-size: 90px;
+            }
+            .line {
+                width: 70px;
+                height: 5px;
+                background-color: #4B47FF;
+            }
         }
 
+        p{
+
+        }
+
+        .bold-txt{
+            font-size: 30px;
+            font-weight: bold;
+
+            .blue-txt{
+                color: #00BEE8;
+            }
+        }
 
 
 
     }
 
 
+}
 
 
+
+
+.contact-me-btn {
+    width: 200px;
+    height: 60px;
+    font-size: 23px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: #4B47FF;
+    transition: all ease-in-out 100ms;
+
+    &:hover {
+        scale: 1.2;
+    }
+
+    &:active{
+        scale: 0.9;
+    }
 }
