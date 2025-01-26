@@ -1,0 +1,32 @@
+footer {
+    color: white;
+    height: 290px;
+    width: 100vw;
+    max-width: 100%;
+    max-width: 2560px;
+    border-top: solid 5px #4B47FF;
+    background-color: #121d2e;
+
+    padding: 100px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 23px;
+
+
+
+
+    .contact-icons {
+        display: flex;
+        gap: 50px;
+
+        a {
+            transition: all ease-in-out 100ms;
+        }
+
+        a:hover {
+            scale: 1.2;
+        }
+
+    }
+}

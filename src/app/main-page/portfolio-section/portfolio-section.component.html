@@ -6,8 +6,12 @@
         <span class="line2"></span>
     </div>
 
-    <app-project-comp></app-project-comp>
 
-    <!-- <app-project-comp></app-project-comp> -->
+    @for (item of projects; track $index) {
+
+        <app-project-comp [project]="item"></app-project-comp>
+    }
+    
+
 
 </section>

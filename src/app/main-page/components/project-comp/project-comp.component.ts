@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-project-comp',
@@ -8,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrl: './project-comp.component.scss'
 })
 export class ProjectCompComponent {
+
+  @Input() project = {
+    name: 'Join',
+    skills: 'JavaScript | HTML | CSS',
+    description: 'Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.',
+    img: 'projects/join-kanban-img.png'
+  }
+
 
 }
