@@ -14,7 +14,22 @@ footer {
     font-size: 23px;
 
 
+    .legal-box {
+        display: flex;
+        flex-direction: column;
+        
+        .name{
+            font-size: 45px;
+            font-weight: bold;
+        }
 
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+
+        }
+    }
 
     .contact-icons {
         display: flex;

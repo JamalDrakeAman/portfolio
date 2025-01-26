@@ -33,6 +33,55 @@ section {
         p {
             color: white;
         }
+
+        .project-btns {
+            display: flex;
+            gap: 60px;
+            font-size: 23px;
+
+            .live-btn {
+                color: white;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 152px;
+                height: 60px;
+                border-radius: 10px;
+                background-color: #00BEE8;
+                transition: all ease-in-out 100ms;
+
+                &:hover {
+                    scale: 1.1;
+                }
+            }
+
+            .github-btn {
+                color: white;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 152px;
+                height: 60px;
+                border: solid 1px #4B47FF;
+                border-radius: 10px;
+                transition: all ease-in-out 100ms;
+
+                &:hover {
+                    scale: 1.1;
+                }
+
+                &:active {
+                    scale: 0.9;
+                }
+            }
+
+        }
+
     }
+
+
+
 
 }
