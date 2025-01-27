@@ -2,14 +2,22 @@ form {
     display: flex;
     flex-direction: column;
     width: 620px;
-    height: 510px;
-    gap: 20px;
+    gap: 35px;
 
     input{
         background-color: unset;
         padding: 15px 25px;
         border: #4B47FF solid;
         border-radius: 10px;
+    }
+
+    input::placeholder{
+        color: white;
+    }
+
+    input:focus{
+        border: #00BEE8 solid;
+        outline: none;
     }
 
     textarea{
@@ -19,12 +27,45 @@ form {
         border-radius: 10px;
     }
 
+    textarea::placeholder{
+        color: white;
+    }
+
+    textarea:focus{
+        border: #00BEE8 solid;
+        outline: none;
+    }
+
+    .submit-btn{
+        width: 253px;
+        height: 58px;
+        align-self: center;
+        cursor: pointer;
+        background-color: #FFFFFF;
+        border: none;
+        font-size: 23px;
+        display: flex;
+       padding: 15px 30px;
+    }
+
 
     button{
         width: 250px;
         height: 60px;
         border-radius: 10px;
         font-size: 23px;
+        align-self: center;
+    }
+
+
+    .privacy-check{
+        font-size: 14px;
+
+
+        a{
+            text-decoration: none;
+            color: #4B47FF;
+        }
     }
 
 
