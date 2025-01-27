@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-contactform',
@@ -17,6 +17,10 @@ export class ContactformComponent {
   checkbox: boolean = false;
   imageUrl: string = 'icon/check_box_blank.svg';
 
+  isNameValid = false;
+  isEmailValid = false
+  isMessageValid = false;
+
 
   contactData = {
     name: '',
@@ -24,9 +28,14 @@ export class ContactformComponent {
     message: ''
   }
 
-  onSubmit() {
-    console.log(this.contactData);
+  onSubmit(ngForm: NgForm) {
+
+    if (ngForm.valid && ngForm.submitted) {
+      console.log(this.contactData);
+    }
   }
+
+
 
 
   changeImage() {
