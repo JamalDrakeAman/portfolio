@@ -22,10 +22,34 @@ section {
             background-color: #4B47FF;
         }
 
-        h1{
+        h1 {
             font-size: 90px;
         }
     }
+
+}
+
+
+
+
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px;
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 480px;
+        height: 160px;
+
+        h3 {
+            font-size: 32px;
+        }
+    }
+
 
     
 

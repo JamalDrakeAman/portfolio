@@ -8,79 +8,86 @@ section {
     align-items: center;
     justify-content: space-between;
     padding: 150px 0 150px 120px;
- 
 
-    .skills-container {
-        width: 700px;
-        height: 450px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+.skills-container {
+    width: 700px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    row-gap: 0px;
+
+    .skill {
+        color: whitesmoke;
         display: flex;
-        flex-wrap: wrap;
-        gap: 100px;
-        row-gap: 0px;
+        flex-direction: column;
+        width: 65px;
+        align-items: center;
+        text-align: center;
 
-        .skill {
-            color: whitesmoke;
-            display: flex;
-            flex-direction: column;
-            width: 65px;
-            align-items: center;
-            text-align: center;
+        img {
+            transition: all ease-in-out 100ms;
 
-            img {
-                transition: all ease-in-out 100ms;
-
-                &:hover {
-                    scale: 1.2;
-                    transform: translateY(-10px);
-                }
-
+            &:hover {
+                scale: 1.2;
+                transform: translateY(-10px);
             }
+
+        }
+    }
+}
+
+
+
+
+.my-skills-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    // border: solid 1px white;
+    width: 800px;
+    height: fit-content;
+    gap: 20px;
+
+
+    .headline {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h1 {
+            font-size: 90px;
+        }
+        .line {
+            width: 360px;
+            height: 5px;
+            background-color: #4B47FF;
         }
     }
 
 
-    .my-skills-container {
-        color: white;
-        border: solid 1px white;
-        width: 600px;
-        height: 400px;
+    p {padding-right: 120px;}
 
-        text-align: end;
+    .bold-txt {
+        font-size: 30px;
+        font-weight: bold;
 
-
-        .headline {
-            display: flex;
-            align-items: center;
-            justify-content: end;
-            gap: 30px;
-
-            h1 {
-                font-size: 90px;
-            }
-            .line {
-                width: 70px;
-                height: 5px;
-                background-color: #4B47FF;
-            }
+        .blue-txt {
+            color: #00BEE8;
         }
-
-        p{
-
-        }
-
-        .bold-txt{
-            font-size: 30px;
-            font-weight: bold;
-
-            .blue-txt{
-                color: #00BEE8;
-            }
-        }
-
-
-
     }
-
 
 }
 
@@ -104,7 +111,7 @@ section {
         scale: 1.2;
     }
 
-    &:active{
+    &:active {
         scale: 0.9;
     }
 }

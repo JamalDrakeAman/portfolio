@@ -1,0 +1,31 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    height: 510px;
+    gap: 20px;
+
+    input{
+        background-color: unset;
+        padding: 15px 25px;
+        border: #4B47FF solid;
+        border-radius: 10px;
+    }
+
+    textarea{
+        background-color: unset;
+        padding: 15px 25px;
+        border: #4B47FF solid;
+        border-radius: 10px;
+    }
+
+
+    button{
+        width: 250px;
+        height: 60px;
+        border-radius: 10px;
+        font-size: 23px;
+    }
+
+
+}
