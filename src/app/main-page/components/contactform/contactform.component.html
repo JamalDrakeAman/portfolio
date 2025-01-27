@@ -2,14 +2,15 @@
 
     <form (ngSubmit)="onSubmit()">
 
-        <input [(ngModel)]="contactData.name" name="name" type="text" placeholder="Your name">
+        <input [(ngModel)]="contactData.name" name="name" type="text" placeholder="Your name" required>
 
-        <input [(ngModel)]="contactData.email" name="email" type="email" placeholder="Your email">
+        <input [(ngModel)]="contactData.email" name="email" type="email" placeholder="Your email" required>
 
-        <textarea [(ngModel)]="contactData.message" name="message" placeholder="Your message" style="height:200px"></textarea>
+        <textarea [(ngModel)]="contactData.message" name="message" placeholder="Your message" style="height:200px" required></textarea>
 
         <div class="privacy-check">
-            <input type="checkbox">
+            <!-- <input type="checkbox"> -->
+            <img class="checkbox" id="checkbox" (click)="changeImage()" [src]="imageUrl" alt="">
             I've read the <a href="#">privacy policy</a>and agree to the processing of my data as
             outlined.
         </div>
@@ -17,6 +18,8 @@
 
 
         <input class="submit-btn" type="submit" value="Send message :)">
+
+        
 
 
         <!-- <button>Send message :)</button> -->

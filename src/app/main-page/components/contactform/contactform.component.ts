@@ -14,6 +14,10 @@ import { FormsModule } from '@angular/forms';
 })
 export class ContactformComponent {
 
+  checkbox: boolean = false;
+  imageUrl: string = 'icon/check_box_blank.svg';
+
+
   contactData = {
     name: '',
     email: '',
@@ -22,7 +26,16 @@ export class ContactformComponent {
 
   onSubmit() {
     console.log(this.contactData);
+  }
 
+
+  changeImage() {
+    if (this.checkbox) {
+      this.imageUrl = 'icon/check_box_blank.svg';
+    } else if (!this.checkbox) {
+      this.imageUrl = 'icon/check_box.svg';
+    }
+    this.checkbox = !this.checkbox;
   }
 
 

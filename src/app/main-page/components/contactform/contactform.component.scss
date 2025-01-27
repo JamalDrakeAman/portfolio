@@ -4,39 +4,46 @@ form {
     width: 620px;
     gap: 35px;
 
-    input{
+    input {
+        display: flex;
         background-color: unset;
         padding: 15px 25px;
         border: #4B47FF solid;
         border-radius: 10px;
-    }
-
-    input::placeholder{
         color: white;
+        font-size: 20px;
     }
 
-    input:focus{
+    input::placeholder {
+        color: white;
+        font-size: 16px;
+    }
+
+    input:focus {
         border: #00BEE8 solid;
         outline: none;
     }
 
-    textarea{
+    textarea {
         background-color: unset;
         padding: 15px 25px;
         border: #4B47FF solid;
         border-radius: 10px;
-    }
-
-    textarea::placeholder{
         color: white;
+        font-size: 20px;
     }
 
-    textarea:focus{
+    textarea::placeholder {
+        color: white;
+        font-size: 16px;
+    }
+
+    textarea:focus {
         border: #00BEE8 solid;
         outline: none;
     }
 
-    .submit-btn{
+    .submit-btn {
         width: 253px;
         height: 58px;
         align-self: center;
@@ -45,11 +52,24 @@ form {
         border: none;
         font-size: 23px;
         display: flex;
-       padding: 15px 30px;
+        padding: 15px 30px;
+    }
+
+    .checkbox {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        cursor: pointer;
+
+        &:hover {
+            scale: 1.1;
+            background-color: #183770;
+            border-radius: 5px;
+        }
     }
 
 
-    button{
+    button {
         width: 250px;
         height: 60px;
         border-radius: 10px;
@@ -58,13 +78,19 @@ form {
     }
 
 
-    .privacy-check{
+    .privacy-check {
+        display: flex;
+        align-items: center;
+        gap: 10px;
         font-size: 14px;
 
-
-        a{
+        a {
             text-decoration: none;
-            color: #4B47FF;
+            color: #00BEE8;
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 
