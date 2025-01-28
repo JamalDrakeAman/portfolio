@@ -21,8 +21,8 @@
 
 
         <div class="input-box" [ngClass]="{'invalid': !message.valid && message.touched, 'valid': message.valid}">
-            <textarea #message="ngModel" minlength="4" [(ngModel)]="contactData.message"
-                name="message" placeholder="Your message" style="height:200px" required></textarea>
+            <textarea #message="ngModel" minlength="4" [(ngModel)]="contactData.message" name="message"
+                placeholder="Your message" style="height:200px" required></textarea>
             @if(!message.valid && message.touched){
             <span>Pleace enter a message</span>
             }
@@ -34,6 +34,8 @@
 
             I've read the <a href="#">privacy policy</a>and agree to the processing of my data as
             outlined.
+
+            
         </div>
 
 

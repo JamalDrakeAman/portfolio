@@ -102,7 +102,7 @@ form {
 
         span {
             position: absolute;
-            color: red;
+            color: #FF4747;
             bottom: -30px;
             left: 10px;
             animation: shake 0.5s ease-in-out;
@@ -118,17 +118,6 @@ form {
     }
 
 }
-
-// .isValid {
-//     border: 2px solid green;
-// }
-
-// .isInvalid {
-//     border: 2px solid red;
-// }
-
-
-
 
 
 @keyframes shake {
