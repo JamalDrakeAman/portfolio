@@ -2,7 +2,7 @@
 
     <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
 
-        <div class="input-box">
+        <div class="input-box" [ngClass]="{'invalid': !name.valid && name.touched, 'valid': name.valid}">
             <input #name="ngModel" [(ngModel)]="contactData.name" name="name" type="text" placeholder="Your name"
                 required>
             @if(!name.valid && name.touched){
@@ -11,7 +11,7 @@
         </div>
 
 
-        <div class="input-box">
+        <div class="input-box" [ngClass]="{'invalid': !email.valid && email.touched, 'valid': email.valid}">
             <input #email="ngModel" [(ngModel)]="contactData.email" name="email" type="email" placeholder="Your email"
                 required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
             @if(!email.valid && email.touched){
@@ -20,16 +20,18 @@
         </div>
 
 
-        <div class="input-box">
-            <textarea #message="ngModel" minlength="4" [(ngModel)]="contactData.message" [ngClass]="{}" name="message"
-                placeholder="Your message" style="height:200px" required></textarea>
+        <div class="input-box" [ngClass]="{'invalid': !message.valid && message.touched, 'valid': message.valid}">
+            <textarea #message="ngModel" minlength="4" [(ngModel)]="contactData.message"
+                name="message" placeholder="Your message" style="height:200px" required></textarea>
             @if(!message.valid && message.touched){
             <span>Pleace enter a message</span>
             }
         </div>
 
+
         <div class="privacy-check">
             <img class="checkbox" id="checkbox" (click)="changeImage()" [src]="imageUrl" alt="">
+
             I've read the <a href="#">privacy policy</a>and agree to the processing of my data as
             outlined.
         </div>
@@ -37,7 +39,7 @@
 
         <!-- <input  class="submit-btn" type="submit" value="Send message :)"> -->
 
-        <button class="form-btn">Send message :)</button>
+        <button class="form-btn" type="submit">Send message :)</button>
 
     </form>
 

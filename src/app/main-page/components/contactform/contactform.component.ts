@@ -17,9 +17,6 @@ export class ContactformComponent {
   checkbox: boolean = false;
   imageUrl: string = 'icon/check_box_blank.svg';
 
-  isNameValid = false;
-  isEmailValid = false
-  isMessageValid = false;
 
 
   contactData = {

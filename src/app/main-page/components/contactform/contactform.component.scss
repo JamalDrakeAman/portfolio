@@ -107,15 +107,48 @@ form {
             left: 10px;
             animation: shake 0.5s ease-in-out;
         }
+
+        &.valid input, &.valid textarea {
+            border-color: #70E61C;
+        }
+    
+        &.invalid input, &.invalid textarea {
+            border-color: #FF4747;
+        }
     }
 
 }
 
+// .isValid {
+//     border: 2px solid green;
+// }
+
+// .isInvalid {
+//     border: 2px solid red;
+// }
+
+
+
+
 
 @keyframes shake {
-    0% { transform: translateX(0); }
-    25% { transform: translateX(-5px); }
-    50% { transform: translateX(5px); }
-    75% { transform: translateX(-5px); }
-    100% { transform: translateX(0); }
-  }
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
