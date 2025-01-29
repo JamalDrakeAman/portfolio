@@ -163,6 +163,8 @@ section {
                 width: fit-content;
                 height: fit-content;
                 font-size: 62px;
+                display: flex;
+                justify-content: center;
             }
 
             .name-box {
@@ -248,27 +250,32 @@ section {
 
 
 @media(max-width: 1750px) {
-    .i-am-container {
-        scale: 0.9;
+
+    .rotate-text {
+        font-size: 52px !important;
     }
 
-    .contact-me-btn {
-        scale: 1.1;
+    h1 {
+        font-size: 70px !important;
     }
+
+    .blue-txt {
+        font-size: 65px !important;
+    }
+
 }
-
 
 
 @media(max-width: 1600px) {
     .profile {
-        scale: 0.9;
+        width: 700px;
         bottom: 380px !important;
     }
 
-    .i-am-container {
-        scale: 0.8;
-        right: 0px !important;
-    }
+    // .i-am-container {
+    //     // scale: 0.8;
+    //     // right: 0px !important;
+    // }
 
     .design {
         bottom: 100px !important;
@@ -277,7 +284,7 @@ section {
 }
 
 
-@media(max-width: 1450px) {
+@media(max-width: 1500px) {
     .design {
         bottom: 200px !important;
     }
@@ -287,8 +294,8 @@ section {
     }
 
     .i-am-container {
-        scale: 0.8;
-        right: 0px !important;
+        // scale: 0.8;
+        // right: 0px !important;
         bottom: 300px !important;
     }
 
@@ -304,17 +311,49 @@ section {
 
 @media(max-width: 1000px) {
     .i-am-container {
-        scale: 0.7;
         bottom: 250px !important;
+
+        .rotate-text {
+            font-size: 52px !important;
+
+        }
+
+        h1 {
+            font-size: 60px !important;
+        }
+
+        .blue-txt {
+            font-size: 56px !important;
+        }
+
     }
 
     .profile {
         bottom: 520px !important;
     }
+
 }
 
 
 @media(max-width: 900px) {
+
+    .i-am-container {
+        scale: 0.8;
+        right: 0 !important;
+        padding: 0 !important;
+        align-self: center !important;
+
+        .rotate-text {
+            width: 120px !important;
+        }
+
+        h1 {
+            width: 600px;
+
+        }
+
+    }
+
     .profile {
         // bottom: 690px !important;
         // width: 700px !important;
@@ -343,12 +382,18 @@ section {
 // }
 
 
-// @media(max-width:520px) {
-//     .design {
-//         bottom: 350px !important;
-//         width: 160vw !important;
-//     }
-// }
+@media(max-width:520px) {
+    .design {
+        bottom: 155px !important;
+        width: 250vw !important;
+    }
+
+    .profile {
+        bottom: 410px !important;
+        left: -100px !important;
+        width: 600px !important;
+    }
+}
 
 
 // @media(max-width: 430px) {
