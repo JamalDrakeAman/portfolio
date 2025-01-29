@@ -12,7 +12,7 @@ section {
     .profile {
         position: absolute;
         left: 0;
-        bottom: 25%;
+        bottom: 350px;
         width: 800px;
     }
 
@@ -140,8 +140,8 @@ section {
 
     .i-am-container {
         position: absolute;
-        right: 120px;
-        bottom: 500px;
+        right: 100px;
+        bottom: 600px;
         padding: 20px;
         display: flex;
         flex-direction: column;
@@ -150,8 +150,8 @@ section {
         font-size: 54px;
         color: whitesmoke;
         gap: 50px;
-        // border: solid 1px white;
-        scale: 0.9;
+        transition: all ease-in-out 100ms;
+
 
         .i-am-box {
             display: flex;
@@ -193,6 +193,7 @@ section {
             color: whitesmoke;
             background-color: #4B47FF;
             transition: all ease-in-out 100ms;
+            // scale: 1.1;
 
             &:hover {
                 scale: 1.2;
@@ -241,8 +242,126 @@ section {
         }
     }
 
+}
 
 
 
+
+@media(max-width: 1750px) {
+    .i-am-container {
+        scale: 0.9;
+    }
+
+    .contact-me-btn {
+        scale: 1.1;
+    }
+}
+
+
+
+@media(max-width: 1600px) {
+    .profile {
+        scale: 0.9;
+        bottom: 380px !important;
+    }
+
+    .i-am-container {
+        scale: 0.8;
+        right: 0px !important;
+    }
+
+    .design {
+        bottom: 100px !important;
+    }
 
 }
+
+
+@media(max-width: 1450px) {
+    .design {
+        bottom: 200px !important;
+    }
+
+    .profile {
+        bottom: 500px !important;
+    }
+
+    .i-am-container {
+        scale: 0.8;
+        right: 0px !important;
+        bottom: 300px !important;
+    }
+
+    .blue-shadow {
+        bottom: 400px;
+    }
+
+    .purple-shadow {
+        bottom: 150px;
+    }
+
+}
+
+@media(max-width: 1000px) {
+    .i-am-container {
+        scale: 0.7;
+        bottom: 250px !important;
+    }
+
+    .profile {
+        bottom: 520px !important;
+    }
+}
+
+
+@media(max-width: 900px) {
+    .profile {
+        // bottom: 690px !important;
+        // width: 700px !important;
+        position: unset;
+    }
+
+
+    .design {
+        bottom: 350px !important;
+    }
+}
+
+
+
+// @media(max-width:740px) {
+//     .profile {
+//         bottom: 710px !important;
+//         width: 600px !important;
+//         left: auto !important;
+//     }
+
+//     .design {
+//         bottom: 350px !important;
+//         width: 125vw !important;
+//     }
+// }
+
+
+// @media(max-width:520px) {
+//     .design {
+//         bottom: 350px !important;
+//         width: 160vw !important;
+//     }
+// }
+
+
+// @media(max-width: 430px) {
+
+//     .profile {
+//         bottom: 750px !important;
+//         width: 500px !important;
+//         left: auto !important;
+//     }
+
+
+//     .design {
+//         bottom: 380px !important;
+//         width: 180vw !important;
+//     }
+// }

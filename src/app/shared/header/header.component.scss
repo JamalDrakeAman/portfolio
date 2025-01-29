@@ -30,3 +30,23 @@ header {
         }
     }
 }
+
+
+.burger-menu{
+    display: none;
+    cursor: pointer;
+}
+
+@media(max-width:1000px) {
+    nav {
+        display: none !important;
+    }
+
+    header{
+        padding: 50px;
+    }
+
+    .burger-menu{
+        display: block;
+    }
+}

@@ -1,12 +1,13 @@
 footer {
     color: white;
     height: 290px;
-    width: 100vw;
-    max-width: 100%;
+    width: 100%;
+    // max-width: 100%;
+    overflow: hidden;
     border-top: solid 5px #4B47FF;
     background-color: #141D2F;
 
-    padding: 100px 120px;
+    // padding: 100px 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;

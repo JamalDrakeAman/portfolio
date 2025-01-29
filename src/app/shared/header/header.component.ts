@@ -9,4 +9,17 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+
+openOverlay(){
+  console.log('Open overlayer');
+  
 }
+
+
+
+
+
+
+}
+
+
