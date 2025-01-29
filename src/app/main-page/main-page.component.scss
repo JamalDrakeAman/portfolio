@@ -3,12 +3,38 @@ section {
     flex-direction: column;
     align-items: center;
     background-color: #141D2F;
-    width: 1920px;
 
-    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2),
-        /* Schatten links */
-        5px 0 10px rgba(0, 0, 0, 0.2);
-    /* Schatten rechts */
+    width: 100%;
+
+    // box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2),
+    //     /* Schatten links */
+    //     5px 0 10px rgba(0, 0, 0, 0.2);
+    // /* Schatten rechts */
 
     overflow: hidden;
+}
+
+.hero-section {
+    width: 1920px;
+    max-width: 100%;
+}
+
+.about-me-section {
+    width: 1920px;
+    max-width: 100%;
+}
+
+.skills-section {
+    width: 1920px;
+    max-width: 100%;
+}
+
+.portfolio-section {
+    width: 1920px;
+    max-width: 100%;
+}
+
+.contact-section {
+    width: 1920px;
+    max-width: 100%;
 }

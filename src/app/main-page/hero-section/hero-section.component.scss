@@ -1,9 +1,9 @@
 section {
     position: relative;
-    background-color: #141D2F;
-    width: 100vw;
-    max-width: 100%;
-    max-width: 1920px;
+    // background-color: #141D2F;
+    width: 100%;
+    // max-width: 100%;
+    // max-width: 1920px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@ section {
         border: white;
         width: 102vw;
         height: 50%;
-        bottom: 0;
+        bottom: 50px;
         transform: rotate(-4deg);
     }
 
@@ -41,11 +41,11 @@ section {
 
 
     .blue-color-animation {
-        animation: blue-color-change 6s infinite alternate ease-in-out, move-shadow 6s infinite alternate ease-in-out;
+        animation: blue-color-change 5s infinite alternate ease-in-out, move-shadow 6s infinite alternate ease-in-out;
     }
 
     .purple-color-animation {
-        animation: purple-color-change 6s infinite alternate ease-in-out;
+        animation: purple-color-change 5s infinite alternate ease-in-out;
     }
 
 
@@ -140,7 +140,8 @@ section {
 
     .i-am-container {
         position: absolute;
-        right: 80px;
+        right: 120px;
+        bottom: 500px;
         padding: 20px;
         display: flex;
         flex-direction: column;
@@ -149,10 +150,13 @@ section {
         font-size: 54px;
         color: whitesmoke;
         gap: 50px;
+        // border: solid 1px white;
+        scale: 0.9;
 
         .i-am-box {
             display: flex;
             align-items: center;
+
 
             .rotate-text {
                 transform: rotate(-90deg);
@@ -163,7 +167,8 @@ section {
 
             .name-box {
                 line-height: 80px;
-                h1{
+
+                h1 {
                     font-size: 80px;
                 }
 
@@ -193,7 +198,7 @@ section {
                 scale: 1.2;
             }
 
-            &:active{
+            &:active {
                 scale: 0.9;
             }
         }
@@ -207,7 +212,7 @@ section {
         position: absolute;
         width: 620px;
         height: 100px;
-        bottom: 100px;
+        bottom: 120px;
         left: 0;
         display: flex;
         align-items: center;

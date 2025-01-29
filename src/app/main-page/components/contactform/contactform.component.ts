@@ -32,10 +32,10 @@ export class ContactformComponent {
 
 
 
-  mailTest = true;
+  mailTest = false;
 
   post = {
-    endPoint: 'https://deineDomain.de/sendMail.php',
+    endPoint: 'https://jamalaman.com/sendMail.php',
     body: (payload: any) => JSON.stringify(payload),
     options: {
       headers: {
