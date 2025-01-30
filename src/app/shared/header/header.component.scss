@@ -32,7 +32,7 @@ header {
 }
 
 
-.burger-menu{
+.burger-menu {
     display: none;
     cursor: pointer;
 }
@@ -42,11 +42,30 @@ header {
         display: none !important;
     }
 
-    header{
-        padding: 50px;
+    header {
+        padding: 0 50px;
     }
 
-    .burger-menu{
+    .burger-menu {
         display: block;
+    }
+}
+
+@media(max-width:1300px) {
+    header{
+        height: 70px;
+
+        h1{
+            font-size: 30px;
+        }
+    }
+}
+
+@media(max-width:500px){
+    header{
+        padding: 0 30px;
+        h1{
+            font-size: 25px;
+        }
     }
 }
