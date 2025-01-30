@@ -9,45 +9,119 @@ section {
     background-color: #141D2F;
     padding: 100px 0 100px 120px;
     justify-content: space-between;
+}
 
-    .about-me-container {
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 600px;
+
+    .about-me-section {
         display: flex;
-        flex-direction: column;
-        gap: 40px;
-        width: 600px;
+        gap: 20px;
+    }
+}
 
-        h1 {
-            font-size: 90px;
-        }
+h1 {
+    font-size: 90px;
+}
 
-        .about-me-section {
-            display: flex;
-            gap: 20px;
-        }
+
+.profile-img-container {
+    display: flex;
+    align-items: center;
+
+    .profile-img {
+        border: solid 6px #4B47FF;
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+        background-image: url('./../../../../public/profile/profil-img2.jpg');
+        background-position: center;
+        background-size: 620px;
     }
 
+    .line {
+        width: 350px;
+        height: 5px;
+        background-color: #4B47FF;
+    }
+}
+
+@media(max-width:1600px) {
 
     .profile-img-container {
-        display: flex;
-        align-items: center;
-
         .profile-img {
-            border: solid 6px #4B47FF;
-            width: 450px;
-            height: 450px;
-            border-radius: 50%;
-            background-image: url('./../../../../public/profile/profil-img2.jpg');
-            background-position: center;
-            background-size: 620px;
+            width: 380px;
+            height: 380px;
         }
 
-        .line{
-            width: 350px;
-            height: 5px;
-            background-color: #4B47FF;
+        .line {
+            width: 250px;
         }
     }
 
+}
+
+@media(max-width:1400px) {
+    .profile-img-container {
+
+        .line {
+            width: 120px;
+        }
+    }
+}
+
+@media(max-width:1250px) {
+    .profile-img-container {
+        .profile-img {
+            width: 360px;
+            height: 360px;
+        }
+
+        .line {
+            width: 100px;
+        }
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .profile-img-container {
+        display: none;
+    }
+
+    section{
+        padding: 100px 120px;
+    }
+
+    .about-me-container {
+        width: 100%;
+    }
+}
 
 
+
+@media(max-width:800px) {
+    
+    section{
+        padding: 100px 80px;
+    }
+}
+
+
+@media(max-width: 650px){
+    section{
+        padding: 100px 40px;
+    }
+}
+
+@media(max-width: 500px){
+    section{
+        padding: 100px 15px;
+    }
 }
