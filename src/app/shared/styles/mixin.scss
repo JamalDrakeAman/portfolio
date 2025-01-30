@@ -1,0 +1,33 @@
+@mixin position($position, $width: null, $top: null, $right: null, $bottom: null, $left: null) {
+    position: $position;
+
+    @if $top !=null {
+        top: $top
+    }
+
+    @if $right !=null {
+        right: $right
+    }
+
+    @if $bottom !=null {
+        bottom: $bottom
+    }
+
+    @if $left !=null {
+        left: $left
+    }
+
+    @if $width !=null {
+        width: $width
+    }
+}
+
+@mixin display($display: flex, $justify-content: center, $align-items: center, $flex-direction: null) {
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $align-items;
+
+    @if $flex-direction !=null {
+        flex-direction: $flex-direction
+    }
+}

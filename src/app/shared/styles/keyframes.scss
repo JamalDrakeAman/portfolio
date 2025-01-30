@@ -1,0 +1,86 @@
+@keyframes blue-color-change {
+    0% {
+        fill: #1cdae6;
+    }
+
+    25% {
+        fill: #3f8efc;
+    }
+
+    50% {
+        fill: #3f8efc;
+    }
+
+    75% {
+        fill: #3f8efc;
+    }
+
+    100% {
+        fill: #1cdae6;
+    }
+}
+
+@keyframes purple-color-change {
+    0% {
+        fill: #9747FF;
+    }
+
+    25% {
+        fill: #8752FF;
+    }
+
+    50% {
+        fill: #A757FF;
+    }
+
+    75% {
+        fill: #B470FF;
+    }
+
+    100% {
+        fill: #9747FF;
+    }
+}
+
+
+@keyframes move-shadow {
+    0% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    50% {
+        transform: translate(5px, -5px) scale(1.05);
+    }
+
+    100% {
+        transform: translate(-5px, 5px) scale(0.95);
+    }
+}
+
+
+@keyframes move-shadow2 {
+    0% {
+        transform: translateY(0);
+        /* Ausgangsposition */
+    }
+
+    25% {
+        transform: translateY(-25px);
+        /* Leicht nach oben */
+    }
+
+    50% {
+        transform: translateY(0);
+        /* Zurück zur Ausgangsposition */
+    }
+
+    75% {
+        transform: translateY(25px);
+        /* Leicht nach unten */
+    }
+
+    100% {
+        transform: translateY(0);
+        /* Zurück zur Ausgangsposition */
+    }
+}
