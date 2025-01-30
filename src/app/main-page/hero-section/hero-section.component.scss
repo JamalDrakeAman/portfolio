@@ -164,7 +164,6 @@ section {
     }
 }
 
-
 @media(max-width: 1500px) {
     .design {
         top: 580px;
@@ -189,7 +188,6 @@ section {
 
 }
 
-
 @media(max-width: 1300px) {
     .i-am-container {
         top: 630px;
@@ -213,8 +211,6 @@ section {
     }
 }
 
-
-
 @media(max-width:1200px) {
     .i-am-container {
         top: 630px;
@@ -231,8 +227,6 @@ section {
     }
 }
 
-
-
 @media(max-width: 1000px) {
     .i-am-container {
         top: 630px;
@@ -244,9 +238,6 @@ section {
         top: -25px;
     }
 }
-
-
-
 
 @media(max-width: 840px) {
 
@@ -299,7 +290,13 @@ section {
     .i-am-container {
         top: 630px;
         left: 60px;
+        gap: 20px;
     }
+
+    .contact-me-btn{
+        scale: 0.9;
+    }
+
     .name-box {
         line-height: 50px;
 
@@ -326,8 +323,9 @@ section {
 
     .i-am-container {
         top: 630px;
-        left: 10px;
+        left: 7px !important;
     }
+
     .design {
         top: 300px;
         width: 200vw;
@@ -401,7 +399,6 @@ section {
 }
 
 
-
 @media(max-width: 420px) {
     .i-am-container {
         top: 400px;
@@ -415,15 +412,18 @@ section {
 
         h1 {
             font-size: 30px;
+            letter-spacing: -1px;
         }
 
         .blue-txt {
             font-size: 28px;
+            letter-spacing: -1px;
         }
     }
 
     .rotate-text {
         font-size: 30px;
+        letter-spacing: -1px;
     }
 
     .design {
@@ -455,42 +455,46 @@ section {
 }
 
 
+@media(max-width:380px) {
 
-// @media(max-width: 900px) {
-//     .i-am-container {
-//         scale: 0.8;
-//         right: 0 !important;
-//         padding: 0 !important;
-//         align-self: center !important;
+    .contact-me-btn{
+        scale: 0.8;
+    }
 
-//         .rotate-text {
-//             width: 120px !important;
-//         }
+    .name-box {
+        line-height: 45px;
 
-//         h1 {
-//             width: 600px;
+        h1 {
+            font-size: 26px;
 
-//         }
-//     }
+        }
 
-//     .profile {
-//         position: unset;
-//     }
+        .blue-txt {
+            font-size: 25px;
+        }
+    }
 
-//     .design {
-//         bottom: 350px !important;
-//     }
-// }
+    .rotate-text {
+        font-size: 25px;
+    }
 
-// @media(max-width:520px) {
-//     .design {
-//         bottom: 155px !important;
-//         width: 250vw !important;
-//     }
+    .i-am-container {
+        top: 337px;
+        left: -5px;
+        padding: 0;
+        gap: 5px;
+    }
 
-//     .profile {
-//         bottom: 410px !important;
-//         left: -100px !important;
-//         width: 600px !important;
-//     }
-// }
+    .blue-shadow {
+        top: -230px;
+        left: -10px;
+        width: 340px;
+    }
+
+    .purple-shadow {
+        top: -430px;
+        left: 90px;
+        width: 290px;
+    }
+}
+
