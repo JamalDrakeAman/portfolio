@@ -242,8 +242,16 @@ section {
 @media(max-width: 840px) {
 
     .i-am-container {
-        top: 630px;
-        left: 50px;
+        top: 575px;
+        left: 10px;
+        gap: 25px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conact-box {
+        top: 800px;
     }
 
     .name-box {
@@ -289,11 +297,24 @@ section {
 
     .i-am-container {
         top: 630px;
-        left: 60px;
+        left: 30px;
         gap: 20px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 
-    .contact-me-btn{
+    .email-txt {
+        display: none;
+    }
+
+    .conact-box {
+        width: unset;
+        justify-content: unset;
+        gap: 50px;
+    }
+
+    .contact-me-btn {
         scale: 0.9;
     }
 
@@ -324,6 +345,9 @@ section {
     .i-am-container {
         top: 630px;
         left: 7px !important;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 
     .design {
@@ -353,7 +377,10 @@ section {
 
     .i-am-container {
         top: 480px;
-        left: 1%;
+        // left: 1%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
         padding: 0;
         gap: 30px;
     }
@@ -396,13 +423,28 @@ section {
         left: 100px;
         width: 350px;
     }
+
+    .conact-box {
+        top: 650px;
+        width: 100%;
+        justify-content: space-around;
+
+        .line{
+        display: none;
+        }
+    }
+
+    
 }
 
 
 @media(max-width: 420px) {
     .i-am-container {
-        top: 400px;
-        left: -5px;
+        top: 380px;
+        // left: -5px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
         padding: 0;
         gap: 5px;
     }
@@ -452,12 +494,16 @@ section {
         left: 90px;
         width: 300px;
     }
+
+    .conact-box{
+        top: 600px;
+    }
 }
 
 
 @media(max-width:380px) {
 
-    .contact-me-btn{
+    .contact-me-btn {
         scale: 0.8;
     }
 
@@ -466,7 +512,6 @@ section {
 
         h1 {
             font-size: 26px;
-
         }
 
         .blue-txt {
@@ -479,8 +524,11 @@ section {
     }
 
     .i-am-container {
+        width: 100%;
         top: 337px;
-        left: -5px;
+        justify-content: center;
+        align-items: center;
+        // left: -5px;
         padding: 0;
         gap: 5px;
     }
@@ -496,5 +544,8 @@ section {
         left: 90px;
         width: 290px;
     }
-}
 
+    .conact-box{
+        top: 475px;
+    }
+}
