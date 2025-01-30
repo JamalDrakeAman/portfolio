@@ -236,7 +236,7 @@ section {
 @media(max-width: 1000px) {
     .i-am-container {
         top: 630px;
-        left: 1%;
+        left: 70px;
         padding: 0;
     }
 
@@ -248,9 +248,16 @@ section {
 
 
 
-@media(max-width: 840px){
+@media(max-width: 840px) {
+
+    .i-am-container {
+        top: 630px;
+        left: 50px;
+    }
+
     .name-box {
         line-height: 60px;
+
         h1 {
             font-size: 50px;
         }
@@ -273,12 +280,29 @@ section {
         top: 50px;
         width: 600px;
     }
+
+    .blue-shadow {
+        top: -120px;
+        width: 500px;
+    }
+
+    .purple-shadow {
+        top: -300px;
+        left: 180px;
+        width: 450px;
+    }
 }
 
 
-@media(max-width: 660px){
+@media(max-width: 660px) {
+
+    .i-am-container {
+        top: 630px;
+        left: 60px;
+    }
     .name-box {
         line-height: 50px;
+
         h1 {
             font-size: 40px;
         }
@@ -298,7 +322,12 @@ section {
     }
 }
 
-@media(max-width: 580px){
+@media(max-width: 580px) {
+
+    .i-am-container {
+        top: 630px;
+        left: 10px;
+    }
     .design {
         top: 300px;
         width: 200vw;
@@ -309,12 +338,23 @@ section {
         left: -30px;
         width: 550px;
     }
+
+    .blue-shadow {
+        top: -120px;
+        width: 450px;
+    }
+
+    .purple-shadow {
+        top: -300px;
+        left: 150px;
+        width: 400px;
+    }
 }
 
-@media(max-width:520px){
+@media(max-width:520px) {
 
     .i-am-container {
-        top: 450px;
+        top: 480px;
         left: 1%;
         padding: 0;
         gap: 30px;
@@ -322,6 +362,7 @@ section {
 
     .name-box {
         line-height: 40px;
+
         h1 {
             font-size: 32px;
         }
@@ -336,7 +377,7 @@ section {
     }
 
     .profile {
-        top: -40px;
+        top: -35px;
         left: -70px;
         width: 520px;
     }
@@ -344,6 +385,72 @@ section {
     .design {
         top: 250px;
         width: 200vw;
+    }
+
+    .blue-shadow {
+        top: -160px;
+        left: -10px;
+        width: 400px;
+    }
+
+    .purple-shadow {
+        top: -350px;
+        left: 100px;
+        width: 350px;
+    }
+}
+
+
+
+@media(max-width: 420px) {
+    .i-am-container {
+        top: 400px;
+        left: -5px;
+        padding: 0;
+        gap: 5px;
+    }
+
+    .name-box {
+        line-height: 40px;
+
+        h1 {
+            font-size: 30px;
+        }
+
+        .blue-txt {
+            font-size: 28px;
+        }
+    }
+
+    .rotate-text {
+        font-size: 30px;
+    }
+
+    .design {
+        top: 200px;
+        width: 200vw;
+    }
+
+    .profile {
+        top: -25px;
+        left: -40px;
+        width: 440px;
+    }
+
+    .contact-me-btn {
+        scale: 0.9;
+    }
+
+    .blue-shadow {
+        top: -230px;
+        left: -10px;
+        width: 350px;
+    }
+
+    .purple-shadow {
+        top: -410px;
+        left: 90px;
+        width: 300px;
     }
 }
 
