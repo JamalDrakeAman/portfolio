@@ -1,20 +1,21 @@
 section {
-    
+
     height: 340px;
     // border: solid 1px white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 200px;
-    
-    .project-img-box {
-        display: flex;
+}
 
-        img {
-            width: 750px;
-        }
-    }
+// .project-img-box {
+//     display: flex;
 
+
+// }
+
+img {
+    width: 750px;
 }
 
 
@@ -44,48 +45,115 @@ section {
     display: flex;
     gap: 60px;
     font-size: 23px;
+}
 
-    .live-btn {
-        color: white;
-        text-decoration: none;
-        display: flex;
-        justify-content: center;
+.live-btn {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 152px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #00BEE8;
+    transition: all ease-in-out 100ms;
+
+    &:hover {
+        scale: 1.1;
+    }
+}
+
+.github-btn {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 152px;
+    height: 60px;
+    border: solid 1px #4B47FF;
+    border-radius: 10px;
+    transition: all ease-in-out 100ms;
+
+    &:hover {
+        scale: 1.1;
+    }
+
+    &:active {
+        scale: 0.9;
+    }
+}
+
+
+
+.reverse-project {
+    align-items: end;
+    text-align: end;
+}
+
+
+
+@media(max-width:1700px) {
+    section {
+        gap: 100px;
+    }
+}
+
+@media(max-width:1600px) {
+    section {
+        gap: 50px;
+    }
+
+    img {
+        width: 650px;
+    }
+}
+
+@media(max-width:1400px) {
+    section {
+        flex-direction: column !important;
+        height: fit-content;
+        gap: 50px;
+    }
+
+    .project-description-box {
+        text-align: center !important;
+    }
+
+    .reverse-project {
         align-items: center;
-        width: 152px;
-        height: 60px;
-        border-radius: 10px;
-        background-color: #00BEE8;
-        transition: all ease-in-out 100ms;
+    }
 
-        &:hover {
-            scale: 1.1;
-        }
+    .project-btns {
+        justify-content: center;
+    }
+}
+
+
+@media(max-width:800px) {
+    img {
+        width: 100%;
+    }
+
+    .project-description-box {
+        width: 100%;
+    }
+}
+
+
+@media(max-width:450px) {
+    .project-btns {
+        gap: 5%;
     }
 
     .github-btn {
-        color: white;
-        text-decoration: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 152px;
-        height: 60px;
-        border: solid 1px #4B47FF;
-        border-radius: 10px;
-        transition: all ease-in-out 100ms;
-
-        &:hover {
-            scale: 1.1;
-        }
-
-        &:active {
-            scale: 0.9;
-        }
+        width: 140px;
+        height: 55px;
     }
 
-}
-
-.reverse-project{
-    align-items: end;
-    text-align: end;
+    .live-btn {
+        width: 140px;
+        height: 55px;
+    }
 }

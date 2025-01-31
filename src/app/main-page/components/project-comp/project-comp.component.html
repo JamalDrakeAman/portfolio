@@ -1,8 +1,7 @@
-<section [ngStyle]="{'flex-direction': projectIndex % 2 === 0 ? 'row': 'row-reverse'}">
+<section class="project-box" [ngStyle]="{'flex-direction': projectIndex % 2 === 0 ? 'row': 'row-reverse'}">
 
-    <div class="project-img-box">
-        <img src="{{project.img}}" alt="">
-    </div>
+    <img src="{{project.img}}" alt="">
+
 
     <div class="project-description-box" [ngClass]="{'reverse-project': projectIndex % 2 === 1}">
         <h2>{{project.name}}</h2>
