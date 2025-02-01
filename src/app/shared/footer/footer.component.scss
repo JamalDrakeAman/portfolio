@@ -71,10 +71,22 @@ footer {
         padding: 50px 100px 120px;
     }
 
-    .legals{
+    .legals {
         position: absolute;
         bottom: 35px;
         align-self: center;
         gap: 15px;
+    }
+}
+
+
+@media(max-width:800px) {
+    span{
+        font-size: 18px;
+    }
+
+    .contact-icons{
+        width: 100%;
+        justify-content: space-around;
     }
 }
