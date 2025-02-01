@@ -81,11 +81,16 @@ footer {
 
 
 @media(max-width:800px) {
-    span{
-        font-size: 18px;
+    footer {
+        padding: 50px 50px 120px;
     }
 
-    .contact-icons{
+    span {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .contact-icons {
         width: 100%;
         justify-content: space-around;
     }
