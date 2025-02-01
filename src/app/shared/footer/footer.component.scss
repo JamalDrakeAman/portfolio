@@ -1,4 +1,5 @@
 footer {
+    position: relative;
     color: white;
     height: 290px;
     width: 100%;
@@ -7,41 +8,73 @@ footer {
     border-top: solid 5px #4B47FF;
     background-color: #141D2F;
 
-    // padding: 100px 120px;
+    padding: 100px 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 23px;
+}
 
+.legal-box {
+    display: flex;
+    flex-direction: column;
 
-    .legal-box {
-        display: flex;
-        flex-direction: column;
-        
-        .name{
-            font-size: 45px;
-            font-weight: bold;
-        }
-
-        a{
-            color: white;
-            text-decoration: none;
-            font-size: 16px;
-
-        }
+    .name {
+        font-size: 45px;
+        font-weight: bold;
     }
 
-    .contact-icons {
-        display: flex;
-        gap: 50px;
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
 
-        a {
-            transition: all ease-in-out 100ms;
-        }
+    }
+}
 
-        a:hover {
-            scale: 1.2;
-        }
+.legals {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
+
+.contact-icons {
+    display: flex;
+    gap: 50px;
+
+    a {
+        transition: all ease-in-out 100ms;
+    }
+
+    a:hover {
+        scale: 1.2;
+    }
+
+}
+
+
+
+@media(max-width:1500px) {
+    footer {
+        padding: 50px 100px;
+    }
+}
+
+
+@media(max-width: 1100px) {
+    footer {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        height: fit-content;
+        padding: 50px 100px 120px;
+    }
+
+    .legals{
+        position: absolute;
+        bottom: 35px;
+        align-self: center;
+        gap: 15px;
     }
 }
