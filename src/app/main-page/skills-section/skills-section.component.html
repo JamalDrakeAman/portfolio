@@ -9,8 +9,6 @@
 
     </div>
 
-
-
     <div class="skills-container">
         @for (skill of skills; track $index) {
 
@@ -21,30 +19,20 @@
         }
     </div>
 
-
     <div class="my-skills-container">
 
         <div class="desktop-headline">
             <div class="headline">
-                <h1>My skills</h1>
+                <h1>{{"skills.headline" | translate}}</h1>
                 <span class="line"></span>
             </div>
-            <p>I have gained experience in building projects with different frontend technologies and concepts.</p>
-
+            <p>{{"skills.experience" | translate}}</p>
         </div>
 
-
-        <p class="bold-txt">Looking for <span class="blue-txt">another skill</span>?</p>
-
-
-        <p>Feel free to contact me. I look forward to expanding on my previous knowledge.</p>
-
-
-        <a class="contact-me-btn" href="#contact">Get in touch</a>
-
+        <p class="bold-txt">{{"skills.anotherSkill.looking" | translate}}<span class="blue-txt">{{"skills.anotherSkill.another" | translate}}</span>?</p>
+        <p>{{"skills.contactMe" | translate}}</p>
+        <a class="contact-me-btn" href="#contact">{{"skills.contactBtn" | translate}}</a>
 
     </div>
-
-
 
 </section>

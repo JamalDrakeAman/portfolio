@@ -2,9 +2,12 @@
     <h1> Jamal</h1>
 
     <nav>
-        <a href="#about-me">About me</a>
-        <a href="#skills"> Skills</a>
+        <a href="#about-me">{{"nav.aboutMe" | translate}}</a>
+        <a href="#skills"> {{"nav.skills" | translate}}</a>
         <a href="#portfolio">Portfolio</a>
+
+        <img (click)="toggleLanguage()" [src]="currentLanguage === 'en' ? 'icon/en-icon.svg' : 'icon/de-icon.svg'"
+            class="language-icon" />
     </nav>
 
     <img (click)="openOverlay()" class="burger-menu" src="icon/burger.svg" alt="">

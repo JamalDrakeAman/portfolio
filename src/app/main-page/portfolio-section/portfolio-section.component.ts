@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { ProjectCompComponent } from '../components/project-comp/project-comp.component';
+import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 
@@ -7,7 +9,9 @@ import { ProjectCompComponent } from '../components/project-comp/project-comp.co
   selector: 'app-portfolio-section',
   standalone: true,
   imports: [
-    ProjectCompComponent
+    ProjectCompComponent,
+    CommonModule,
+    TranslateModule
   ],
   templateUrl: './portfolio-section.component.html',
   styleUrl: './portfolio-section.component.scss'

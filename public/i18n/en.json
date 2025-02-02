@@ -1,0 +1,53 @@
+{
+    "nav": {
+        "aboutMe": "About me",
+        "skills": "Skills"
+    },
+    "hero": {
+        "iAm": "I am",
+        "nameBox": "FRONTEND DEVELOPER",
+        "contactBtn": "Lets talk"
+    },
+    "aboutMe": {
+        "headline": "About me"
+    },
+    "skills": {
+        "headline": "My skills",
+        "experience": "I have gained experience in building projects with different frontend technologies and concepts.",
+        "anotherSkill": {
+            "looking": "Looking for",
+            "another": "another skill"
+        },
+        "contactMe": "Feel free to contact me. I look forward to expanding on my previous knowledge.",
+        "contactBtn": "Get in touch"
+    },
+    "portfolio": {},
+    "contact": {
+        "headline": "Contact",
+        "head": "Got a problem to solve?",
+        "description": "Contact me through this form, I am interested in hearing from you, knowing your ideas and contributingto your projects with my work.",
+        "callToAction": {
+            "normalText": "Need a Frontend developer?",
+            "boldText": "Contact me!"
+        }
+    },
+    "contactform": {
+        "name": {
+            "placeholder": "Your name",
+            "error": "Pleace enter a Name"
+        },
+        "email": {
+            "placeholder": "Your email",
+            "error": "Pleace enter a Email"
+        },
+        "message": {
+            "placeholder": "Your message",
+            "error": "Pleace enter a message"
+        },
+        "privacyCheck": {
+            "read": "I've read the",
+            "privacy": "privacy policy",
+            "accept": "and agree to the processing of my data as outlined."
+        }
+    }
+}
