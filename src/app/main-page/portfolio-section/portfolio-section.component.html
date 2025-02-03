@@ -10,7 +10,11 @@
 
         @for (item of projects; track $index; let i = $index) {
 
-        <app-project-comp class="project-box" [projectIndex]="i" [project]="item"></app-project-comp>
+        <app-project-comp 
+        class="project-box" 
+        [projectIndex]="i" 
+        [project]="item"
+        [description]="'portfolio.projectDiscription.' + i | translate"></app-project-comp>
         }
 
     </div>

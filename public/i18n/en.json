@@ -21,7 +21,13 @@
         "contactMe": "Feel free to contact me. I look forward to expanding on my previous knowledge.",
         "contactBtn": "Get in touch"
     },
-    "portfolio": {},
+    "portfolio": {
+        "projectDiscription": {
+           "0": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
+           "1": "A simple Jump-and-Run game based on an object-oriented approach. Help sharkie to find coins and poison bottles to fight against the killer whale.",
+           "2": "Based on the PokéAPI a simple library that provides and catalogues pokemon information."
+        }
+    },
     "contact": {
         "headline": "Contact",
         "head": "Got a problem to solve?",
