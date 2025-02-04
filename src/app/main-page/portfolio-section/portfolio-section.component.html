@@ -6,15 +6,14 @@
         <span class="line2"></span>
     </div>
 
+    <p>{{"portfolio.intro" | translate}}</p>
+
     <div class="projects-container">
 
         @for (item of projects; track $index; let i = $index) {
 
-        <app-project-comp 
-        class="project-box" 
-        [projectIndex]="i" 
-        [project]="item"
-        [description]="'portfolio.projectDiscription.' + i | translate"></app-project-comp>
+        <app-project-comp class="project-box" [projectIndex]="i" [project]="item"
+            [description]="'portfolio.projectDiscription.' + i | translate"></app-project-comp>
         }
 
     </div>

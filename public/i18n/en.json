@@ -17,15 +17,16 @@
     },
     "skills": {
         "headline": "My skills",
-        "experience": "I have gained experience in building projects with different frontend technologies and concepts.",
+        "experience": "I am constantly developing and expanding my knowledge of new technologies and best practices in the frontend area.",
         "anotherSkill": {
             "looking": "Looking for",
             "another": "another skill"
         },
-        "contactMe": "Feel free to contact me. I look forward to expanding on my previous knowledge.",
+        "contactMe": "Let's get in touch! I am always open to new challenges and opportunities to expand my knowledge.",
         "contactBtn": "Get in touch"
     },
     "portfolio": {
+        "intro": "Discover a selection of my work – interact with the projects and see my skills in action!",
         "projectDiscription": {
             "0": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
             "1": "A simple Jump-and-Run game based on an object-oriented approach. Help sharkie to find coins and poison bottles to fight against the killer whale.",
@@ -34,11 +35,11 @@
     },
     "contact": {
         "headline": "Contact",
-        "head": "Got a problem to solve?",
-        "description": "Contact me through this form, I am interested in hearing from you, knowing your ideas and contributingto your projects with my work.",
+        "head": "Do you have a vision that you want to implement?",
+        "description": "Tell me more! I look forward to hearing from you and working together on innovative solutions.",
         "callToAction": {
-            "normalText": "Need a Frontend developer?",
-            "boldText": "Contact me!"
+            "normalText": "Do you need support from a frontend developer?",
+            "boldText": "I'm happy to help you!"
         }
     },
     "contactform": {

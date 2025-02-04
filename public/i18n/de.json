@@ -17,15 +17,16 @@
     },
     "skills": {
         "headline": "Meine Fähigkeiten",
-        "experience": "Ich habe Erfahrungen beim Aufbau von Projekten mit unterschiedlichen Frontend-Technologien und -Konzepten gesammelt.",
+        "experience": "Ich entwickle mich ständig weiter und erweitere mein Wissen über neue Technologien und Best Practices im Frontend-Bereich.",
         "anotherSkill": {
-            "looking": "Suchen Sie nach einer",
-            "another": "anderen Fähigkeit"
+            "looking": "Suchst du eine",
+            "another": "andere Fähigkeit"
         },
-        "contactMe": "Kontaktieren Sie mich gerne. Ich freue mich darauf, mein bisheriges Wissen zu erweitern.",
-        "contactBtn": "Nehmen Sie Kontakt auf"
+        "contactMe": "Lass uns in Kontakt treten! Ich bin immer offen für neue Herausforderungen und Möglichkeiten, mein Wissen zu erweitern.",
+        "contactBtn": "Lass uns in Kontakt treten"
     },
     "portfolio": {
+        "intro": "Entdecke eine Auswahl meiner Arbeit – Interagiere mit den Projekten und erlebe meine Fähigkeiten in Aktion!",
         "projectDiscription": {
             "0": "Vom Kanban-System inspirierter Aufgabenmanager. Erstellen und organisieren Sie Aufgaben mithilfe von Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu.",
             "1": "Ein einfaches Jump-and-Run-Spiel, das auf einem objektorientierten Ansatz basiert. Hilf Sharkie, Münzen und Giftflaschen zu finden, um gegen den Killerwal zu kämpfen.",
@@ -34,11 +35,11 @@
     },
     "contact": {
         "headline": "Kontakt",
-        "head": "Haben Sie ein Problem zu lösen?",
-        "description": "Kontaktieren Sie mich über dieses Formular. Ich bin daran interessiert, von Ihnen zu hören, Ihre Ideen kennenzulernen und mit meiner Arbeit zu Ihren Projekten beizutragen.",
+        "head": "Du hast eine Vision, die umgesetzt werden soll?",
+        "description": "Erzähl mir mehr! Ich freue mich darauf, von dir zu hören und gemeinsam an innovativen Lösungen zu arbeiten.",
         "callToAction": {
-            "normalText": "Brauchen Sie einen Frontend-Entwickler?",
-            "boldText": "Kontaktieren Sie mich!"
+            "normalText": "Benötigst du Unterstützung von einem Frontend-Entwickler?",
+            "boldText": "Ich helfe dir gerne weiter!"
         }
     },
     "contactform": {
