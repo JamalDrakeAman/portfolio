@@ -1,15 +1,22 @@
 <header>
     <h1> Jamal</h1>
 
-    <img (click)="toggleLanguage()" [src]="currentLanguage === 'en' ? 'icon/en-icon.svg' : 'icon/de-icon.svg'"
-        class="language-icon" />
+
 
     <nav>
+        <img (click)="toggleLanguage()" [src]="currentLanguage === 'en' ? 'icon/en-icon.svg' : 'icon/de-icon.svg'"
+            class="language-icon desktop-icon" />
+
         <a href="#about-me">{{"nav.aboutMe" | translate}}</a>
         <a href="#skills"> {{"nav.skills" | translate}}</a>
         <a href="#portfolio">Portfolio</a>
     </nav>
 
-    <img (click)="openOverlay()" class="burger-menu" src="icon/burger.svg" alt="">
+    <div class="mobile-menu-container">
+        <img (click)="toggleLanguage()" [src]="currentLanguage === 'en' ? 'icon/en-icon.svg' : 'icon/de-icon.svg'"
+            class="language-icon mobil-icon" />
+        <img (click)="openOverlay()" class="burger-menu" src="icon/burger.svg" alt="">
+    </div>
+
 
 </header>

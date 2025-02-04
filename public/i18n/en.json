@@ -9,7 +9,11 @@
         "contactBtn": "Lets talk"
     },
     "aboutMe": {
-        "headline": "About me"
+        "headline": "About me",
+        "introduction": "Hi, I am a German-speaking frontend developer from Mannheim. The world of IT fascinates me and I love developing modern, intuitive and aesthetic web applications.",
+        "location": "I work both remotely and on site in Mannheim and adapt flexibly to different work environments.",
+        "workEnvironment": "I am open to new challenges and continually strive to improve my skills in modern technologies.",
+        "goal": "My mission is to build intuitive and visually stunning websites and apps that delight users and drive businesses forward."
     },
     "skills": {
         "headline": "My skills",
@@ -23,9 +27,9 @@
     },
     "portfolio": {
         "projectDiscription": {
-           "0": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
-           "1": "A simple Jump-and-Run game based on an object-oriented approach. Help sharkie to find coins and poison bottles to fight against the killer whale.",
-           "2": "Based on the PokéAPI a simple library that provides and catalogues pokemon information."
+            "0": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
+            "1": "A simple Jump-and-Run game based on an object-oriented approach. Help sharkie to find coins and poison bottles to fight against the killer whale.",
+            "2": "Based on the PokéAPI a simple library that provides and catalogues pokemon information."
         }
     },
     "contact": {

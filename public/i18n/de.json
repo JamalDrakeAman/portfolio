@@ -9,7 +9,11 @@
         "contactBtn": "Lass uns reden"
     },
     "aboutMe": {
-        "headline": "Über mich"
+        "headline": "Über mich",
+        "introduction": "Hi, ich bin ein deutschsprachiger Frontend-Entwickler aus Mannheim. Die Welt der IT fasziniert mich, und ich liebe es, moderne, intuitive und ästhetische Webanwendungen zu entwickeln.",
+        "location": "Ich arbeite sowohl remote als auch vor Ort in Mannheim und passe mich flexibel an verschiedene Arbeitsumgebungen an.",
+        "workEnvironment": "Ich bin offen für neue Herausforderungen und strebe kontinuierlich danach, meine Fähigkeiten in modernen Technologien zu verbessern.",
+        "goal": "Meine Mission ist es, intuitive und visuell beeindruckende Websites und Apps zu bauen, die Nutzer begeistern und Unternehmen nach vorne bringen."
     },
     "skills": {
         "headline": "Meine Fähigkeiten",
