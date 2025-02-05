@@ -65,5 +65,9 @@
             "accept": "und stimme der oben beschriebenen Verarbeitung meiner Daten zu."
         },
         "submitBtn": "Nachricht senden :)"
+    },
+    "footer": {
+        "privacy": "Datenschutzrichtlinie",
+        "imprint": "Impressum"
     }
 }
