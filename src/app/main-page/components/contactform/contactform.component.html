@@ -34,14 +34,14 @@
         <div class="privacy-check">
             <img class="checkbox" id="checkbox" (click)="changeImage()" [src]="imageUrl" alt="">
 
-            {{"contactform.privacyCheck.read" | translate}} <a href="#">{{"contactform.privacyCheck.privacy" |
-                translate}}</a>{{"contactform.privacyCheck.accept" | translate}}
+            <p>{{"contactform.privacyCheck.read" | translate}} <a href="#">{{"contactform.privacyCheck.privacy" |
+                    translate}}</a>{{"contactform.privacyCheck.accept" | translate}}</p>
         </div>
 
 
         <!-- <input  class="submit-btn" type="submit" value="Send message :)"> -->
 
-        <button class="form-btn" type="submit">Send message :)</button>
+        <button class="form-btn" type="submit">{{"contactform.submitBtn" | translate}}</button>
 
     </form>
 

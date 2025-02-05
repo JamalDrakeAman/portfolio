@@ -56,8 +56,9 @@
         },
         "privacyCheck": {
             "read": "I've read the",
-            "privacy": "privacy policy",
+            "privacy": "privacy policy ",
             "accept": "and agree to the processing of my data as outlined."
-        }
+        },
+        "submitBtn": "Send message :)"
     }
 }
