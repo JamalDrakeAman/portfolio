@@ -42,6 +42,7 @@ nav {
 .burger-menu {
     display: none;
     cursor: pointer;
+    z-index: 2;
 }
 
 .mobile-menu-container {
@@ -64,6 +65,7 @@ nav {
     background-color: rgba(0, 0, 0, 0.7);
     font-size: 40px;
     transition: all ease-in-out 200ms;
+    z-index: 1;
     // transform: translateX(0);
 
     a{
@@ -103,7 +105,6 @@ nav {
 
     .burger-menu {
         display: block;
-        z-index: 1;
     }
 }
 
