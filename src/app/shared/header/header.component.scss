@@ -9,9 +9,11 @@ header {
     background-color: #141D2F;
 }
 
-h1 {
+.headline {
     font-size: 42px;
     font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 nav {
@@ -112,7 +114,7 @@ nav {
     header {
         height: 70px;
 
-        h1 {
+        .headline {
             font-size: 30px;
         }
     }
@@ -126,7 +128,7 @@ nav {
     header {
         padding: 0 30px;
 
-        h1 {
+        .headline {
             font-size: 25px;
         }
     }
