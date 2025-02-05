@@ -45,10 +45,20 @@ h1 {
     }
 }
 
+.contactform {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    // padding: 20px;
+    // margin: 20px;
+}
+
 @media(max-width:1500px) {
 
     section {
-        padding: 30px;
+        // padding: 20px;
+        align-items: center;
+        padding: 0;
     }
 
     .contact-section {
@@ -77,6 +87,10 @@ h1 {
     .line {
         width: 300px;
     }
+
+    .headline {
+        width: 100%;
+    }
 }
 
 
@@ -91,5 +105,10 @@ h1 {
 
     .contact-info {
         width: 100%;
+        // padding: 0 25px;
+    }
+
+    section {
+        padding: 20px;
     }
 }

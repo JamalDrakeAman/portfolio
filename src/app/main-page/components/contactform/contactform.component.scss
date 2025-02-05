@@ -1,125 +1,131 @@
+
 form {
     display: flex;
     flex-direction: column;
     width: 620px;
     gap: 35px;
-
-    input {
-        display: flex;
-        width: 100%;
-        background-color: unset;
-        padding: 15px 25px;
-        border: #4B47FF solid;
-        border-radius: 10px;
-        color: white;
-        font-size: 20px;
-    }
-
-    input::placeholder {
-        color: white;
-        font-size: 16px;
-    }
-
-    input:focus {
-        border: #00BEE8 solid;
-        outline: none;
-    }
-
-    textarea {
-        background-color: unset;
-        padding: 15px 25px;
-        border: #4B47FF solid;
-        border-radius: 10px;
-        color: white;
-        font-size: 20px;
-    }
-
-    textarea::placeholder {
-        color: white;
-        font-size: 16px;
-    }
-
-    textarea:focus {
-        border: #00BEE8 solid;
-        outline: none;
-    }
-
-
-    .checkbox {
-        width: 30px;
-        height: 30px;
-        padding: 5px;
-        cursor: pointer;
-
-        &:hover {
-            scale: 1.1;
-            background-color: #183770;
-            border-radius: 5px;
-        }
-    }
-
-
-    button {
-        width: 250px;
-        height: 60px;
-        border-radius: 10px;
-        font-size: 23px;
-        align-self: center;
-        cursor: pointer;
-        transition: all ease-in-out 100ms;
-
-        &:hover {
-            scale: 1.1;
-        }
-
-        &:active {
-            scale: 0.9;
-        }
-    }
-
-
-    .privacy-check {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-size: 14px;
-
-        a {
-            text-decoration: none;
-            color: #00BEE8;
-
-            &:hover {
-                text-decoration: underline;
-            }
-        }
-    }
-
-    .input-box {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-
-        span {
-            position: absolute;
-            color: #FF4747;
-            bottom: -30px;
-            left: 10px;
-            animation: shake 0.5s ease-in-out;
-        }
-
-        &.valid input,
-        &.valid textarea {
-            border-color: #70E61C;
-        }
-
-        &.invalid input,
-        &.invalid textarea {
-            border-color: #FF4747;
-        }
-    }
-
+    max-width: 600px;
+    width: 100%;
+    // margin: 40px;
 }
+
+input {
+    display: flex;
+    width: 100%;
+    background-color: unset;
+    padding: 15px 25px;
+    border: #4B47FF solid;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 16px;
+}
+
+input:focus {
+    border: #00BEE8 solid;
+    outline: none;
+}
+
+textarea {
+    background-color: unset;
+    padding: 15px 25px;
+    border: #4B47FF solid;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+textarea::placeholder {
+    color: white;
+    font-size: 16px;
+}
+
+textarea:focus {
+    border: #00BEE8 solid;
+    outline: none;
+}
+
+
+.checkbox {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    cursor: pointer;
+
+    &:hover {
+        scale: 1.1;
+        background-color: #183770;
+        border-radius: 5px;
+    }
+}
+
+
+button {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 23px;
+    align-self: center;
+    cursor: pointer;
+    transition: all ease-in-out 100ms;
+
+    &:hover {
+        scale: 1.1;
+    }
+
+    &:active {
+        scale: 0.9;
+    }
+}
+
+
+.privacy-check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+
+    a {
+        text-decoration: none;
+        color: #00BEE8;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.input-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    // padding: 0 20px;
+
+    span {
+        position: absolute;
+        color: #FF4747;
+        bottom: -30px;
+        left: 10px;
+        animation: shake 0.5s ease-in-out;
+    }
+
+    &.valid input,
+    &.valid textarea {
+        border-color: #70E61C;
+    }
+
+    &.invalid input,
+    &.invalid textarea {
+        border-color: #FF4747;
+    }
+}
+
+
 
 
 @keyframes shake {
@@ -147,6 +153,7 @@ form {
 
 @media(max-width: 700px) {
     form {
-        width: 100%;
+        width: 95%;
+        // padding: 20px;
     }
 }
