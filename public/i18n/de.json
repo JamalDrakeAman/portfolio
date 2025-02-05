@@ -3,6 +3,11 @@
         "aboutMe": "Über mich",
         "skills": "Fähigkeiten"
     },
+    "overlay": {
+        "aboutMe": "Über mich",
+        "mySkills": "Meine Fähigkeiten",
+        "contact": "Kontakt"
+    },
     "hero": {
         "nameBox": "FRONTEND ENTWICKLER",
         "contactBtn": "Lass uns reden"

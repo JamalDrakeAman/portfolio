@@ -3,6 +3,11 @@
         "aboutMe": "About me",
         "skills": "Skills"
     },
+    "overlay": {
+        "aboutMe": "About me",
+        "mySkills": "My Skills",
+        "contact": "Contact"
+    },
     "hero": {
         "nameBox": "FRONTEND DEVELOPER",
         "contactBtn": "Lets talk"
