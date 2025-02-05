@@ -16,9 +16,9 @@ export class HeaderComponent {
 
   openOverlay() {
     console.log('Open overlayer');
-
+    let overlay = document.getElementById('menu-overlay');
+    overlay?.classList.toggle('hide-overlay');
   }
-
 
 
   constructor(private translate: TranslateService) {
@@ -28,13 +28,11 @@ export class HeaderComponent {
   }
 
 
-
   toggleLanguage(): void {
     this.currentLanguage = this.currentLanguage === 'en' ? 'de' : 'en';
     this.translate.use(this.currentLanguage);
     console.log(`Sprache gewechselt zu: ${this.currentLanguage}`);
   }
-
 
 
 }
