@@ -63,8 +63,8 @@ nav {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
     font-size: 40px;
-    transition: all ease-in-out 100ms;
-    transform: translateX(0);
+    transition: all ease-in-out 200ms;
+    // transform: translateX(0);
 
     a{
         text-decoration: none;
@@ -73,8 +73,12 @@ nav {
 }
 
 .hide-overlay{
-    transform: translateX(100vw);
+    // transform: translateX(100vw);
+    display: none;
 }
+
+
+
 
 @media(max-width:1000px) {
     nav {

@@ -20,13 +20,11 @@ export class HeaderComponent {
     overlay?.classList.toggle('hide-overlay');
   }
 
-
   constructor(private translate: TranslateService) {
     this.translate.addLangs(['de', 'en']);
     this.translate.setDefaultLang('en');
     this.translate.use('en');
   }
-
 
   toggleLanguage(): void {
     this.currentLanguage = this.currentLanguage === 'en' ? 'de' : 'en';
