@@ -76,7 +76,7 @@ section {
 
 .contact-me-btn {
     @include display(flex, center, center);
-    width: 165px;
+    padding: 20px;
     height: 60px;
     font-size: 23px;
     text-decoration: none;
