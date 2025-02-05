@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
-
+import AOS from 'aos';
 
 
 @Component({
@@ -12,8 +12,11 @@ import { TranslateModule } from '@ngx-translate/core';
     TranslateModule
   ],
   templateUrl: './hero-section.component.html',
-  styleUrl: './hero-section.component.scss'
+  styleUrls: ['./hero-section.component.scss']
 })
-export class HeroSectionComponent {
+export class HeroSectionComponent implements AfterViewInit{
 
+  ngAfterViewInit(): void {
+    AOS.refresh();
+  }
 }
