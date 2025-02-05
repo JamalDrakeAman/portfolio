@@ -9,7 +9,7 @@ section {
     justify-content: space-between;
     padding: 100px 0 150px 100px;
     color: whitesmoke;
-
+    gap: 50px;
 }
 
 
@@ -23,6 +23,7 @@ section {
     flex-wrap: wrap;
     gap: 100px;
     row-gap: 0px;
+    justify-content: center;
 }
 
 .skill {
@@ -54,7 +55,7 @@ section {
     color: white;
     // width: 800px;
     height: fit-content;
-    gap: 20px;
+    gap: 50px;
 }
 
 .headline {
@@ -74,11 +75,8 @@ h1 {
     background-color: #4B47FF;
 }
 
-
-
 p {
     padding-right: 120px;
-    text-align: center;
 }
 
 .bold-txt {
@@ -91,12 +89,9 @@ p {
 }
 
 
-
-
-
-
 .contact-me-btn {
-    width: 200px;
+    width: fit-content;
+    padding: 20px;
     height: 60px;
     font-size: 23px;
     text-decoration: none;
@@ -107,6 +102,7 @@ p {
     color: whitesmoke;
     background-color: #4B47FF;
     transition: all ease-in-out 100ms;
+
 
     &:hover {
         scale: 1.2;
@@ -121,8 +117,21 @@ p {
     display: none;
 }
 
+.get-touch-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
 
-@media(max-width: 1600px) {
+
+@media(max-width: 1500px){
+    .line{
+        width: 250px;
+    }
+}
+
+
+@media(max-width: 1250px) {
     section {
         flex-direction: column;
         justify-content: space-between;
@@ -154,6 +163,16 @@ p {
     .line {
         width: 150px;
     }
+
+    p{
+        text-align: center;
+        padding: 0;
+    }
+
+    .contact-me-btn{
+        align-self: center;
+    }
+    
 }
 
 

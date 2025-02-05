@@ -5,12 +5,12 @@
             <h1>My skills</h1>
             <span class="line"></span>
         </div>
-        
         <p>
             {{"skills.experience" | translate}}
         </p>
-
     </div>
+
+
 
     <div class="skills-container">
         @for (skill of skills; track $index) {
@@ -22,6 +22,9 @@
         }
     </div>
 
+
+
+
     <div class="my-skills-container">
 
         <div class="desktop-headline">
@@ -29,14 +32,16 @@
                 <h1>{{"skills.headline" | translate}}</h1>
                 <span class="line"></span>
             </div>
-            <p>{{"skills.experience" | translate}}</p>
         </div>
 
-        <p class="bold-txt">{{"skills.anotherSkill.looking" | translate}}<span
-                class="blue-txt">{{"skills.anotherSkill.another" | translate}}</span>?</p>
-        <p>{{"skills.contactMe" | translate}}</p>
-        <a class="contact-me-btn" href="#contact">{{"skills.contactBtn" | translate}}</a>
+        <div class="get-touch-container">
+            <p class="desktop-headline">{{"skills.experience" | translate}}</p>
 
+            <p class="bold-txt">{{"skills.anotherSkill.looking" | translate}}<span
+                    class="blue-txt">{{"skills.anotherSkill.another" | translate}}</span>?</p>
+            <p>{{"skills.contactMe" | translate}}</p>
+            <a class="contact-me-btn" href="#contact">{{"skills.contactBtn" | translate}}</a>
+        </div>
     </div>
 
 </section>
