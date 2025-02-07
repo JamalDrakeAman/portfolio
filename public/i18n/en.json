@@ -70,6 +70,12 @@
         "privacy": "Privacy Policy",
         "imprint": "Imprint"
     },
+    "imprint": {
+        "headline": "Imprint",
+        "m46": "Service Provider",
+        "m56": "Contact Information",
+        "email": "Email Address"
+    },
     "privacyPolicy": {
         "headline": "Privacy Policy",
         "date": "As of: February 2, 2025",
@@ -89,6 +95,11 @@
             "m638": "Promotional Communication via Email, Post, Fax, or Telephone",
             "m136": "Social Media Presences",
             "m328": "Plug-ins and Embedded Functions and Content"
+        },
+        "dataController": {
+            "m3": "Data Controller",
+            "location": "68163, Mannheim, Germany",
+            "email": "Email Address:"
         }
     }
 }

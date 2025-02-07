@@ -70,6 +70,12 @@
         "privacy": "Datenschutzrichtlinie",
         "imprint": "Impressum"
     },
+    "imprint": {
+        "headline": "Impressum",
+        "m46": "Diensteanbieter",
+        "m56": "Kontaktmöglichkeiten",
+        "email": "E-Mail-Adresse"
+    },
     "privacyPolicy": {
         "headline": "Datenschutzerklärung",
         "date": "Stand: 2. Februar 2025",
@@ -89,6 +95,11 @@
             "m638": "Werbliche Kommunikation via E-Mail, Post, Fax oder Telefon",
             "m136": "Präsenzen in sozialen Netzwerken (Social Media)",
             "m328": "Plug-ins und eingebettete Funktionen sowie Inhalte"
+        },
+        "dataController": {
+            "m3": "Verantwortlicher",
+            "location": "68163, Mannheim, Deutschland",
+            "email": "E-Mail-Adresse:"
         }
     }
 }
