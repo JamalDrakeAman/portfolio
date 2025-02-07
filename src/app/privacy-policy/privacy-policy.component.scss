@@ -1,4 +1,4 @@
-section{
+section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,23 +8,28 @@ section{
     font-size: 20px;
 }
 
-a{
+.m-elements {
+    word-break: break-word;
+}
+
+a {
     color: #00BEE8;
     text-decoration: none;
-    &:hover{
+
+    &:hover {
         text-decoration: underline;
     }
 }
 
-@media(max-width:1000px){
-    section{
+@media(max-width:1000px) {
+    section {
         font-size: 18px;
         padding: 50px;
     }
 }
 
-@media(max-width:700px){
-    section{
+@media(max-width:700px) {
+    section {
         font-size: 16px;
         padding: 50px 15px;
     }
