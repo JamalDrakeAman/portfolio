@@ -69,5 +69,26 @@
     "footer": {
         "privacy": "Datenschutzrichtlinie",
         "imprint": "Impressum"
+    },
+    "privacyPolicy": {
+        "headline": "Datenschutzerklärung",
+        "date": "Stand: 2. Februar 2025",
+        "head": "Inhaltsübersicht",
+        "tableOfContents": {
+            "m3": "Verantwortlicher",
+            "mOverview": "Übersicht der Verarbeitungen",
+            "m2427": "Maßgebliche Rechtsgrundlagen",
+            "m27": "Sicherheitsmaßnahmen",
+            "m25": "Übermittlung von personenbezogenen Daten",
+            "m24": "Internationale Datentransfers",
+            "m12": "Allgemeine Informationen zur Datenspeicherung und Löschung",
+            "m10": "Rechte der betroffenen Personen",
+            "m225": "Bereitstellung des Onlineangebots und Webhosting",
+            "m134": "Einsatz von Cookies",
+            "m182": "Kontakt- und Anfrageverwaltung",
+            "m638": "Werbliche Kommunikation via E-Mail, Post, Fax oder Telefon",
+            "m136": "Präsenzen in sozialen Netzwerken (Social Media)",
+            "m328": "Plug-ins und eingebettete Funktionen sowie Inhalte"
+        }
     }
 }
