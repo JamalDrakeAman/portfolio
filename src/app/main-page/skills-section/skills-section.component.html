@@ -1,6 +1,6 @@
 <section>
 
-    <div data-aos="fade-left" class="mobile-headline">
+    <div data-aos="fade-left" data-aos-anchor-placement="top-center" class="mobile-headline">
         <div class="headline">
             <h1>My skills</h1>
             <span class="line"></span>
@@ -12,11 +12,11 @@
 
 
 
-    <div data-aos="fade-up-right" class="skills-container">
+    <div  class="skills-container">
         @for (skill of skills; track $index; let i = $index) {
 
-        <div data-aos="flip-up" data-aos-duration="300" [attr.data-aos-delay]="i * 100" class="skill">
-            <img src="{{skill.icon}}" alt="">
+        <div data-aos="flip-up"  data-aos-duration="250" [attr.data-aos-delay]="i * 100" class="skill">
+            <img class="icon" src="{{skill.icon}}" alt="">
             {{skill.name}}
         </div>
         }
@@ -27,14 +27,14 @@
 
     <div class="my-skills-container">
 
-        <div data-aos="fade-left" class="desktop-headline">
+        <div data-aos="fade-left" data-aos-anchor-placement="top-center" class="desktop-headline">
             <div class="headline">
                 <h1>{{"skills.headline" | translate}}</h1>
                 <span class="line"></span>
             </div>
         </div>
 
-        <div data-aos="fade-up-left" class="get-touch-container">
+        <div data-aos="fade-up"  class="get-touch-container">
             <p class="desktop-headline">{{"skills.experience" | translate}}</p>
 
             <p class="bold-txt">{{"skills.anotherSkill.looking" | translate}}<span

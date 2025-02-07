@@ -45,6 +45,7 @@ section {
     color: whitesmoke;
     gap: 50px;
     transition: all ease-in-out 100ms;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
 }
 
 .i-am-box {
@@ -98,6 +99,7 @@ section {
     @include position(absolute, $left: 0, $top: 950px, $width: 620px);
     @include display(flex, space-between, center);
     height: 100px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
 
     .line {
         width: 100px;

@@ -10,6 +10,7 @@ section {
     padding: 100px 0 150px 100px;
     color: whitesmoke;
     gap: 50px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
 }
 
 
@@ -33,20 +34,76 @@ section {
     width: 65px;
     align-items: center;
     text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+    &:hover {
+        filter: drop-shadow(0 0 0.75rem #4B47FF);
+    }
+
 
     img {
         transition: all ease-in-out 100ms;
 
-        &:hover {
-            scale: 1.2;
-            transform: translateY(-10px);
-        }
+        // &:hover {
+        //     scale: 1.2;
+        //     transform: translateY(-10px);
+        // }
 
     }
 }
 
 
+@keyframes floating {
+    0% {
+        transform: translateY(0px);
+    }
 
+    50% {
+        transform: translateY(-8px);
+    }
+
+    /* Icon hebt leicht ab */
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes hover-scale {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    /* Leicht vergrößern */
+    100% {
+        transform: scale(1);
+    }
+}
+
+.icon {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+    animation: floating 3s infinite ease-in-out;
+    /* Dauerschweben */
+    filter: drop-shadow(0px 5px 15px hwb(0 0% 100% / 0.8));
+}
+
+.icon:hover {
+    animation: hover-scale 0.3s ease-in-out;
+    /* Skalierung bei Hover */
+}
+
+
+// .skill-icon {
+
+//     &:hover {
+//         filter: drop-shadow(0 0 0.75rem #4B47FF);
+//     }
+
+// }
 
 
 .my-skills-container {
@@ -117,15 +174,15 @@ p {
     display: none;
 }
 
-.get-touch-container{
+.get-touch-container {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
 
-@media(max-width: 1500px){
-    .line{
+@media(max-width: 1500px) {
+    .line {
         width: 250px;
     }
 }
@@ -164,15 +221,15 @@ p {
         width: 150px;
     }
 
-    p{
+    p {
         text-align: center;
         padding: 0;
     }
 
-    .contact-me-btn{
+    .contact-me-btn {
         align-self: center;
     }
-    
+
 }
 
 

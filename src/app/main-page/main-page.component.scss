@@ -1,40 +1,140 @@
+@use '../shared/styles/keyframes.scss' as *;
+
 section {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #141D2F;
-
     width: 100%;
-
     // box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2),
     //     /* Schatten links */
     //     5px 0 10px rgba(0, 0, 0, 0.2);
     // /* Schatten rechts */
-
     overflow: hidden;
 }
+
 
 .hero-section {
     width: 1920px;
     max-width: 100%;
+
 }
 
 .about-me-section {
+    position: relative;
     width: 1920px;
     max-width: 100%;
+    z-index: 1;
 }
 
 .skills-section {
+    position: relative;
     width: 1920px;
     max-width: 100%;
+    z-index: 1;
 }
 
 .portfolio-section {
+    position: relative;
     width: 1920px;
     max-width: 100%;
+    z-index: 1;
 }
 
 .contact-section {
+    position: relative;
     width: 1920px;
     max-width: 100%;
+    z-index: 1;
 }
+
+
+
+
+.main-container {
+    position: relative;
+    max-width: 100%;
+    width: 1920px;
+    overflow-x: hidden;
+
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2),
+        /* Schatten links */
+        5px 0 10px rgba(0, 0, 0, 0.2);
+    /* Schatten rechts */
+}
+
+
+
+
+
+.blue-parallax-image {
+    position: absolute;
+    width: 35%;
+    top: 550px;
+    left: 80%;
+    transform: translateY(0px);
+    transition: transform 0.1s linear;
+    /* Sanfte Bewegung */
+    opacity: 0.8;
+}
+
+.blue-parallax-image2 {
+    position: absolute;
+    width: 35%;
+    top: 1900px;
+    left: 80%;
+    transform: translateY(0px);
+    transition: transform 0.1s linear;
+    /* Sanfte Bewegung */
+    opacity: 0.8;
+}
+
+.purple-parallax-image {
+    position: absolute;
+    width: 38%;
+    top: 1000px;
+    left: -20%;
+    transform: translateY(0px);
+    transition: transform 0.1s linear;
+    /* Sanfte Bewegung */
+    opacity: 0.8;
+}
+
+.purple-parallax-image2 {
+    position: absolute;
+    width: 38%;
+    top: 2600px;
+    left: -20%;
+    transform: translateY(0px);
+    transition: transform 0.1s linear;
+    /* Sanfte Bewegung */
+    opacity: 0.8;
+}
+
+.blue-color-animation {
+    animation: blue-color-change 5s infinite alternate ease-in-out;
+}
+
+.purple-color-animation {
+    animation: purple-color-change 5s infinite alternate ease-in-out;
+
+}
+
+
+// fadeInOut 5s infinite ease-in-out
+// @keyframes fadeInOut {
+//     0% {
+//         opacity: 0.3;
+//         // transform: scale(0.95);
+//     }
+
+//     50% {
+//         opacity: 0.8;
+//         // transform: scale(1);
+//     }
+
+//     100% {
+//         opacity: 0.3;
+//         // transform: scale(0.95);
+//     }
+// }

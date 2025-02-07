@@ -1,4 +1,4 @@
-<section data-aos="fade-up" data-aos-anchor-placement="top-center" class="project-box"
+<section [attr.data-aos]="projectIndex % 2 === 0 ? 'fade-up-right' : 'fade-up-left'" class="project-box"
     [ngStyle]="{'flex-direction': projectIndex % 2 === 0 ? 'row': 'row-reverse'}">
 
     <img src="{{project.img}}" alt="">
