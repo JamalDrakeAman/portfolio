@@ -1,0 +1,26 @@
+<svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Erstelle einen runden Hintergrund -->
+        <circle cx="75" cy="75" r="75" fill="url(#gradient)" />
+        
+        <!-- Vergrößertes und dickeres Rechteck in der Mitte -->
+        <rect x="20" y="30" width="110" height="90" rx="20" fill="none" stroke="#62A8FF" stroke-width="8" />
+        
+        <!-- Vergrößerte und dickere Linien im Rechteck -->
+        <line x1="45" y1="60" x2="65" y2="45" stroke="#62A8FF" stroke-width="8" />
+        <line x1="45" y1="60" x2="65" y2="75" stroke="#62A8FF" stroke-width="8" />
+        <line x1="85" y1="45" x2="105" y2="60" stroke="#62A8FF" stroke-width="8" />
+        <line x1="85" y1="75" x2="105" y2="60" stroke="#62A8FF" stroke-width="8" />
+        
+        <!-- Text mittig im Rechteck -->
+        <text x="75" y="110" font-size="65" fill="white" font-family="Arial, sans-serif" font-weight="bold" text-anchor="middle" alignment-baseline="middle">
+            JD.A
+        </text>
+        
+        <!-- Gradient für den Hintergrund -->
+        <defs>
+            <linearGradient id="gradient" x1="0" y1="0" x2="150" y2="150" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#1E2B45" />
+                <stop offset="1" stop-color="#324364" />
+            </linearGradient>
+        </defs>
+    </svg>

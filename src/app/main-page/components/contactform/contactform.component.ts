@@ -19,7 +19,7 @@ export class ContactformComponent {
 
   checkbox: boolean = false;
   imageUrl: string = 'icon/check_box_blank.svg';
-
+  checkboxError: boolean = false;
 
   http = inject(HttpClient)
 
@@ -48,6 +48,9 @@ export class ContactformComponent {
   };
 
   onSubmit(ngForm: NgForm) {
+    this.checkCheckbox();
+    ngForm.control.markAllAsTouched();
+
     if (ngForm.valid && ngForm.submitted && this.checkbox && !this.mailTest) {
       this.http.post(this.post.endPoint, this.post.body(this.contactData))
         .subscribe({
@@ -67,19 +70,12 @@ export class ContactformComponent {
   }
 
 
-
-
-  // onSubmit(ngForm: NgForm) {
-  //   this.checkCheckbox();
-  //   if (ngForm.valid && ngForm.submitted && this.checkbox) {
-  //     console.log(this.contactData);
-  //   }
-  // }
-
-
   checkCheckbox() {
     if (this.checkbox == false) {
-      this.imageUrl = 'icon/check_box_blank_red.svg'
+      this.imageUrl = 'icon/check_box_blank_red.svg';
+      this.checkboxError = true;
+    } else {
+      this.checkboxError = false;
     }
   }
 
