@@ -62,7 +62,8 @@
         "privacyCheck": {
             "read": "Ich habe das gelesen",
             "privacy": "Datenschutzrichtlinie ",
-            "accept": "und stimme der oben beschriebenen Verarbeitung meiner Daten zu."
+            "accept": "und stimme der oben beschriebenen Verarbeitung meiner Daten zu.",
+            "error": "Bitte Datenschutzbestimmungen akzeptieren"
         },
         "submitBtn": "Nachricht senden :)"
     },

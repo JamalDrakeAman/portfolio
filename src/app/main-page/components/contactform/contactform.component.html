@@ -36,10 +36,12 @@
 
         <p>{{"contactform.privacyCheck.read" | translate}} <a href="#">{{"contactform.privacyCheck.privacy" |
                 translate}}</a>{{"contactform.privacyCheck.accept" | translate}}</p>
+
+        @if(checkboxError){
+        <span >{{"contactform.privacyCheck.error" | translate}}</span>
+        }
     </div>
-    @if(checkboxError){
-    <span class="checkbox-error">{{"contactform.privacyCheck.error" | translate}}</span>
-    }
+
 
 
     <!-- <input  class="submit-btn" type="submit" value="Send message :)"> -->

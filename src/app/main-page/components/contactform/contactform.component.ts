@@ -55,7 +55,7 @@ export class ContactformComponent {
       this.http.post(this.post.endPoint, this.post.body(this.contactData))
         .subscribe({
           next: (response) => {
-
+            this.resetCheckbox();
             ngForm.resetForm();
           },
           error: (error) => {
@@ -69,6 +69,11 @@ export class ContactformComponent {
     }
   }
 
+
+  resetCheckbox() {
+    this.checkbox = false;
+    this.imageUrl = 'icon/check_box_blank.svg';
+  }
 
   checkCheckbox() {
     if (this.checkbox == false) {
