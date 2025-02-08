@@ -17,7 +17,7 @@ import AOS from 'aos';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  
+
   ngOnInit(): void {
     AOS.init({
       duration: 500,  // Dauer der Animationen
@@ -25,4 +25,6 @@ export class AppComponent implements OnInit {
       // once: true       // Animationen nur einmal abspielen
     });
   }
+
+
 }

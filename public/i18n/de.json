@@ -100,6 +100,382 @@
             "m3": "Verantwortlicher",
             "location": "68163, Mannheim, Deutschland",
             "email": "E-Mail-Adresse:"
+        },
+        "overview": {
+            "headline": "Übersicht der Verarbeitungen",
+            "description": "Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen und verweist auf die betroffenen Personen.",
+            "dataTypes": {
+                "head": "Arten der verarbeiteten Daten",
+                "items": [
+                    "Bestandsdaten",
+                    "Kontaktdaten",
+                    "Inhaltsdaten",
+                    "Nutzungsdaten",
+                    "Meta-, Kommunikations- und Verfahrensdaten",
+                    "Protokolldaten"
+                ]
+            },
+            "affectedPersons": {
+                "head": "Kategorien betroffener Personen",
+                "items": [
+                    "Kommunikationspartner",
+                    "Nutzer"
+                ]
+            },
+            "processingPurposes": {
+                "head": "Zwecke der Verarbeitung",
+                "items": [
+                    "Kommunikation",
+                    "Sicherheitsmaßnahmen",
+                    "Direktmarketing",
+                    "Organisations- und Verwaltungsverfahren",
+                    "Feedback",
+                    "Marketing",
+                    "Bereitstellung unseres Onlineangebotes und Nutzerfreundlichkeit",
+                    "Informationstechnische Infrastruktur",
+                    "Öffentlichkeitsarbeit",
+                    "Absatzförderung"
+                ]
+            }
+        },
+        "legalBasis": {
+            "headline": "Maßgebliche Rechtsgrundlagen",
+            "intro": "Maßgebliche Rechtsgrundlagen nach der DSGVO: Im Folgenden erhalten Sie eine Übersicht der Rechtsgrundlagen der DSGVO, auf deren Basis wir personenbezogene Daten verarbeiten. Bitte nehmen Sie zur Kenntnis, dass neben den Regelungen der DSGVO nationale Datenschutzvorgaben in Ihrem bzw. unserem Wohn- oder Sitzland gelten können. Sollten ferner im Einzelfall speziellere Rechtsgrundlagen maßgeblich sein, teilen wir Ihnen diese in der Datenschutzerklärung mit.",
+            "items": {
+                "consent": {
+                    "title": "Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO)",
+                    "description": "Die betroffene Person hat ihre Einwilligung in die Verarbeitung der sie betreffenden personenbezogenen Daten für einen spezifischen Zweck oder mehrere bestimmte Zwecke gegeben."
+                },
+                "contract": {
+                    "title": "Vertragserfüllung und vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO)",
+                    "description": "Die Verarbeitung ist für die Erfüllung eines Vertrags, dessen Vertragspartei die betroffene Person ist, oder zur Durchführung vorvertraglicher Maßnahmen erforderlich, die auf Anfrage der betroffenen Person erfolgen."
+                },
+                "legitimateInterests": {
+                    "title": "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO)",
+                    "description": "Die Verarbeitung ist zur Wahrung der berechtigten Interessen des Verantwortlichen oder eines Dritten notwendig, vorausgesetzt, dass die Interessen, Grundrechte und Grundfreiheiten der betroffenen Person, die den Schutz personenbezogener Daten verlangen, nicht überwiegen."
+                }
+            }
+        },
+        "nationalRegulations": {
+            "headline": "Nationale Datenschutzregelungen in Deutschland",
+            "description": "Zusätzlich zu den Datenschutzregelungen der DSGVO gelten nationale Regelungen zum Datenschutz in Deutschland. Hierzu gehört insbesondere das Gesetz zum Schutz vor Missbrauch personenbezogener Daten bei der Datenverarbeitung (Bundesdatenschutzgesetz – BDSG). Das BDSG enthält insbesondere Spezialregelungen zum Recht auf Auskunft, zum Recht auf Löschung, zum Widerspruchsrecht, zur Verarbeitung besonderer Kategorien personenbezogener Daten, zur Verarbeitung für andere Zwecke und zur Übermittlung sowie automatisierten Entscheidungsfindung im Einzelfall einschließlich Profiling. Ferner können Landesdatenschutzgesetze der einzelnen Bundesländer zur Anwendung gelangen."
+        },
+        "applicabilityNotice": {
+            "headline": "Hinweis auf Geltung DSGVO und Schweizer DSG",
+            "description": "Diese Datenschutzhinweise dienen sowohl der Informationserteilung nach dem Schweizer DSG als auch nach der Datenschutzgrundverordnung (DSGVO). Aus diesem Grund bitten wir Sie zu beachten, dass aufgrund der breiteren räumlichen Anwendung und Verständlichkeit die Begriffe der DSGVO verwendet werden. Insbesondere statt der im Schweizer DSG verwendeten Begriffe „Bearbeitung\" von „Personendaten\", \"überwiegendes Interesse\" und \"besonders schützenswerte Personendaten\" werden die in der DSGVO verwendeten Begriffe „Verarbeitung\" von „personenbezogenen Daten\" sowie \"berechtigtes Interesse\" und \"besondere Kategorien von Daten\" verwendet. Die gesetzliche Bedeutung der Begriffe wird jedoch im Rahmen der Geltung des Schweizer DSG weiterhin nach dem Schweizer DSG bestimmt."
+        },
+        "securityMeasures": {
+            "headline": "Sicherheitsmaßnahmen",
+            "description": [
+                "Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter Berücksichtigung des Stands der Technik, der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung sowie der unterschiedlichen Eintrittswahrscheinlichkeiten und des Ausmaßes der Bedrohung der Rechte und Freiheiten natürlicher Personen geeignete technische und organisatorische Maßnahmen, um ein dem Risiko angemessenes Schutzniveau zu gewährleisten.",
+                "Zu den Maßnahmen gehören insbesondere die Sicherung der Vertraulichkeit, Integrität und Verfügbarkeit von Daten durch Kontrolle des physischen und elektronischen Zugangs zu den Daten als auch des sie betreffenden Zugriffs, der Eingabe, der Weitergabe, der Sicherung der Verfügbarkeit und ihrer Trennung. Des Weiteren haben wir Verfahren eingerichtet, die eine Wahrnehmung von Betroffenenrechten, die Löschung von Daten und Reaktionen auf die Gefährdung der Daten gewährleisten. Ferner berücksichtigen wir den Schutz personenbezogener Daten bereits bei der Entwicklung bzw. Auswahl von Hardware, Software sowie Verfahren entsprechend dem Prinzip des Datenschutzes, durch Technikgestaltung und durch datenschutzfreundliche Voreinstellungen."
+            ]
+        },
+        "dataTransfer": {
+            "headline": "Übermittlung von personenbezogenen Daten",
+            "description": "Im Rahmen unserer Verarbeitung von personenbezogenen Daten kommt es vor, dass diese an andere Stellen, Unternehmen, rechtlich selbstständige Organisationseinheiten oder Personen übermittelt beziehungsweise ihnen gegenüber offengelegt werden. Zu den Empfängern dieser Daten können z. B. mit IT-Aufgaben beauftragte Dienstleister gehören oder Anbieter von Diensten und Inhalten, die in eine Website eingebunden sind. In solchen Fällen beachten wir die gesetzlichen Vorgaben und schließen insbesondere entsprechende Verträge bzw. Vereinbarungen, die dem Schutz Ihrer Daten dienen, mit den Empfängern Ihrer Daten ab."
+        },
+        "international_data_transfers": {
+            "title": "Internationale Datentransfers",
+            "content": "Datenverarbeitung in Drittländern: Sofern wir Daten in einem Drittland (d. h., außerhalb der Europäischen Union (EU), des Europäischen Wirtschaftsraums (EWR)) verarbeiten oder die Verarbeitung im Rahmen der Inanspruchnahme von Diensten Dritter oder der Offenlegung bzw. Übermittlung von Daten an andere Personen, Stellen oder Unternehmen stattfindet, erfolgt dies nur im Einklang mit den gesetzlichen Vorgaben. Sofern das Datenschutzniveau in dem Drittland mittels eines Angemessenheitsbeschlusses anerkannt wurde (Art. 45 DSGVO), dient dieser als Grundlage des Datentransfers. Im Übrigen erfolgen Datentransfers nur dann, wenn das Datenschutzniveau anderweitig gesichert ist, insbesondere durch Standardvertragsklauseln (Art. 46 Abs. 2 lit. c) DSGVO), ausdrückliche Einwilligung oder im Fall vertraglicher oder gesetzlich erforderlicher Übermittlung (Art. 49 Abs. 1 DSGVO). Im Übrigen teilen wir Ihnen die Grundlagen der Drittlandübermittlung bei den einzelnen Anbietern aus dem Drittland mit, wobei die Angemessenheitsbeschlüsse als Grundlagen vorrangig gelten. Informationen zu Drittlandtransfers und vorliegenden Angemessenheitsbeschlüssen können dem Informationsangebot der EU-Kommission entnommen werden: <a href='https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection_en?prefLang=de' target='_blank'>EU-Kommission</a>. Im Rahmen des sogenannten \"Data Privacy Framework\" (DPF) hat die EU-Kommission das Datenschutzniveau ebenfalls für bestimmte Unternehmen aus den USA im Rahmen der Angemessenheitsbeschlusses vom 10.07.2023 als sicher anerkannt. Die Liste der zertifizierten Unternehmen als auch weitere Informationen zu dem DPF können Sie der Website des Handelsministeriums der USA unter <a href='https://www.dataprivacyframework.gov/' target='_blank'>Data Privacy Framework</a> (in Englisch) entnehmen. Wir informieren Sie im Rahmen der Datenschutzhinweise, welche von uns eingesetzten Diensteanbieter unter dem Data Privacy Framework zertifiziert sind."
+        },
+        "dataRetention": {
+            "title": "Allgemeine Informationen zur Datenspeicherung und Löschung",
+            "content": [
+                "Wir löschen personenbezogene Daten, die wir verarbeiten, gemäß den gesetzlichen Bestimmungen, sobald die zugrundeliegenden Einwilligungen widerrufen werden oder keine weiteren rechtlichen Grundlagen für die Verarbeitung bestehen. Dies betrifft Fälle, in denen der ursprüngliche Verarbeitungszweck entfällt oder die Daten nicht mehr benötigt werden. Ausnahmen von dieser Regelung bestehen, wenn gesetzliche Pflichten oder besondere Interessen eine längere Aufbewahrung oder Archivierung der Daten erfordern.",
+                "Insbesondere müssen Daten, die aus handels- oder steuerrechtlichen Gründen aufbewahrt werden müssen oder deren Speicherung notwendig ist zur Rechtsverfolgung oder zum Schutz der Rechte anderer natürlicher oder juristischer Personen, entsprechend archiviert werden.",
+                "Unsere Datenschutzhinweise enthalten zusätzliche Informationen zur Aufbewahrung und Löschung von Daten, die speziell für bestimmte Verarbeitungsprozesse gelten.",
+                "Bei mehreren Angaben zur Aufbewahrungsdauer oder Löschungsfristen eines Datums ist stets die längste Frist maßgeblich.",
+                "Beginnt eine Frist nicht ausdrücklich zu einem bestimmten Datum und beträgt sie mindestens ein Jahr, so startet sie automatisch am Ende des Kalenderjahres, in dem das fristauslösende Ereignis eingetreten ist. Im Fall laufender Vertragsverhältnisse, in deren Rahmen Daten gespeichert werden, ist das fristauslösende Ereignis der Zeitpunkt des Wirksamwerdens der Kündigung oder sonstige Beendigung des Rechtsverhältnisses.",
+                "Daten, die nicht mehr für den ursprünglich vorgesehenen Zweck, sondern aufgrund gesetzlicher Vorgaben oder anderer Gründe aufbewahrt werden, verarbeiten wir ausschließlich zu den Gründen, die ihre Aufbewahrung rechtfertigen."
+            ],
+            "storagePeriods": {
+                "headline": "Aufbewahrung und Löschung von Daten",
+                "10years": {
+                    "title": "10 Jahre",
+                    "description": "Aufbewahrungsfrist für Bücher und Aufzeichnungen, Jahresabschlüsse, Inventare, Lageberichte, Eröffnungsbilanz sowie die zu ihrem Verständnis erforderlichen Arbeitsanweisungen und sonstigen Organisationsunterlagen."
+                },
+                "8years": {
+                    "title": "8 Jahre",
+                    "description": "Buchungsbelege, wie z. B. Rechnungen und Kostenbelege."
+                },
+                "6years": {
+                    "title": "6 Jahre",
+                    "description": "Übrige Geschäftsunterlagen, Handels- oder Geschäftsbriefe, Lohnabrechnungsunterlagen, soweit sie nicht bereits Buchungsbelege sind."
+                },
+                "3years": {
+                    "title": "3 Jahre",
+                    "description": "Daten, die erforderlich sind, um potenzielle Gewährleistungs- und Schadensersatzansprüche oder ähnliche vertragliche Ansprüche zu berücksichtigen."
+                }
+            }
+        },
+        "dataSubjectRights": {
+            "title": "Rechte der betroffenen Personen",
+            "intro": "Ihnen stehen als Betroffene nach der DSGVO verschiedene Rechte zu, die sich insbesondere aus Art. 15 bis 21 DSGVO ergeben:",
+            "rights": {
+                "objection": {
+                    "title": "Widerspruchsrecht",
+                    "description": "Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung der Sie betreffenden personenbezogenen Daten, die aufgrund von Art. 6 Abs. 1 lit. e oder f DSGVO erfolgt, Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmungen gestütztes Profiling. Werden die Sie betreffenden personenbezogenen Daten verarbeitet, um Direktwerbung zu betreiben, haben Sie das Recht, jederzeit Widerspruch gegen die Verarbeitung der Sie betreffenden personenbezogenen Daten zum Zwecke derartiger Werbung einzulegen; dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung steht."
+                },
+                "withdrawal": {
+                    "title": "Widerrufsrecht bei Einwilligungen",
+                    "description": "Sie haben das Recht, erteilte Einwilligungen jederzeit zu widerrufen."
+                },
+                "access": {
+                    "title": "Auskunftsrecht",
+                    "description": "Sie haben das Recht, eine Bestätigung darüber zu verlangen, ob betreffende Daten verarbeitet werden und auf Auskunft über diese Daten sowie auf weitere Informationen und Kopie der Daten entsprechend den gesetzlichen Vorgaben."
+                },
+                "rectification": {
+                    "title": "Recht auf Berichtigung",
+                    "description": "Sie haben entsprechend den gesetzlichen Vorgaben das Recht, die Vervollständigung der Sie betreffenden Daten oder die Berichtigung der Sie betreffenden unrichtigen Daten zu verlangen."
+                },
+                "erasure": {
+                    "title": "Recht auf Löschung und Einschränkung der Verarbeitung",
+                    "description": "Sie haben nach Maßgabe der gesetzlichen Vorgaben das Recht, zu verlangen, dass Sie betreffende Daten unverzüglich gelöscht werden, bzw. alternativ nach Maßgabe der gesetzlichen Vorgaben eine Einschränkung der Verarbeitung der Daten zu verlangen."
+                },
+                "portability": {
+                    "title": "Recht auf Datenübertragbarkeit",
+                    "description": "Sie haben das Recht, Sie betreffende Daten, die Sie uns bereitgestellt haben, nach Maßgabe der gesetzlichen Vorgaben in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten oder deren Übermittlung an einen anderen Verantwortlichen zu fordern."
+                },
+                "complaint": {
+                    "title": "Beschwerde bei Aufsichtsbehörde",
+                    "description": "Sie haben unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs das Recht auf Beschwerde bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthaltsorts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes, wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden personenbezogenen Daten gegen die Vorgaben der DSGVO verstößt."
+                }
+            }
+        },
+        "webHosting": {
+            "title": "Bereitstellung des Onlineangebots und Webhosting",
+            "content": [
+                "Wir verarbeiten die Daten der Nutzer, um ihnen unsere Online-Dienste zur Verfügung stellen zu können. Zu diesem Zweck verarbeiten wir die IP-Adresse des Nutzers, die notwendig ist, um die Inhalte und Funktionen unserer Online-Dienste an den Browser oder das Endgerät der Nutzer zu übermitteln."
+            ],
+            "processedDataTypes": {
+                "title": "Verarbeitete Datenarten",
+                "description": "Nutzungsdaten (z. B. Seitenaufrufe und Verweildauer, Klickpfade, Nutzungsintensität und -frequenz, verwendete Gerätetypen und Betriebssysteme, Interaktionen mit Inhalten und Funktionen); Meta-, Kommunikations- und Verfahrensdaten (z. B. IP-Adressen, Zeitangaben, Identifikationsnummern, beteiligte Personen). Protokolldaten (z. B. Logfiles betreffend Logins oder den Abruf von Daten oder Zugriffszeiten)."
+            },
+            "affectedPersons": {
+                "title": "Betroffene Personen",
+                "description": "Nutzer (z. B. Webseitenbesucher, Nutzer von Onlinediensten)."
+            },
+            "processingPurposes": {
+                "title": "Zwecke der Verarbeitung",
+                "description": "Bereitstellung unseres Onlineangebotes und Nutzerfreundlichkeit; Informationstechnische Infrastruktur (Betrieb und Bereitstellung von Informationssystemen und technischen Geräten (Computer, Server etc.)); Sicherheitsmaßnahmen."
+            },
+            "retentionAndDeletion": {
+                "title": "Aufbewahrung und Löschung",
+                "description": "Löschung entsprechend Angaben im Abschnitt 'Allgemeine Informationen zur Datenspeicherung und Löschung'."
+            },
+            "legalBasis": {
+                "title": "Rechtsgrundlagen",
+                "description": "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO)."
+            },
+            "additionalNotes": {
+                "title": "Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten",
+                "logFiles": {
+                    "title": "Erhebung von Zugriffsdaten und Logfiles",
+                    "description": "Der Zugriff auf unser Onlineangebot wird in Form von sogenannten 'Server-Logfiles' protokolliert. Diese können Adresse und Name der abgerufenen Webseiten und Dateien, Datum und Uhrzeit des Abrufs, übertragene Datenmengen, Meldung über erfolgreichen Abruf, Browsertyp nebst Version, das Betriebssystem des Nutzers, Referrer URL (die zuvor besuchte Seite) und im Regelfall IP-Adressen und der anfragende Provider umfassen. Die Serverlogfiles können zu Sicherheitszwecken eingesetzt werden, z. B. um eine Überlastung der Server zu vermeiden (insbesondere im Fall von missbräuchlichen Angriffen, sogenannten DDoS-Attacken), und um die Stabilität sicherzustellen.",
+                    "legalBasis": "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).",
+                    "deletion": "Logfile-Informationen werden für die Dauer von maximal 30 Tagen gespeichert und danach gelöscht oder anonymisiert. Daten, deren weitere Aufbewahrung zu Beweiszwecken erforderlich ist, sind bis zur endgültigen Klärung des jeweiligen Vorfalls von der Löschung ausgenommen."
+                },
+                "allInkl": {
+                    "title": "ALL-INKL",
+                    "description": "Leistungen auf dem Gebiet der Bereitstellung von informationstechnischer Infrastruktur und verbundenen Dienstleistungen (z. B. Speicherplatz und/oder Rechenkapazitäten).",
+                    "provider": "Dienstanbieter: ALL-INKL.COM - Neue Medien Münnich, Inhaber: René Münnich, Hauptstraße 68, 02742 Friedersdorf, Deutschland.",
+                    "legalBasis": "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).",
+                    "website": "https://all-inkl.com/",
+                    "privacyPolicy": "https://all-inkl.com/datenschutzinformationen/",
+                    "processingAgreement": "Auftragsverarbeitungsvertrag wird vom Dienstanbieter bereitgestellt."
+                }
+            }
+        },
+        "cookies": {
+            "title": "Einsatz von Cookies",
+            "content": [
+                "Unter dem Begriff 'Cookies' werden Funktionen verstanden, die Informationen auf Endgeräten der Nutzer speichern und auslesen. Cookies können für unterschiedliche Zwecke eingesetzt werden, etwa zur Funktionsfähigkeit, Sicherheit und Komfort von Onlineangeboten sowie zur Analyse der Besucherströme. Wir verwenden Cookies gemäß den gesetzlichen Vorschriften. Falls erforderlich, holen wir vorab die Zustimmung der Nutzer ein. Ist eine Zustimmung nicht notwendig, setzen wir auf unsere berechtigten Interessen. Dies gilt, wenn das Speichern und Auslesen von Informationen unerlässlich ist, um ausdrücklich angeforderte Inhalte und Funktionen bereitzustellen. Dazu zählen etwa die Speicherung von Einstellungen sowie die Sicherstellung der Funktionalität und Sicherheit unseres Onlineangebots. Die Einwilligung kann jederzeit widerrufen werden. Wir informieren klar über deren Umfang und welche Cookies genutzt werden.",
+                "Ob wir personenbezogene Daten mithilfe von Cookies verarbeiten, hängt von einer Einwilligung ab. Liegt eine Einwilligung vor, dient sie als Rechtsgrundlage. Ohne Einwilligung stützen wir uns auf unsere berechtigten Interessen, die vorstehend in diesem Abschnitt und im Kontext der jeweiligen Dienste und Verfahren erläutert sind."
+            ],
+            "storageDuration": {
+                "headline": "Speicherdauer",
+                "temporary": {
+                    "title": "Temporäre Cookies (Session-Cookies)",
+                    "description": "Temporäre Cookies werden spätestens gelöscht, nachdem ein Nutzer ein Onlineangebot verlassen und sein Endgerät (z. B. Browser oder mobile Applikation) geschlossen hat."
+                },
+                "permanent": {
+                    "title": "Permanente Cookies",
+                    "description": "Permanente Cookies bleiben auch nach dem Schließen des Endgeräts gespeichert. Beispielsweise können der Log-in-Status gespeichert und bevorzugte Inhalte direkt angezeigt werden, wenn der Nutzer eine Website erneut besucht. Ebenso können mithilfe von Cookies erhobene Nutzerdaten zur Reichweitenmessung verwendet werden. Sofern keine expliziten Angaben zur Art und Speicherdauer von Cookies gemacht werden (z. B. im Rahmen der Einwilligungseinholung), ist von einer Speicherdauer von bis zu zwei Jahren auszugehen."
+                }
+            },
+            "optOut": {
+                "title": "Allgemeine Hinweise zum Widerruf und Widerspruch (Opt-out)",
+                "description": "Nutzer können ihre Einwilligungen jederzeit widerrufen und zudem Widerspruch gegen die Verarbeitung entsprechend den gesetzlichen Vorgaben einlegen, auch über die Privatsphäre-Einstellungen ihres Browsers."
+            },
+            "processedData": {
+                "title": "Verarbeitete Datenarten",
+                "description": "Meta-, Kommunikations- und Verfahrensdaten (z. B. IP-Adressen, Zeitangaben, Identifikationsnummern, beteiligte Personen)."
+            },
+            "affectedUsers": {
+                "title": "Betroffene Personen",
+                "description": "Nutzer (z. B. Webseitenbesucher, Nutzer von Onlinediensten)."
+            },
+            "legalBasis": {
+                "title": "Rechtsgrundlagen",
+                "description": "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f DSGVO). Einwilligung (Art. 6 Abs. 1 S. 1 lit. a DSGVO)."
+            },
+            "cookieConsent": {
+                "title": "Verarbeitung von Cookie-Daten auf Grundlage einer Einwilligung",
+                "description": "Wir setzen eine Einwilligungs-Management-Lösung ein, um die Zustimmung der Nutzer zur Verwendung von Cookies oder anderen Verarbeitungen einzuholen. Dieses Verfahren dient der Einholung, Protokollierung, Verwaltung und dem Widerruf von Einwilligungen, insbesondere für den Einsatz von Cookies und vergleichbaren Technologien. Die Einwilligungen werden gespeichert, um eine erneute Abfrage zu vermeiden und als Nachweis der Zustimmung zu dienen. Die Speicherung erfolgt serverseitig und/oder in einem Cookie (Opt-In-Cookie) oder mittels vergleichbarer Technologien. Falls keine spezifischen Angaben gemacht werden, beträgt die Speicherdauer der Einwilligung bis zu zwei Jahre."
+            }
+        },
+        "contactManagement": {
+            "title": "Kontakt- und Anfrageverwaltung",
+            "description": "Bei der Kontaktaufnahme mit uns (z. B. per Post, Kontaktformular, E-Mail, Telefon oder via soziale Medien) sowie im Rahmen bestehender Nutzer- und Geschäftsbeziehungen werden die Angaben der anfragenden Personen verarbeitet, soweit dies zur Beantwortung der Kontaktanfragen und etwaiger angefragter Maßnahmen erforderlich ist.",
+            "processedData": {
+                "title": "Verarbeitete Datenarten",
+                "description": "Bestandsdaten (z. B. vollständiger Name, Wohnadresse, Kontaktinformationen, Kundennummer, etc.); Kontaktdaten (z. B. Post- und E-Mail-Adressen oder Telefonnummern); Inhaltsdaten (z. B. textliche oder bildliche Nachrichten und Beiträge sowie die sie betreffenden Informationen, wie z. B. Angaben zur Autorenschaft oder Zeitpunkt der Erstellung); Nutzungsdaten (z. B. Seitenaufrufe und Verweildauer, Klickpfade, Nutzungsintensität und -frequenz, verwendete Gerätetypen und Betriebssysteme, Interaktionen mit Inhalten und Funktionen). Meta-, Kommunikations- und Verfahrensdaten (z. B. IP-Adressen, Zeitangaben, Identifikationsnummern, beteiligte Personen)."
+            },
+            "affectedUsers": {
+                "title": "Betroffene Personen",
+                "description": "Kommunikationspartner."
+            },
+            "processingPurposes": {
+                "title": "Zwecke der Verarbeitung",
+                "description": "Kommunikation; Organisations- und Verwaltungsverfahren; Feedback (z. B. Sammeln von Feedback via Online-Formular). Bereitstellung unseres Onlineangebotes und Nutzerfreundlichkeit."
+            },
+            "storageDeletion": {
+                "title": "Aufbewahrung und Löschung",
+                "description": "Löschung entsprechend Angaben im Abschnitt 'Allgemeine Informationen zur Datenspeicherung und Löschung'."
+            },
+            "legalBasis": {
+                "title": "Rechtsgrundlagen",
+                "description": "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO). Vertragserfüllung und vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO)."
+            },
+            "additionalInfo": {
+                "title": "Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten"
+            },
+            "contactForm": {
+                "title": "Kontaktformular",
+                "description": "Bei Kontaktaufnahme über unser Kontaktformular, per E-Mail oder anderen Kommunikationswegen, verarbeiten wir die uns übermittelten personenbezogenen Daten zur Beantwortung und Bearbeitung des jeweiligen Anliegens. Dies umfasst in der Regel Angaben wie Name, Kontaktinformationen und gegebenenfalls weitere Informationen, die uns mitgeteilt werden und zur angemessenen Bearbeitung erforderlich sind. Wir nutzen diese Daten ausschließlich für den angegebenen Zweck der Kontaktaufnahme und Kommunikation.",
+                "legalBasisTitle": "Rechtsgrundlagen",
+                "legalBasisDescription": "Vertragserfüllung und vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO), Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO)."
+            }
+        },
+        "advertisingCommunication": {
+            "title": "Werbliche Kommunikation via E-Mail, Post, Fax oder Telefon",
+            "content": [
+                "Wir verarbeiten personenbezogene Daten zu Zwecken der werblichen Kommunikation, die über diverse Kanäle, wie z. B. E-Mail, Telefon, Post oder Fax, entsprechend den gesetzlichen Vorgaben erfolgen kann.",
+                "Die Empfänger haben das Recht, erteilte Einwilligungen jederzeit zu widerrufen oder der werblichen Kommunikation jederzeit zu widersprechen.",
+                "Nach Widerruf oder Widerspruch speichern wir die zum Nachweis der bisherigen Berechtigung erforderlichen Daten zur Kontaktaufnahme oder Zusendung bis zu drei Jahre nach Ablauf des Jahres des Widerrufs oder Widerspruchs auf der Grundlage unserer berechtigten Interessen. Die Verarbeitung dieser Daten ist auf den Zweck einer möglichen Abwehr von Ansprüchen beschränkt. Auf der Grundlage des berechtigten Interesses, den Widerruf bzw. Widerspruch der Nutzer dauerhaft zu beachten, speichern wir ferner die zur Vermeidung einer erneuten Kontaktaufnahme erforderlichen Daten (z. B. je nach Kommunikationskanal die E-Mail-Adresse, Telefonnummer, Name)."
+            ],
+            "processedData": {
+                "title": "Verarbeitete Datenarten",
+                "description": "Bestandsdaten (z. B. der vollständige Name, Wohnadresse, Kontaktinformationen, Kundennummer, etc.); Kontaktdaten (z. B. Post- und E-Mail-Adressen oder Telefonnummern). Inhaltsdaten (z. B. textliche oder bildliche Nachrichten und Beiträge sowie die sie betreffenden Informationen, wie z. B. Angaben zur Autorenschaft oder Zeitpunkt der Erstellung)."
+            },
+            "affectedUsers": {
+                "title": "Betroffene Personen",
+                "description": "Kommunikationspartner."
+            },
+            "purposes": {
+                "title": "Zwecke der Verarbeitung",
+                "description": "Direktmarketing (z. B. per E-Mail oder postalisch); Marketing; Absatzförderung."
+            },
+            "retention": {
+                "title": "Aufbewahrung und Löschung",
+                "description": "Löschung entsprechend Angaben im Abschnitt 'Allgemeine Informationen zur Datenspeicherung und Löschung'."
+            },
+            "legalBasis": {
+                "title": "Rechtsgrundlagen",
+                "description": "Einwilligung (Art. 6 Abs. 1 S. 1 lit. a DSGVO). Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f DSGVO)."
+            }
+        },
+        "socialMedia": {
+            "title": "Präsenzen in sozialen Netzwerken (Social Media)",
+            "content": [
+                "Wir unterhalten Onlinepräsenzen innerhalb sozialer Netzwerke und verarbeiten Nutzerdaten, um mit aktiven Nutzern zu kommunizieren oder Informationen über uns bereitzustellen.",
+                "Wir weisen darauf hin, dass Nutzerdaten außerhalb der Europäischen Union verarbeitet werden können. Dies kann Risiken für Nutzer mit sich bringen, da beispielsweise die Durchsetzung von Nutzerrechten erschwert werden könnte.",
+                "Darüber hinaus werden Nutzerdaten innerhalb sozialer Netzwerke in der Regel zu Marktforschungs- und Werbezwecken verarbeitet. Beispielsweise können anhand des Nutzungsverhaltens und daraus abgeleiteter Interessen Nutzungsprofile erstellt werden.",
+                "Diese Profile können dazu verwendet werden, innerhalb und außerhalb der Netzwerke Werbung anzuzeigen, die mutmaßlich den Interessen der Nutzer entspricht. In der Regel werden dazu Cookies auf den Geräten der Nutzer gespeichert, um ihr Nutzungsverhalten und ihre Interessen zu erfassen.",
+                "Zudem können Daten in Nutzungsprofilen unabhängig von den verwendeten Geräten gespeichert werden, insbesondere wenn Nutzer Mitglieder der jeweiligen Plattformen sind und dort eingeloggt sind."
+            ],
+            "processedData": {
+                "title": "Verarbeitete Datenarten",
+                "description": "Kontaktdaten (z. B. Post- und E-Mail-Adressen oder Telefonnummern); Inhaltsdaten (z. B. Textnachrichten, Bilder, Beiträge und dazugehörige Informationen wie Autorenschaft und Zeitstempel); Nutzungsdaten (z. B. Seitenaufrufe, Sitzungsdauer, Interaktionsmuster, Gerätetypen, Betriebssysteme)."
+            },
+            "affectedUsers": {
+                "title": "Betroffene Personen",
+                "description": "Nutzer (z. B. Webseitenbesucher, Nutzer von Onlinediensten)."
+            },
+            "purposes": {
+                "title": "Zwecke der Verarbeitung",
+                "description": "Kommunikation; Feedback (z. B. Sammeln von Rückmeldungen über Online-Formulare); Öffentlichkeitsarbeit."
+            },
+            "retention": {
+                "title": "Aufbewahrung und Löschung",
+                "description": "Löschung entsprechend den Angaben im Abschnitt 'Allgemeine Informationen zur Datenspeicherung und Löschung'."
+            },
+            "legalBasis": {
+                "title": "Rechtsgrundlage",
+                "description": "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f DSGVO)."
+            },
+            "services": {
+                "title": "Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten",
+                "linkedin": {
+                    "title": "LinkedIn",
+                    "description": "Soziales Netzwerk - Wir sind gemeinsam mit LinkedIn Ireland Unlimited Company für die Erhebung (jedoch nicht die weitere Verarbeitung) von Besucherdaten verantwortlich, die zur Erstellung der 'Page Insights' (Statistiken) unserer LinkedIn-Profile genutzt werden.",
+                    "provider": "Dienstanbieter",
+                    "providerName": "LinkedIn Ireland Unlimited Company, Wilton Place, Dublin 2, Irland",
+                    "legalBasis": {
+                        "title": "Rechtsgrundlage",
+                        "description": "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f DSGVO)."
+                    },
+                    "website": "Website",
+                    "privacyPolicy": "Datenschutzerklärung",
+                    "optOut": "Widerspruchsmöglichkeit (Opt-Out)"
+                }
+            }
+        },
+        "plugins": {
+            "title": "Plug-ins und eingebettete Funktionen sowie Inhalte",
+            "content": {
+                "0": "Wir binden Funktions- und Inhaltselemente in unser Onlineangebot ein...",
+                "1": "Die Einbindung setzt immer voraus, dass die Drittanbieter dieser Inhalte..."
+            },
+            "legal": {
+                "headline": "Rechtsgrundlagen",
+                "description": "Sofern wir die Nutzer um ihre Einwilligung bitten..."
+            },
+            "processedData": {
+                "title": "Verarbeitete Datenarten",
+                "description": "Nutzungsdaten (z. B. Seitenaufrufe und Verweildauer, Klickpfade)..."
+            },
+            "affectedUsers": {
+                "title": "Betroffene Personen",
+                "description": "Nutzer (z. B. Webseitenbesucher, Nutzer von Onlinediensten)."
+            },
+            "purpose": {
+                "title": "Zwecke der Verarbeitung",
+                "description": "Bereitstellung unseres Onlineangebotes und Nutzerfreundlichkeit."
+            },
+            "storage": {
+                "title": "Aufbewahrung und Löschung",
+                "description": "Speicherung von Cookies von bis zu 2 Jahren..."
+            },
+            "legalBasis": {
+                "title": "Rechtsgrundlagen",
+                "description": "Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO)."
+            },
+            "additionalInfo": {
+                "headline": "Weitere Hinweise zu Verarbeitungsprozessen"
+            },
+            "googleFonts": {
+                "title": "Google Fonts (Bezug vom Google Server)",
+                "description": "Bezug von Schriften (und Symbolen) zum Zwecke einer...",
+                "provider": "Dienstanbieter",
+                "legalBasis": "Rechtsgrundlagen",
+                "legalBasisDescription": "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).",
+                "website": "Website",
+                "privacyPolicy": "Datenschutzerklärung",
+                "moreInfo": "Weitere Informationen"
+            },
+            "generatedBy": "Erstellt mit kostenlosem Datenschutz-Generator von Dr. Thomas Schwenke"
         }
     }
 }
