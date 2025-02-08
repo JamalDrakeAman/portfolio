@@ -54,7 +54,12 @@ export class SkillsSectionComponent {
     {
       name: 'Material Design',
       icon: 'skills-icon/material-design.svg'
-    }
+    },
+    {
+      name: 'Continually learning',
+      icon: 'icon/learning.svg'
+    },
+
 
 
 

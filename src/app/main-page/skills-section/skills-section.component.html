@@ -12,14 +12,18 @@
 
 
 
-    <div  class="skills-container">
+    <div class="skills-container">
         @for (skill of skills; track $index; let i = $index) {
 
-        <div data-aos="flip-up"  data-aos-duration="250" [attr.data-aos-delay]="i * 100" class="skill">
+        <div data-aos="flip-up" data-aos-duration="250" [attr.data-aos-delay]="i * 100" class="skill">
             <img class="icon" src="{{skill.icon}}" alt="">
             {{skill.name}}
         </div>
         }
+
+
+
+
     </div>
 
 
@@ -34,7 +38,7 @@
             </div>
         </div>
 
-        <div data-aos="fade-up"  class="get-touch-container">
+        <div data-aos="fade-up" class="get-touch-container">
             <p class="desktop-headline">{{"skills.experience" | translate}}</p>
 
             <p class="bold-txt">{{"skills.anotherSkill.looking" | translate}}<span
