@@ -55,7 +55,8 @@ section {
     position: relative;
     max-width: 100%;
     width: 1920px;
-    overflow-x: hidden;
+    // overflow-x: hidden;
+    overflow: hidden;
 
     box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2),
         /* Schatten links */
