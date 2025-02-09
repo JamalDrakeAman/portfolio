@@ -12,7 +12,7 @@ import { TranslateService, TranslateModule } from '@ngx-translate/core';
 })
 export class HeaderComponent {
 
-  currentLanguage = 'de';
+  currentLanguage = 'en';
 
   openOverlay() {
     let overlay = document.getElementById('menu-overlay');
@@ -31,13 +31,23 @@ export class HeaderComponent {
   constructor(private translate: TranslateService) {
     this.translate.addLangs(['de', 'en']);
     this.translate.setDefaultLang('en');
+
+
+    const savedLanguage = localStorage.getItem('currentLanguage');
+    if (savedLanguage) {
+      this.currentLanguage = savedLanguage;
+    }
+
     this.translate.use(this.currentLanguage);
   }
 
   toggleLanguage(): void {
     this.currentLanguage = this.currentLanguage === 'en' ? 'de' : 'en';
     this.translate.use(this.currentLanguage);
-    console.log(`Sprache gewechselt zu: ${this.currentLanguage}`);
+    // console.log(`Sprache gewechselt zu: ${this.currentLanguage}`);
+
+    localStorage.setItem('currentLanguage', this.currentLanguage);
+    // console.log(`Sprache gewechselt zu: ${this.currentLanguage}`);
   }
 
 

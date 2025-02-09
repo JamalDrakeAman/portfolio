@@ -15,9 +15,15 @@
     <div class="skills-container">
         @for (skill of skills; track $index; let i = $index) {
 
-        <div data-aos="flip-up" data-aos-anchor-placement="top-bottom" data-aos-duration="250" [attr.data-aos-delay]="i * 100" class="skill">
+        <div data-aos="flip-up" data-aos-anchor-placement="top-bottom" data-aos-duration="250"
+            [attr.data-aos-delay]="i * 100" class="skill">
             <img class="icon" src="{{skill.icon}}" alt="">
             {{skill.name}}
+
+            <div *ngIf="$last" class="tooltip">
+                <!-- <span class="tooltip-text">Letztes Icon!</span> -->
+                <img src="icon/tooltip.svg" alt="">
+            </div>
         </div>
         }
 
