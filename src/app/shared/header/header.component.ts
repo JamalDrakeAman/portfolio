@@ -12,7 +12,7 @@ import { TranslateService, TranslateModule } from '@ngx-translate/core';
 })
 export class HeaderComponent {
 
-  currentLanguage = 'en';
+  currentLanguage = 'de';
 
   openOverlay() {
     let overlay = document.getElementById('menu-overlay');
@@ -31,7 +31,7 @@ export class HeaderComponent {
   constructor(private translate: TranslateService) {
     this.translate.addLangs(['de', 'en']);
     this.translate.setDefaultLang('en');
-    this.translate.use('en');
+    this.translate.use(this.currentLanguage);
   }
 
   toggleLanguage(): void {

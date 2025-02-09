@@ -1,6 +1,7 @@
 @use '../shared/styles/keyframes.scss' as *;
 
 section {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,49 +57,57 @@ section {
     max-width: 100%;
     width: 1920px;
     // overflow-x: hidden;
-    overflow: hidden;
+    // overflow: hidden;
 
-    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2),
-        /* Schatten links */
-        5px 0 10px rgba(0, 0, 0, 0.2);
-    /* Schatten rechts */
+    // box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2),
+    //     /* Schatten links */
+    //     5px 0 10px rgba(0, 0, 0, 0.2);
+    // /* Schatten rechts */
+    z-index: 1;
 }
 
-
+.background-container {
+    position: absolute;
+    // top: 0;
+    // left: 0;
+    z-index: 0;
+    max-width: 100%;
+    width: 1920px;
+}
 
 
 
 .blue-parallax-image {
     position: absolute;
     width: 35%;
-    top: 550px;
+    top: 950px;
     left: 80%;
     transform: translateY(0px);
     transition: transform 0.1s linear;
     /* Sanfte Bewegung */
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .blue-parallax-image2 {
     position: absolute;
     width: 35%;
-    top: 1900px;
+    top: 2000px;
     left: 80%;
     transform: translateY(0px);
     transition: transform 0.1s linear;
     /* Sanfte Bewegung */
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .purple-parallax-image {
     position: absolute;
     width: 38%;
-    top: 1000px;
+    top: 1100px;
     left: -20%;
     transform: translateY(0px);
     transition: transform 0.1s linear;
     /* Sanfte Bewegung */
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .purple-parallax-image2 {
@@ -109,7 +118,7 @@ section {
     transform: translateY(0px);
     transition: transform 0.1s linear;
     /* Sanfte Bewegung */
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .blue-color-animation {
@@ -122,20 +131,16 @@ section {
 }
 
 
-// fadeInOut 5s infinite ease-in-out
-// @keyframes fadeInOut {
-//     0% {
-//         opacity: 0.3;
-//         // transform: scale(0.95);
-//     }
+@media(max-width: 1300px){
+    .blue-parallax-image{
+        top: 660px;
+    }
 
-//     50% {
-//         opacity: 0.8;
-//         // transform: scale(1);
-//     }
+    .blue-parallax-image2{
+        top: 1800px;
+    }
 
-//     100% {
-//         opacity: 0.3;
-//         // transform: scale(0.95);
-//     }
-// }
+    .purple-parallax-image{
+        top: 1000px;
+    }
+}
