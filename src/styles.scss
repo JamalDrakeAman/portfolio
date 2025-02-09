@@ -36,6 +36,12 @@ body {
   background-color: #141D2F;
 }
 
+body.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+  /* Verhindert zusätzliches Scrollen auf Mobilgeräten */
+}
+
 
 ::-webkit-scrollbar {
   width: 12px;

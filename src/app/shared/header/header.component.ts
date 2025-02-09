@@ -15,9 +15,17 @@ export class HeaderComponent {
   currentLanguage = 'en';
 
   openOverlay() {
-    console.log('Open overlayer');
     let overlay = document.getElementById('menu-overlay');
-    overlay?.classList.toggle('hide-overlay');
+
+    if (overlay) {
+      overlay.classList.toggle('hide-overlay'); // Menü umschalten
+
+      if (overlay.classList.contains('hide-overlay')) {
+        document.body.classList.remove('no-scroll'); // Scrolling aktivieren
+      } else {
+        document.body.classList.add('no-scroll'); // Scrolling deaktivieren
+      }
+    }
   }
 
   constructor(private translate: TranslateService) {
