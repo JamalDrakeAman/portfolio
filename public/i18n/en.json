@@ -33,7 +33,7 @@
         "intro": "Discover a selection of my work – interact with the projects and see my skills in action!",
         "projectDiscription": {
             "0": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
-            "1": "A simple Jump-and-Run game based on an object-oriented approach. Help sharkie to find coins and poison bottles to fight against the killer whale.",
+            "1": "A simple Jump-and-Run game based on an object-oriented approach. Join Captain Pirate on his adventurous journey, collect coins and cannonballs, and face the fearsome island monster.",
             "2": "Based on the PokéAPI a simple library that provides and catalogues pokemon information."
         }
     },

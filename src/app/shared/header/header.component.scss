@@ -26,6 +26,7 @@ nav {
     a {
         color: whitesmoke;
         text-decoration: none;
+        transition: all ease-in-out 100ms;
 
         &:hover {
             color: #00BEE8;
@@ -36,6 +37,7 @@ nav {
 
 .language-icon {
     width: 140px;
+    cursor: pointer;
 }
 
 .mobil-icon {
@@ -69,7 +71,6 @@ nav {
     font-weight: bold;
     transition: all ease-in-out 200ms;
     z-index: 1;
-    // transform: translateX(0);
 
     a {
         text-decoration: none;
@@ -78,7 +79,6 @@ nav {
 }
 
 .hide-overlay {
-    // transform: translateX(100vw);
     display: none;
 }
 

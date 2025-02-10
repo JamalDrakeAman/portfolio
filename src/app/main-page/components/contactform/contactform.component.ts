@@ -70,6 +70,8 @@ export class ContactformComponent {
   }
 
 
+
+
   resetCheckbox() {
     this.checkbox = false;
     this.imageUrl = 'icon/check_box_blank.svg';

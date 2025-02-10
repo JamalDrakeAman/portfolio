@@ -13,6 +13,10 @@ section {
     word-break: break-word;
 }
 
+p {
+    word-break: break-word;
+}
+
 a {
     color: #00BEE8;
     text-decoration: none;
@@ -21,6 +25,10 @@ a {
     &:hover {
         text-decoration: underline;
     }
+}
+
+.form-btn {
+    background-color: #00BEE8;
 }
 
 @media(max-width:1000px) {
