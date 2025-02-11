@@ -1,0 +1,50 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 100px;
+}
+
+.next-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.next-icon{
+    cursor: pointer;
+
+    &:hover{
+        scale: 1.1;
+    }
+}
+
+
+// .feedback-container {
+//     width: 100%;
+//     height: 100%;
+//     border: solid 1px white;
+//     padding: 20px;
+// }
+
+@media(max-width: 800px){
+    section{
+        padding: 50px;
+    }
+}
+
+
+
+@media(max-width: 600px){
+    section{
+        padding: 20px;
+    }
+}
+
+
+@media(max-width: 500px){
+    section{
+        padding: 0;
+    }
+}

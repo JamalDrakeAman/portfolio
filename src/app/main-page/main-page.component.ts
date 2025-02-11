@@ -5,6 +5,7 @@ import { SkillsSectionComponent } from './skills-section/skills-section.componen
 import { PortfolioSectionComponent } from './portfolio-section/portfolio-section.component';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
 import { CommonModule } from '@angular/common';
+import { FeedbackSectionComponent } from './feedback-section/feedback-section.component';
 
 @Component({
   selector: 'app-main-page',
@@ -14,6 +15,7 @@ import { CommonModule } from '@angular/common';
     AboutMeSectionComponent,
     SkillsSectionComponent,
     PortfolioSectionComponent,
+    FeedbackSectionComponent,
     ContactSectionComponent,
     CommonModule
   ],

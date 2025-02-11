@@ -75,6 +75,7 @@ nav {
     a {
         text-decoration: none;
         color: whitesmoke;
+        text-align: center;
     }
 }
 
@@ -132,5 +133,17 @@ nav {
         .headline {
             font-size: 25px;
         }
+    }
+
+    .menu-overlay{
+        a{
+            font-size: 32px;
+        }
+    }
+}
+
+@media(max-width: 370px){
+    section{
+        font-size: 17px;
     }
 }
