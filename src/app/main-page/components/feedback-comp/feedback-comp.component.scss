@@ -6,6 +6,7 @@ section {
     width: fit-content;
     gap: 48px;
     font-size: 20px;
+    align-items: center;
 }
 
 .comment-box {
@@ -42,8 +43,8 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 270px;
-    max-height: 270px;
+    max-width: 250px;
+    max-height: 250px;
     min-width: 150px;
     min-height: 150px;
     width: 100%;
@@ -77,5 +78,13 @@ section {
     .profile-box {
         max-width: 200px;
         max-height: 200px;
+    }
+}
+
+
+@media(max-width: 600px){
+    .profile-box {
+        max-width: 170px;
+        max-height: 170px;
     }
 }

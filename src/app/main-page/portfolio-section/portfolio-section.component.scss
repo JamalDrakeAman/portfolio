@@ -4,7 +4,7 @@ section {
     width: 100vw;
     max-width: 100%;
     max-width: 1920px;
-    padding: 100px 0 100px 120px;
+    padding: 100px 0 150px 120px;
     gap: 100px;
     color: whitesmoke;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
@@ -59,7 +59,7 @@ p {
     }
 
     section {
-        padding: 0;
+        padding: 0 0 100px 0;
         align-items: center;
         gap: 50px;
     }

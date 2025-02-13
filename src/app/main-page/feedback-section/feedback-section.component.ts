@@ -27,7 +27,7 @@ export class FeedbackSectionComponent {
     },
     {
       name: "R.Pinto",
-      img: "profile/user-img.png",
+      img: "profile/ricardo-pinto.png",
       label: "Frontend Developer",
       feedback: "Die Zusammenarbeit mit Jamal war großartig. Er überzeugte durch technisches Know-how und Teamfähigkeit. Unsere Gruppenarbeit hat er mit seinen Ideen klar bereichert. Absolut empfehlenswert!"
     },
