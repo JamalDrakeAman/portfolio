@@ -1,13 +1,15 @@
 import { Component } from '@angular/core';
 import { FeedbackCompComponent } from '../components/feedback-comp/feedback-comp.component';
 import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-feedback-section',
   standalone: true,
   imports: [
     FeedbackCompComponent,
-    CommonModule
+    CommonModule,
+    TranslateModule
   ],
   templateUrl: './feedback-section.component.html',
   styleUrl: './feedback-section.component.scss'
@@ -29,25 +31,13 @@ export class FeedbackSectionComponent {
       label: "Frontend Developer",
       feedback: "Die Zusammenarbeit mit Jamal war großartig. Er überzeugte durch technisches Know-how und Teamfähigkeit. Unsere Gruppenarbeit hat er mit seinen Ideen klar bereichert. Absolut empfehlenswert!"
     },
-    {
-      name: "M",
-      img: "profile/user-img.png",
-      label: "Team Partner",
-      feedback: "dfgdfddf trhvdfthdrfthgfvh sgstrhdrsthrdfhrdht rdthtdfhzftgh tdfhdfgthftgh hzgfdhfgtzhzft dfggbhdrfthbdt gdftbhdfbfdb bdthbd"
-    }
+    // {
+    //   name: "M",
+    //   img: "profile/user-img.png",
+    //   label: "Team Partner",
+    //   feedback: "dfgdfddf trhvdfthdrfthgfvh sgstrhdrsthrdfhrdht rdthtdfhzftgh tdfhdfgthftgh hzgfdhfgtzhzft dfggbhdrfthbdt gdftbhdfbfdb bdthbd"
+    // }
   ]
-
-  // back() {
-  //   if (this.feedbackIndex < this.feedbacks.length) {
-  //     this.feedbackIndex--
-  //   }
-  // }
-
-  // next() {
-  //   if (this.feedbackIndex < this.feedbacks.length) {
-  //     this.feedbackIndex++
-  //   } 
-  // }
 
 
   back() {
@@ -55,14 +45,10 @@ export class FeedbackSectionComponent {
     this.timeOutAnimation('back');
   }
 
-
-
   next() {
     this.feedbackIndex = (this.feedbackIndex + 1) % this.feedbacks.length;
     this.timeOutAnimation('next');
   }
-
-
 
   timeOutAnimation(direction: string) {
     let container = document.getElementById('feedback');

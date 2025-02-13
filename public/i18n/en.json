@@ -37,6 +37,10 @@
             "2": "Based on the PokéAPI a simple library that provides and catalogues pokemon information."
         }
     },
+    "feedbacks": {
+        "0" : "In the short time I got to know Jamal, I found out that he's someone who thinks out of the box. Someone who doesn't shy away when it's getting hard. Someone who's looking and applying solutions and betterment at every step. He is the kind of guy I would start a project at any time.",
+        "1": "Working with Jamal was great. He impressed with his technical expertise and teamwork. His ideas clearly enriched our group work. Absolutely recommendable!"
+    },
     "contact": {
         "headline": "Contact",
         "head": "Do you have a vision that you want to implement?",

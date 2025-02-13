@@ -64,8 +64,3 @@ body.no-scroll {
   background-color: #4B47FF;
 }
 
-@media (hover: none) {
-  button:hover {
-    transform: none !important; /* Kein Scale auf Touchscreens */
-  }
-}

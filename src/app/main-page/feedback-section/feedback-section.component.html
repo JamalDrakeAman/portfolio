@@ -3,7 +3,7 @@
 
     <div class="feedback-container">
 
-        <app-feedback-comp id="feedback" [feedback]="feedbacks[feedbackIndex]"></app-feedback-comp>
+        <app-feedback-comp id="feedback" [feedback]="feedbacks[feedbackIndex]"  [feedbackTxt]="'feedbacks.' + feedbackIndex | translate"></app-feedback-comp>
 
     </div>
 

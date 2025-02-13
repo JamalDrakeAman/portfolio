@@ -1,5 +1,5 @@
 <header>
-    <a class="headline" href="#">Jamal</a>
+    <a class="headline" href="#hero">Jamal</a>
 
     <nav>
         <img (click)="toggleLanguage()" [src]="currentLanguage === 'en' ? 'icon/en-icon.svg' : 'icon/de-icon.svg'"
@@ -16,7 +16,6 @@
         <img (click)="openOverlay()" class="burger-menu" src="icon/burger.svg" alt="">
     </div>
 
-
     <div id="menu-overlay" class="menu-overlay hide-overlay" (click)="openOverlay()">
 
         <a href="#about-me">{{"overlay.aboutMe" | translate}}</a>
@@ -25,7 +24,6 @@
         <a href="#contact">{{"overlay.contact" | translate}}</a>
 
     </div>
-
 
 </header>
 

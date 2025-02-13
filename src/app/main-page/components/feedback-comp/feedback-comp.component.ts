@@ -19,4 +19,6 @@ export class FeedbackCompComponent {
     label: "Frontend Developer",
     feedback: "In the short time I got to know Jamal, I found out that he's someone who thinks out of the box. Someone who doesn't shy away when it's getting hard. Someone who's looking and applying solutions and betterment at every step. He is the kind of guy I would start a project at any time."
   }
+
+  @Input() feedbackTxt: string = '';
 }
