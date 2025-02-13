@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component, inject } from '@angular/core';
 import { FormsModule, NgForm, NgModel } from '@angular/forms';
+import { RouterLink } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
@@ -10,7 +11,8 @@ import { TranslateModule } from '@ngx-translate/core';
   imports: [
     FormsModule,
     CommonModule,
-    TranslateModule
+    TranslateModule,
+    RouterLink
   ],
   templateUrl: './contactform.component.html',
   styleUrl: './contactform.component.scss'

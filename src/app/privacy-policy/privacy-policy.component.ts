@@ -1,5 +1,5 @@
 import { CommonModule, ViewportScroller } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
@@ -13,9 +13,12 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrl: './privacy-policy.component.scss'
 })
 export class PrivacyPolicyComponent {
-  constructor(private viewportScroller: ViewportScroller) { }
+  constructor(private viewportScroller: ViewportScroller) {
+    window.scrollTo({ top: 0, behavior: 'instant' })
+  }
 
   scrollToElement(elementId: string): void {
     this.viewportScroller.scrollToAnchor(elementId);
   }
+
 }

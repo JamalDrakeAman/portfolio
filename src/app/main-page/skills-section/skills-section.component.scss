@@ -1,21 +1,15 @@
 section {
-    height: 100vh;
     width: 100vw;
     max-width: 100%;
     max-width: 1920px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 0 150px 100px;
+    padding: 100px 0 100px 100px;
     color: whitesmoke;
     gap: 50px;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
 }
-
-
-
-
 
 .skills-container {
     width: 700px;
@@ -32,6 +26,7 @@ section {
     display: flex;
     flex-direction: column;
     width: 70px;
+    height: fit-content;
     align-items: center;
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -41,15 +36,8 @@ section {
         filter: drop-shadow(0 0 0.75rem #4B47FF);
     }
 
-
     img {
         transition: all ease-in-out 100ms;
-
-        // &:hover {
-        //     scale: 1.2;
-        //     transform: translateY(-10px);
-        // }
-
     }
 }
 
@@ -119,21 +107,10 @@ section {
     /* Skalierung bei Hover */
 }
 
-
-// .skill-icon {
-
-//     &:hover {
-//         filter: drop-shadow(0 0 0.75rem #4B47FF);
-//     }
-
-// }
-
-
 .my-skills-container {
     display: flex;
     flex-direction: column;
     color: white;
-    // width: 800px;
     height: fit-content;
     gap: 50px;
 }
@@ -168,7 +145,6 @@ p {
     }
 }
 
-
 .contact-me-btn {
     width: fit-content;
     padding: 20px;
@@ -182,7 +158,6 @@ p {
     color: whitesmoke;
     background-color: #4B47FF;
     transition: all ease-in-out 100ms;
-
 
     &:hover {
         scale: 1.2;
@@ -203,24 +178,26 @@ p {
     gap: 25px;
 }
 
-
 @media(max-width: 1500px) {
     .line {
         width: 250px;
     }
 }
 
-
 @media(max-width: 1250px) {
     section {
         flex-direction: column;
         justify-content: space-between;
-        padding: 100px;
+        padding: 10px 100px;
     }
 
     .skills-container {
         width: 100%;
         justify-content: center;
+
+        height: fit-content;
+        gap: 60px;
+
     }
 
     .desktop-headline {
@@ -255,14 +232,9 @@ p {
 
 }
 
-
 @media(max-width: 800px) {
     section {
-        padding: 60px;
-    }
-
-    .skills-container {
-        gap: 60px;
+        padding: 0 60px 60px 60px;
     }
 
     h1 {
@@ -282,11 +254,11 @@ p {
 
 @media(max-width: 500px) {
     section {
-        padding: 10px;
+        padding: 10px 10px 100px;
         height: fit-content;
         display: flex;
         flex-direction: column;
-        gap: 50px;
+        gap: 30px;
     }
 
     .skills-container {
@@ -310,4 +282,14 @@ p {
         scale: 0.8;
     }
 
+}
+
+@media(max-width:400px) {
+    h1 {
+        font-size: 42px;
+    }
+
+    .headline {
+        gap: 5px;
+    }
 }

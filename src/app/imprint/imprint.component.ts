@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
@@ -11,5 +11,11 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrl: './imprint.component.scss'
 })
 export class ImprintComponent {
+
+  constructor() {
+    window.scrollTo({ top: 0, behavior: 'instant' })
+  }
+
+
 
 }

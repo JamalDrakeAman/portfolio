@@ -1,15 +1,22 @@
-<section>
+<section data-aos="zoom-in-down" >
 
 
+    <div class="feedback-container">
 
-    <app-feedback-comp></app-feedback-comp>
+        <app-feedback-comp id="feedback" [feedback]="feedbacks[feedbackIndex]"></app-feedback-comp>
+
+    </div>
+
+
 
     <div class="next-container">
-        <img class="next-icon" src="icon/arrow_back.svg" alt="">
+        <img class="next-icon" (click)="back()" src="icon/arrow_back.svg" alt="">
 
-        <img src="icon/Ellipse 2.svg" alt="">
+        @for (item of feedbacks; track $index; let i = $index) {
+        <div [ngClass]="{'active':feedbackIndex === i}" class="dot"></div>
+        }
 
-        <img class="next-icon" src="icon/arrow_forward.svg" alt="">
+        <img class="next-icon" (click)="next()" src="icon/arrow_forward.svg" alt="">
     </div>
 
 

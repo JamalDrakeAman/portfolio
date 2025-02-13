@@ -34,7 +34,7 @@
     <div class="privacy-check">
         <img class="checkbox" id="checkbox" (click)="changeImage();checkCheckbox()" [src]="imageUrl" alt="">
 
-        <p>{{"contactform.privacyCheck.read" | translate}} <a href="#">{{"contactform.privacyCheck.privacy" |
+        <p>{{"contactform.privacyCheck.read" | translate}} <a routerLink="privacy">{{"contactform.privacyCheck.privacy" |
                 translate}}</a>{{"contactform.privacyCheck.accept" | translate}}</p>
 
         @if(checkboxError){
