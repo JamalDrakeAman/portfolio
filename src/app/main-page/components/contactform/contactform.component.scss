@@ -130,28 +130,6 @@ span {
     animation: shake 0.5s ease-in-out;
 }
 
-// .send-popup {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     font-size: 20px;
-//     width: 100%;
-//     max-width: 620px;
-//     height: 75%;
-//     border: solid 4px #70E61C;
-//     border-radius: 20px;
-//     padding: 100px;
-//     background-color: rgba(0, 0, 0, 0.9);
-//     position: absolute;
-//     bottom: 150px;
-//     text-align: center;
-//     transition: all ease-in-out 100ms;
-// }
-
-// .d-none {
-//     display: none;
-// }
-
 
 .send-popup {
     opacity: 0; /* Startet unsichtbar */
@@ -173,20 +151,17 @@ span {
     text-align: center;
 }
 
-/* Klasse für das Einblenden */
 .show-popup {
     opacity: 1;
     transform: translateY(0);
     pointer-events: auto; /* Ermöglicht Klicks */
 }
 
-/* Klasse für das Ausblenden */
 .hide-popup {
     opacity: 0;
     transform: translateY(20px);
     pointer-events: none;
 }
-
 
 
 @keyframes shake {

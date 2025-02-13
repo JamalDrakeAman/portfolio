@@ -25,7 +25,6 @@ export class ContactformComponent {
 
   http = inject(HttpClient)
 
-
   contactData = {
     name: '',
     email: '',
@@ -45,6 +44,7 @@ export class ContactformComponent {
     },
   };
 
+
   onSubmit(ngForm: NgForm) {
     this.checkCheckbox();
     ngForm.control.markAllAsTouched();
@@ -60,7 +60,7 @@ export class ContactformComponent {
           error: (error) => {
             console.error(error);
           },
-          complete: () => console.info('send post complete'),
+          // complete: () => console.info('send post complete'),
         });
     } else if (ngForm.submitted && ngForm.form.valid && this.mailTest) {
 
@@ -69,12 +69,11 @@ export class ContactformComponent {
   }
 
 
-
-
   resetCheckbox() {
     this.checkbox = false;
     this.imageUrl = 'icon/check_box_blank.svg';
   }
+
 
   checkCheckbox() {
     if (this.checkbox == false) {
@@ -96,26 +95,10 @@ export class ContactformComponent {
   }
 
 
-  // sendPopup() {
-  //   let popup = document.getElementById('send-popup');
-  //   popup?.classList.remove('d-none');
-
-
-  //   setTimeout(() => {
-  //     popup?.classList.add('d-none');
-  //   }, 500);
-
-  // }
-
-
   sendPopup() {
     let popup = document.getElementById('send-popup');
-
-    // Entfernt "hide-popup" und fügt "show-popup" hinzu
     popup?.classList.remove('hide-popup');
     popup?.classList.add('show-popup');
-
-    // Nach 2 Sekunden ausblenden
     setTimeout(() => {
       popup?.classList.remove('show-popup');
       popup?.classList.add('hide-popup');
