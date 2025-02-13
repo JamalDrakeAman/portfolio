@@ -32,10 +32,6 @@ export class ContactformComponent {
     message: ''
   }
 
-
-
-
-
   mailTest = false;
 
   post = {
@@ -57,6 +53,7 @@ export class ContactformComponent {
       this.http.post(this.post.endPoint, this.post.body(this.contactData))
         .subscribe({
           next: (response) => {
+            this.sendPopup();
             this.resetCheckbox();
             ngForm.resetForm();
           },
@@ -96,6 +93,33 @@ export class ContactformComponent {
       this.imageUrl = 'icon/check_box.svg';
     }
     this.checkbox = !this.checkbox;
+  }
+
+
+  // sendPopup() {
+  //   let popup = document.getElementById('send-popup');
+  //   popup?.classList.remove('d-none');
+
+
+  //   setTimeout(() => {
+  //     popup?.classList.add('d-none');
+  //   }, 500);
+
+  // }
+
+
+  sendPopup() {
+    let popup = document.getElementById('send-popup');
+
+    // Entfernt "hide-popup" und fügt "show-popup" hinzu
+    popup?.classList.remove('hide-popup');
+    popup?.classList.add('show-popup');
+
+    // Nach 2 Sekunden ausblenden
+    setTimeout(() => {
+      popup?.classList.remove('show-popup');
+      popup?.classList.add('hide-popup');
+    }, 2000);
   }
 
 

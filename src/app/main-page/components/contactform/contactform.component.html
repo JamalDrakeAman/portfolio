@@ -34,11 +34,12 @@
     <div class="privacy-check">
         <img class="checkbox" id="checkbox" (click)="changeImage();checkCheckbox()" [src]="imageUrl" alt="">
 
-        <p>{{"contactform.privacyCheck.read" | translate}} <a routerLink="privacy">{{"contactform.privacyCheck.privacy" |
+        <p>{{"contactform.privacyCheck.read" | translate}} <a routerLink="privacy">{{"contactform.privacyCheck.privacy"
+                |
                 translate}}</a>{{"contactform.privacyCheck.accept" | translate}}</p>
 
         @if(checkboxError){
-        <span >{{"contactform.privacyCheck.error" | translate}}</span>
+        <span>{{"contactform.privacyCheck.error" | translate}}</span>
         }
     </div>
 
@@ -46,6 +47,12 @@
 
     <!-- <input  class="submit-btn" type="submit" value="Send message :)"> -->
 
-    <button class="form-btn" type="submit" [disabled]="!contactForm.valid || !checkbox">{{"contactform.submitBtn" | translate}}</button>
+    <button class="form-btn" type="submit" [disabled]="!contactForm.valid || !checkbox">{{"contactform.submitBtn" |
+        translate}}</button>
+
+
+    <div id="send-popup" class="send-popup hide-popup">
+        ✅ Nachricht gesendet!
+    </div>
 
 </form>
