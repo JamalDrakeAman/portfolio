@@ -30,7 +30,6 @@ h1 {
     font-size: 90px;
 }
 
-
 .contact-section {
     display: flex;
     justify-content: space-between;
@@ -42,7 +41,6 @@ h1 {
     flex-direction: column;
     gap: 15px;
     width: 480px;
-    // height: 160px;
 
     h3 {
         font-size: 32px;
@@ -53,8 +51,6 @@ h1 {
     width: 100%;
     display: flex;
     justify-content: center;
-    // padding: 20px;
-    // margin: 20px;
 }
 
 .up-arrow {
@@ -75,7 +71,6 @@ h1 {
         scale: 1.1;
     }
 }
-
 
 @media(max-width:1500px) {
 
@@ -117,7 +112,6 @@ h1 {
     }
 }
 
-
 @media(max-width: 800px) {
     h1 {
         font-size: 50px;
@@ -129,7 +123,6 @@ h1 {
 
     .contact-info {
         width: 95%;
-        // padding: 0 25px;
     }
 
     section {
