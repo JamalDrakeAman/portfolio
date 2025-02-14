@@ -16,8 +16,15 @@ section {
 
 
 .hero-section {
+    display: flex;
     width: 1920px;
-    max-width: 100%;
+    max-width: 1920px;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
 }
 
 .about-me-section {
