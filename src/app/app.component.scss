@@ -33,4 +33,12 @@
     height: 100vh;
     pointer-events: none; // Verhindert, dass es andere Elemente blockiert
     z-index: 11;
+    
+    // Glow-Effekt wird nur auf Geräten ohne Touch und Maus angezeigt
+    @media (hover: hover) and (pointer: fine) {
+      display: block;
+    }
+  
+    // Standardmäßig wird die background-glow auf mobilen Geräten nicht angezeigt
+    display: none;
   }
