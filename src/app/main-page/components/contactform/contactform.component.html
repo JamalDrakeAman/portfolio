@@ -47,7 +47,8 @@
 
     <!-- <input  class="submit-btn" type="submit" value="Send message :)"> -->
 
-    <button class="form-btn" type="submit" [disabled]="!contactForm.valid || !checkbox">{{"contactform.submitBtn" |
+    <button class="form-btn" type="submit" [ngClass]="{'btn-blue' :contactForm.valid && checkbox}"
+        [disabled]="!contactForm.valid || !checkbox">{{"contactform.submitBtn" |
         translate}}</button>
 
 

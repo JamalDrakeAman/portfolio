@@ -293,3 +293,13 @@ p {
         gap: 5px;
     }
 }
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    section {
+        font-size: 16px;
+    }
+
+    .skills-container {
+        gap: 40px;
+    }
+}

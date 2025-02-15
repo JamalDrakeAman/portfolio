@@ -96,3 +96,10 @@ section {
         padding: 0;
     }
 }
+
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    section {
+        gap: 12px;
+    }
+}

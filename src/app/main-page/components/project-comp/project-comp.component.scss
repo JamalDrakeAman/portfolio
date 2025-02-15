@@ -158,7 +158,36 @@ img {
         height: 55px;
     }
 
-    section{
+    section {
         gap: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    section {
+        flex-direction: row !important;
+        gap: 10px;
+    }
+
+    img {
+        width: 50%;
+    }
+
+    .project-description-box {
+        gap: 5px;
+    }
+
+    .project-btns {
+        gap: 40px;
+    }
+
+    .github-btn {
+        width: 130px;
+        height: 52px;
+    }
+
+    .live-btn {
+        width: 130px;
+        height: 52px;
     }
 }
