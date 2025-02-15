@@ -101,12 +101,16 @@ h1 {
     }
 
     section {
-        padding: 10px 120px;
+        padding: 10px 120px 80px;
     }
 
     .about-me-container {
         width: 100%;
         gap: 30px;
+    }
+
+    h1{
+        text-align: center;
     }
 }
 
@@ -137,5 +141,12 @@ h1 {
 
     .about-me-container {
         gap: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    section{
+        padding: 80px 120px 80px;
     }
 }
