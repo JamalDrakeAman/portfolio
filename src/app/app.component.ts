@@ -34,17 +34,16 @@ export class AppComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit(): void {
-    // Sicherstellen, dass der Glow-Effekt dynamisch hinzugefügt wird, falls nötig
     const glowElement = document.createElement('div');
     glowElement.classList.add('background-glow');
     document.body.appendChild(glowElement);
   }
 
-  // Mousemove-Event nur ausführen, wenn es kein Touch-Gerät ist
+  
   @HostListener('mousemove', ['$event'])
   onMouseMove(event: MouseEvent) {
     if (this.isTouchDevice) {
-      return; // Verhindert den Glow-Effekt auf Touch-Geräten
+      return; 
     }
 
     const { clientX: x, clientY: y } = event;
@@ -55,11 +54,11 @@ export class AppComponent implements OnInit, AfterViewInit {
     }
   }
 
-  // Touchmove-Event für Touch-Geräte
+  
   @HostListener('touchmove', ['$event'])
   onTouchMove(event: TouchEvent) {
     if (!this.isTouchDevice) {
-      return; // Verhindert den Touch-Effekt auf Nicht-Touch-Geräten
+      return; 
     }
 
     const { clientX: x, clientY: y } = event.touches[0];
