@@ -31,12 +31,12 @@ export class FeedbackSectionComponent {
       label: "Frontend Developer",
       feedback: "Die Zusammenarbeit mit Jamal war großartig. Er überzeugte durch technisches Know-how und Teamfähigkeit. Unsere Gruppenarbeit hat er mit seinen Ideen klar bereichert. Absolut empfehlenswert!"
     },
-    // {
-    //   name: "M",
-    //   img: "profile/user-img.png",
-    //   label: "Team Partner",
-    //   feedback: "dfgdfddf trhvdfthdrfthgfvh sgstrhdrsthrdfhrdht rdthtdfhzftgh tdfhdfgthftgh hzgfdhfgtzhzft dfggbhdrfthbdt gdftbhdfbfdb bdthbd"
-    // }
+    {
+      name: "M.Schaar",
+      img: "profile/user-img.png",
+      label: "Team Partner",
+      feedback: "Jamal war eine große Unterstützung im Team. Er hatte immer gute Ideen und hat uns geholfen, wenn wir nicht weiterwussten. Auf ihn konnte man sich jederzeit verlassen."
+    }
   ]
 
 
