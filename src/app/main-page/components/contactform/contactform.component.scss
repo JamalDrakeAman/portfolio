@@ -1,4 +1,5 @@
 form {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 620px;
@@ -102,7 +103,12 @@ button {
 }
 
 .btn-blue{
-    background-color: #00BEE8;
+    background-color: #4B47FF;
+    color: white;
+
+    &:active{
+        background-color: #70E61C;
+    }
 }
 
 
