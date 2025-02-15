@@ -24,3 +24,13 @@
     border-top: solid 5px #4B47FF;
     background-color: #141D2F;
 }
+
+.background-glow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none; // Verhindert, dass es andere Elemente blockiert
+    z-index: 11;
+  }
