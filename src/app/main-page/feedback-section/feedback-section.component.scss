@@ -36,10 +36,6 @@ section {
     }
 }
 
-
-
-
-
 @keyframes slideInNext {
     from {
         opacity: 0;
@@ -74,15 +70,11 @@ section {
     }
 }
 
-
-
 @media(max-width: 800px) {
     section {
         padding: 50px;
     }
 }
-
-
 
 @media(max-width: 600px) {
     section {
@@ -90,13 +82,11 @@ section {
     }
 }
 
-
 @media(max-width: 500px) {
     section {
         padding: 0;
     }
 }
-
 
 @media screen and (max-width: 1024px) and (orientation: landscape) {
     section {
