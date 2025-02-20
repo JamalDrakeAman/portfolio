@@ -6,7 +6,7 @@
         <img [class.disabled]="!project.live" src="{{project.img}}" alt="">
 
         <div *ngIf="isDisabled()" class="overlay">
-            <p>🚧 In Arbeit 🚧</p>
+            <p>🚧 {{"portfolio.disableMessage" | translate}} 🚧</p>
         </div>
 
     </div>

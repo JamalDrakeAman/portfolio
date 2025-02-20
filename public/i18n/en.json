@@ -36,7 +36,8 @@
             "1": "A simple Jump-and-Run game based on an object-oriented approach. Join Captain Pirate on his adventurous journey, collect coins and cannonballs, and face the fearsome island monster.",
             "2": "Based on the PokéAPI a simple library that provides and catalogues pokemon information.",
             "3": "This App is a Slack Clone App. It revolutionizes team communication and collaboration with its intuitive interface, real-time messaging, and robust channel organization."
-        }
+        },
+        "disableMessage": "In Progress"
     },
     "feedbacks": {
         "0" : "In the short time I got to know Jamal, I found out that he's someone who thinks out of the box. Someone who doesn't shy away when it's getting hard. Someone who's looking and applying solutions and betterment at every step. He is the kind of guy I would start a project at any time.",
