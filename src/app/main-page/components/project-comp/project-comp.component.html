@@ -1,10 +1,20 @@
 <section [attr.data-aos]="projectIndex % 2 === 0 ? 'fade-up-right' : 'fade-up-left'" class="project-box"
     [ngStyle]="{'flex-direction': projectIndex % 2 === 0 ? 'row': 'row-reverse'}">
 
-    <img src="{{project.img}}" alt="">
+
+    <div class="project-img-container">
+        <img [class.disabled]="!project.live" src="{{project.img}}" alt="">
+
+        <div *ngIf="isDisabled()" class="overlay">
+            <p>🚧 In Arbeit 🚧</p>
+        </div>
+
+    </div>
 
 
-    <div class="project-description-box" [ngClass]="{'reverse-project': projectIndex % 2 === 1}">
+
+    <div [class.disabled]="!project.live" class="project-description-box"
+        [ngClass]="{'reverse-project': projectIndex % 2 === 1}">
         <h2>{{project.name}}</h2>
 
         <span>{{project.skills}}</span>
@@ -12,10 +22,13 @@
         <p>{{description}}</p>
 
         <div class="project-btns">
-            <a class="live-btn" target="_blank" href="{{project.live}}">Live test</a>
-            <a class="github-btn" target="_blank" href="{{project.github}}">Github</a>
+            <a class="live-btn" target="_blank" href="{{project.live}}" [class.disabled]="!project.live">Live test</a>
+            <a class="github-btn" target="_blank" href="{{project.github}}"
+                [class.disabled]="!project.github">Github</a>
         </div>
 
     </div>
+
+    <!-- <span *ngIf="isDisabled()" class="work-in-progress">🚧 Dieses Projekt ist noch in Arbeit! 🚧</span> -->
 
 </section>

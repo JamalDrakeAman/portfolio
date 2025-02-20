@@ -25,6 +25,10 @@ export class ProjectCompComponent {
   @Input() projectIndex = 0
   @Input() description: string = '';
 
+  isDisabled(): boolean {
+    return !this.project.live || !this.project.github;
+  }
+
   // isEven = num => num % 2 === 0;
   // isOdd = num => num % 2 === 1;
 

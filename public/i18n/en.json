@@ -34,7 +34,8 @@
         "projectDiscription": {
             "0": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
             "1": "A simple Jump-and-Run game based on an object-oriented approach. Join Captain Pirate on his adventurous journey, collect coins and cannonballs, and face the fearsome island monster.",
-            "2": "Based on the PokéAPI a simple library that provides and catalogues pokemon information."
+            "2": "Based on the PokéAPI a simple library that provides and catalogues pokemon information.",
+            "3": "This App is a Slack Clone App. It revolutionizes team communication and collaboration with its intuitive interface, real-time messaging, and robust channel organization."
         }
     },
     "feedbacks": {
