@@ -31,10 +31,4 @@ export class ProjectCompComponent {
     return !this.project.live || !this.project.github;
   }
 
-  // isEven = num => num % 2 === 0;
-  // isOdd = num => num % 2 === 1;
-
-  //   isEven(3); // false
-  // isOdd(3); // true
-
 }

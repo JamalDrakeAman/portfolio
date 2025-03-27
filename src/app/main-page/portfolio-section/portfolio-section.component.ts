@@ -36,6 +36,14 @@ export class PortfolioSectionComponent {
       github: 'https://github.com/JamalDrakeAman/Captain-Pirate'
     },
     {
+      name: 'Simple CRM',
+      skills: 'Angular | TypeScript | Firebase | Api',
+      description: 'A lightweight CRM system that provides an overview of users, employees, and customers. Easily add new users and customers, track customer counts, and manage roles. The dashboard includes real-time weather data from an API. Additional features include a calendar, a to-do list for structured workflows, and a notes section for quick documentation.',
+      img: 'projects/simple-crm-img.png',
+      live: '',
+      github: 'https://github.com/JamalDrakeAman/simple-crm'
+    },
+    {
       name: 'Pokédex',
       skills: 'JavaScript | HTML | CSS | Api',
       description: 'Based on the PokéAPI a simple library that provides and catalogues pokemon information.',
@@ -43,14 +51,15 @@ export class PortfolioSectionComponent {
       live: 'https://pokedex.jamalaman.com/',
       github: 'https://github.com/JamalDrakeAman/Pokedex'
     },
-    {
-      name: 'DA Bubble',
-      skills: 'Angular | TypeScript | Firebase',
-      description: 'This App is a Slack Clone App. It revolutionizes team communication and collaboration with its intuitive interface, real-time messaging, and robust channel organization.',
-      img: 'projects/da-bubble-img.png',
-      live: '',
-      github: ''
-    }
+    
+    // {
+    //   name: 'DA Bubble',
+    //   skills: 'Angular | TypeScript | Firebase',
+    //   description: 'This App is a Slack Clone App. It revolutionizes team communication and collaboration with its intuitive interface, real-time messaging, and robust channel organization.',
+    //   img: 'projects/da-bubble-img.png',
+    //   live: '',
+    //   github: ''
+    // }
 
   ]
 
