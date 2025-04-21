@@ -3,81 +3,152 @@
 
 
 section {
-    @include position(relative, $width: 100%);
-    @include display(flex, center, center);
-    height: calc(100vh - 110px);
-    color: whitesmoke;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    margin-top: 70px;
 }
+
+.hero-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+.banner-container {
+    display: flex;
+    width: 100%;
+    height: 85%;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+}
+
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    position: absolute;
+    top: 75px;
+    max-width: 700px;
+}
+
 
 .profile {
-    @include position(absolute, $width: 800px, $left: 0, $top: 175px);
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
 }
 
-.design {
-    @include position(absolute, $width: 102vw, $top: 580px);
-    border: white;
+
+.light-shadows-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 700px;
+    width: 100%;
     height: 50%;
-    transform: rotate(-4deg);
+}
+
+
+.light-shadows-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
 }
 
 .blue-shadow {
-    @include position(absolute, $width: 600px, $left: 0);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90%;
 }
 
 .purple-shadow {
-    @include position(absolute, $width: 440px, $left: 300px);
-    height: 2;
-    animation: move-shadow2 8s infinite alternate ease-in-out;
+    position: absolute;
+    bottom: 0;
+    right: -20%;
+    width: 100%;
+    height: 90%;
 }
 
-.blue-color-animation {
-    animation: blue-color-change 5s infinite alternate ease-in-out, move-shadow 6s infinite alternate ease-in-out;
-}
 
-.purple-color-animation {
-    animation: purple-color-change 5s infinite alternate ease-in-out;
-}
 
-.i-am-container {
-    @include position(absolute, $left: 660px, $top: 400px, $width: fit-content);
-    @include display(flex, center, center, $flex-direction: column);
-    padding: 20px;
-    font-size: 54px;
+.name-title-container {
+    bottom: 35%;
+    position: absolute;
+    max-width: 718px;
+    width: 100%;
+    min-width: 718px;
+    z-index: 1;
+    height: 172px;
+    padding-left: 5px;
     color: whitesmoke;
-    gap: 50px;
-    transition: all ease-in-out 100ms;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
-}
-
-.i-am-box {
-    display: flex;
-    align-items: center;
-}
-
-.rotate-text {
-    @include display(flex, center, center);
-    width: fit-content;
-    transform: rotate(-90deg);
-    height: fit-content;
-    font-size: 62px;
 }
 
 .name-box {
-    line-height: 80px;
-
-    h1 {
-        font-size: 80px;
-    }
-
-    .blue-txt {
-        color: #00BEE8;
-        width: 100%;
-        font-size: 75px;
-    }
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
-.contact-me-btn {
+.intro-text {
+    position: absolute;
+    left: -60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-90deg);
+    width: 172px;
+    height: 50px;
+    font-size: 60px;
+    padding-right: 10px;
+}
+
+.name-title-wrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    width: 90%;
+    height: 100%;
+}
+
+.full-name {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    flex: 1;
+    width: 100%;
+    font-size: 61px;
+}
+
+.job-title {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    font-size: 57px;
+    color: #00bee8;
+}
+
+.contact-btn {
     @include display(flex, center, center);
+    position: absolute;
+    bottom: 30%;
     padding: 20px;
     height: 60px;
     font-size: 23px;
@@ -86,6 +157,8 @@ section {
     color: whitesmoke;
     background-color: #4B47FF;
     transition: all ease-in-out 100ms;
+    z-index: 1;
+    scale: 0.9;
 
     &:hover {
         scale: 1.2;
@@ -96,44 +169,55 @@ section {
     }
 }
 
-.conact-box {
-    @include position(absolute, $left: 0, $top: 95%, $width: 620px);
-    @include display(flex, space-between, center);
-    height: 100px;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
 
-    .line {
-        width: 100px;
-        height: 5px;
-        background: #4B47FF;
-    }
+.contact-container {
+    position: absolute;
+    left: 0;
+    bottom: 15%;
+    z-index: 1;
+    max-width: 760px;
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
 
     a {
-        color: whitesmoke;
-        text-decoration: none;
-        font-size: 23px;
+        transition: all ease-in-out 100ms;
 
-        img {
-            width: 35px;
-            height: 35px;
-            transition: all ease-in-out 100ms;
-
-            &:hover {
-                scale: 1.3;
-            }
+        &:hover {
+            scale: 1.1;
         }
     }
 }
 
+.email-txt {
+    color: whitesmoke;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.contact-line {
+    background: #4b47ff;
+    width: 20%;
+    height: 5px;
+}
+
 .scroll-container {
     position: absolute;
-    top: 80%;
-    right: 50px;
+    top: 15%;
+    right: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 20px;
     gap: 50px;
+    color: white;
+    scale: 0.9;
 
     span {
         transform: rotate(90deg);
@@ -144,660 +228,209 @@ section {
     }
 }
 
-@media(max-width: 1750px) {
-    .name-box {
-        h1 {
-            font-size: 70px;
-        }
 
-        .blue-txt {
-            font-size: 65px;
-        }
-
-        .rotate-text {
-            font-size: 52px;
-        }
+@media(min-width:320px) {
+    .name-title-container {
+        scale: 0.44;
     }
 }
 
-@media(max-width: 1600px) {
-    .profile {
-        width: 700px;
-        top: 250px;
-    }
-
-    .design {
-        top: 580px;
-        width: 120vw;
-    }
-
-    .name-box {
-        h1 {
-            font-size: 60px;
-        }
-
-        .blue-txt {
-            font-size: 55px;
-        }
-
-        .rotate-text {
-            font-size: 40px;
-        }
+@media(min-width:360px) {
+    .name-title-container {
+        scale: 0.5;
     }
 }
 
-@media(max-width: 1500px) {
-    .design {
-        top: 580px;
+@media(min-width:400px) {
+    .name-title-container {
+        scale: 0.54;
     }
-
-    .profile {
-        top: 250px;
-    }
-
-    .i-am-container {
-        top: 300px;
-        left: 480px;
-    }
-
-    .blue-shadow {
-        top: 200px;
-    }
-
-    .purple-shadow {
-        top: 10px;
-    }
-
 }
 
-@media(max-width: 1300px) {
-    .i-am-container {
-        top: 630px;
-        left: 300px;
+@media(min-width:450px) {
+    .name-title-container {
+        scale: 0.6;
+    }
+}
+
+@media(min-width:500px) {
+    .name-title-container {
+        scale: 0.68;
+    }
+}
+
+@media(min-width:550px) {
+    .name-title-container {
+        scale: 0.75;
     }
 
-    .design {
-        top: 350px;
+    .contact-btn {
+        bottom: 28%;
+        right: 40%;
+    }
+}
+
+
+@media(min-width:650px) {
+    .name-title-container {
+        scale: 0.9;
     }
 
-    .profile {
-        top: -10px;
+    .contact-btn {
+        scale: 1.0;
     }
+}
 
-    .blue-shadow {
-        top: -100px;
-    }
-
-    .purple-shadow {
-        top: -300px;
-    }
-
+@media (orientation: landscape) and (max-width:1500px) {
     section {
-        margin-top: 70px;
-        height: calc(100vh - 100px);
+        justify-content: start !important;
     }
 
-    .scroll-container {
-        top: 75%;
-        right: 0;
+    .name-title-container {
+        right: 0% !important;
+        scale: 0.9 !important;
+        bottom: 55%;
     }
 
-    .conact-box {
-        top: 85%;
-    }
-}
-
-@media(max-width:1200px) {
-    .i-am-container {
-        top: 630px;
-        left: 110px;
+    .profile-container {
+        height: 60%;
+        top: -8px;
     }
 
-    .profile {
-        top: -10px;
+    .contact-btn {
+        bottom: 4%;
+        right: 25%;
     }
 
-    .design {
-        top: 350px;
-        width: 150vw;
-    }
-}
-
-@media(max-width: 1000px) {
-    .i-am-container {
-        top: 630px;
-        left: 70px;
-        padding: 0;
+    .contact-container {
+        bottom: 22%;
     }
 
-    .profile {
-        top: -25px;
+    .light-shadows-container {
+        top: -5%;
+        width: 35%;
+        height: 70%;
     }
 
-
-    .scroll-container {
-        top: 30%;
-        right: 0;
-
-        img {
-            width: 45px;
-        }
+    .contact-btn {
+        bottom: 45%;
+        right: 30%;
+        scale: 0.9;
     }
 }
 
-@media(max-width: 840px) {
+@media (orientation: landscape) and (max-width: 950px) {
+    section {
+        justify-content: start !important;
+    }
 
-    .i-am-container {
-        top: 575px;
-        left: 10px;
-        gap: 25px;
-        width: 100%;
+    .name-title-container {
+        right: -10% !important;
+        scale: 0.7 !important;
+        bottom: 55%;
+    }
+
+    .profile-container {
+        height: 60%;
+        top: -8px;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 750px) {
+    section {
+        justify-content: start !important;
+    }
+
+    .name-title-container {
+        right: -15% !important;
+        scale: 0.6 !important;
+        bottom: 55%;
+    }
+
+    .profile-container {
+        height: 60%;
+        top: -8px;
+    }
+}
+
+
+
+@media(max-width:1023px) {
+    section {
         justify-content: center;
-        align-items: center;
-    }
-
-    // .conact-box {
-    //     top: 800px;
-    // }
-
-    .name-box {
-        line-height: 60px;
-
-        h1 {
-            font-size: 50px;
-        }
-
-        .blue-txt {
-            font-size: 45px;
-        }
-    }
-
-    .rotate-text {
-        font-size: 42px;
-    }
-
-    .design {
-        top: 350px;
-        width: 190vw;
-    }
-
-    .profile {
-        top: 50px;
-        width: 600px;
-    }
-
-    .blue-shadow {
-        top: -120px;
-        width: 500px;
-    }
-
-    .purple-shadow {
-        top: -300px;
-        left: 180px;
-        width: 450px;
-    }
-
-    .scroll-container {
-        top: 30%;
-        font-size: 18px;
-
-        img {
-            width: 40px;
-        }
-    }
-
-}
-
-
-@media(max-width: 660px) {
-
-    .i-am-container {
-        top: 630px;
-        left: 30px;
-        gap: 20px;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
     }
 
     .email-txt {
         display: none;
     }
+}
 
-    .conact-box {
-        width: unset;
-        justify-content: unset;
-        gap: 50px;
+@media(min-width:1024px) {
+    .name-title-container {
+        right: 10%;
+        scale: 1.1;
     }
+}
 
-    .contact-me-btn {
+@media(min-width:1100px) {
+    .name-title-container {
+        right: 0;
+        bottom: 70%;
+        width: 50%;
         scale: 0.9;
-    }
-
-    .name-box {
-        line-height: 50px;
-
-        h1 {
-            font-size: 40px;
-        }
-
-        .blue-txt {
-            font-size: 38px;
-        }
-    }
-
-    .rotate-text {
-        font-size: 38px;
-    }
-
-    .design {
-        top: 350px;
-        width: 200vw;
-    }
-
-}
-
-@media(max-width: 580px) {
-
-    .i-am-container {
-        top: 630px;
-        left: 7px !important;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .design {
-        top: 300px;
-        width: 200vw;
-    }
-
-    .profile {
-        top: 30px;
-        left: -30px;
-        width: 550px;
-    }
-
-    .blue-shadow {
-        top: -120px;
-        width: 450px;
-    }
-
-    .purple-shadow {
-        top: -300px;
-        left: 150px;
-        width: 400px;
-    }
-}
-
-@media(max-width:520px) {
-
-    .i-am-container {
-        top: 480px;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-        gap: 30px;
-    }
-
-    .name-box {
-        line-height: 40px;
-
-        h1 {
-            font-size: 32px;
-        }
-
-        .blue-txt {
-            font-size: 30px;
-        }
-    }
-
-    .rotate-text {
-        font-size: 32px;
-    }
-
-    .profile {
-        top: -35px;
-        left: -70px;
-        width: 520px;
-    }
-
-    .design {
-        top: 250px;
-        width: 200vw;
-    }
-
-    .blue-shadow {
-        top: -160px;
-        left: -10px;
-        width: 400px;
-    }
-
-    .purple-shadow {
-        top: -350px;
-        left: 100px;
-        width: 350px;
-    }
-
-    .conact-box {
-        // top: 650px;
-        width: 100%;
-        justify-content: space-around;
-
-        .line {
-            display: none;
-        }
     }
 
     .scroll-container {
-        top: 10%;
-        right: -20px;
-        font-size: 16px;
-        gap: 40px;
-
-        img {
-            width: 35px;
-        }
+        top: 50%;
+        scale: 1;
     }
 }
 
 
-@keyframes fadeUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
+@media(min-width:1200px) {
+    .name-title-container {
+        right: 0;
+        bottom: 70%;
+        width: 50%;
+        scale: 1.0;
     }
 }
 
-.fade-up {
-    animation: fadeUp 800ms ease-in-out;
-}
-
-
-@keyframes zoomInUp {
-    from {
-        opacity: 0;
-        transform: scale(0.8) translateY(20px);
+@media(min-width:1300px) {
+    .name-title-container {
+        right: 10%;
+        bottom: 70%;
+        width: 50%;
+        scale: 1.1;
     }
 
-    to {
-        opacity: 1;
-        transform: scale(1) translateY(0);
+    .contact-btn {
+        right: 40%;
+        bottom: 55%;
     }
 }
 
-.zoom-in-up {
-    animation: zoomInUp 900ms ease-in-out;
+@media(min-width:1400px) {
+    .name-title-container {
+        right: 15%;
+        bottom: 70%;
+        width: 50%;
+        scale: 1.1;
+    }
 }
 
-
-@media(max-width: 420px) {
-    .i-am-container {
-        top: 380px;
-        // left: -5px;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-        gap: 5px;
-    }
-
-    .name-box {
-        line-height: 40px;
-
-        h1 {
-            font-size: 30px;
-            letter-spacing: -1px;
-        }
-
-        .blue-txt {
-            font-size: 28px;
-            letter-spacing: -1px;
-        }
-    }
-
-    .rotate-text {
-        font-size: 30px;
-        letter-spacing: -1px;
-    }
-
-    .design {
-        top: 200px;
-        width: 200vw;
-    }
-
-    .profile {
-        top: -25px;
-        left: -40px;
-        width: 440px;
-    }
-
-    .contact-me-btn {
-        scale: 0.9;
-    }
-
-    .blue-shadow {
-        top: -230px;
-        left: -10px;
-        width: 350px;
-    }
-
-    .purple-shadow {
-        top: -410px;
-        left: 90px;
-        width: 300px;
-    }
-
-    // .conact-box {
-    //     top: 85%;
-    // }
-
-
-}
-
-
-@media(max-width:380px) {
-
-    .contact-me-btn {
-        scale: 0.8;
-    }
-
-    .name-box {
-        line-height: 45px;
-
-        h1 {
-            font-size: 26px;
-        }
-
-        .blue-txt {
-            font-size: 25px;
-        }
-    }
-
-    .rotate-text {
-        font-size: 25px;
-    }
-
-    .i-am-container {
-        width: 100%;
-        top: 337px;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-        gap: 5px;
-    }
-
-    .blue-shadow {
-        top: -230px;
-        left: -10px;
-        width: 340px;
-    }
-
-    .purple-shadow {
-        top: -430px;
-        left: 90px;
-        width: 290px;
-    }
-
-}
-
-@media screen and (min-width: 1000px) and (max-height: 900px) and (orientation: landscape) {
-    .i-am-container {
-        top: 100px;
-        left: 40%;
-        padding: 0;
-    }
-
-    .name-box {
-        line-height: 65px;
-
-        h1 {
-            font-size: 41px;
-        }
-
-        .blue-txt {
-            font-size: 39px;
-        }
-    }
-
-    .rotate-text {
-        font-size: 48px;
-    }
-
-    .design {
-        top: 340px;
-    }
-
-    .profile {
-        width: 580px;
-    }
-
-    .purple-shadow {
-        top: -350px;
-        left: 225px;
-        width: 400px;
+@media(min-width:1550px) {
+    .name-title-container {
+        right: 20%;
+        bottom: 70%;
+        width: 50%;
+        scale: 1.2;
     }
 }
 
 
-@media screen and (min-width: 500px) and (max-width: 600px) and (min-height: 650px) and (max-height: 750px) {
-    .purple-shadow {
-        top: -300px;
-        width: 330px;
-    }
-
-    .profile {
-        width: 400px;
-    }
-
-    .design {
-        top: 250px;
-    }
-
-    .blue-shadow {
-        top: -180px;
-        width: 400px;
-    }
-
-    .purple-shadow {
-        top: -400px;
-        width: 310px;
-        left: 135px;
-    }
-
-    .i-am-container {
-        top: 55%;
-    }
-}
-
-
-@media screen and (max-width: 1024px) and (orientation: landscape) {
-    .profile {
-        top: -40px;
-        width: 400px;
-    }
-
-    .design {
-        top: 195px;
-    }
-
-    .i-am-container {
-        top: 5%;
-        left: 30%;
-        gap: 20px;
-    }
-
-    .name-box {
-        line-height: 65px;
-
-        h1 {
-            font-size: 40px;
-        }
-
-        .blue-txt {
-            font-size: 38px;
-        }
-    }
-
-    .rotate-text {
-        font-size: 44px;
-    }
-
-    .purple-shadow {
-        top: -147%;
-        width: 250px;
-        left: 143px;
-    }
-
-    .blue-shadow {
-        top: -70%;
-        width: 370px;
-    }
-}
-
-@media screen and (max-width: 768px) and (orientation: landscape) {
-    .profile {
-        width: 330px;
-        left: -40px;
-    }
-
-    .design{
-        top: 175px;
-    }
-
-    .i-am-container{
-        top: 3%;
-        left: 7%;
-    }
-
-    .name-box{
-        line-height: 55px;
-        h1{
-            font-size: 35px;
-        }
-        .blue-txt{
-            font-size: 33px;
-        }
-    }
-
-    .rotate-text{
-        font-size: 36px;
-    }
-
-    .purple-shadow{
-        top: -170%;
-        left: 60px;
-    }
-
-    .blue-shadow{
-        top: -250px;
-        width: 300px;
-        left: -50px;
+@media(max-width: 1300px) {
+    .banner-container {
+        width: 150%;
     }
 }
