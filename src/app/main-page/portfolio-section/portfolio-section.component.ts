@@ -56,8 +56,8 @@ export class PortfolioSectionComponent {
       skills: 'Angular | TypeScript | Firebase',
       description: 'This App is a Slack Clone App. It revolutionizes team communication and collaboration with its intuitive interface, real-time messaging, and robust channel organization.',
       img: 'projects/da-bubble-img.png',
-      live: '',
-      github: 'https://github.com/JamalDrakeAman'
+      live: 'https://da-bubble.jamalaman.com/',
+      github: 'https://github.com/JamalDrakeAman/DaBubble'
     }
 
   ]
