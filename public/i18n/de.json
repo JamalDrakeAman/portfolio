@@ -14,10 +14,10 @@
     },
     "aboutMe": {
         "headline": "Über mich",
-        "introduction": "Hi, ich bin ein deutschsprachiger Frontend-Entwickler aus Mannheim. Die Welt der IT fasziniert mich, und ich liebe es, moderne, intuitive und ästhetische Webanwendungen zu entwickeln.",
-        "location": "Ich arbeite sowohl remote als auch vor Ort in Mannheim und passe mich flexibel an verschiedene Arbeitsumgebungen an.",
-        "workEnvironment": "Ich bin offen für neue Herausforderungen und strebe kontinuierlich danach, meine Fähigkeiten in modernen Technologien zu verbessern.",
-        "goal": "Meine Mission ist es, intuitive und visuell beeindruckende Websites und Apps zu bauen, die Nutzer begeistern und Unternehmen nach vorne bringen."
+        "introduction": "Hi, ich bin Jamal, ein deutschsprachiger Frontend-Entwickler aus Mannheim mit Fokus auf moderne, responsive Webanwendungen. Die Möglichkeit, mit Code Lösungen für echte Menschen zu schaffen, macht die Webentwicklung für mich so spannend.",
+        "location": "Ich arbeite flexibel – remote, hybrid oder vor Ort – und lege großen Wert auf sauberen Code.",
+        "workEnvironment": "Mein Ziel: Webanwendungen zu entwickeln, die mehr als nur funktionieren – sie sollen Nutzer wirklich begeistern. Ich setze auf Lösungen, die technisch zuverlässig, visuell ansprechend und für alle einfach zugänglich sind.",
+        "goal": "Aktuell erweitere ich meine Kenntnisse im Backend, um künftig ganzheitlichere Lösungen anbieten zu können. Neue Tools, Technologien und Herausforderungen motivieren mich dabei immer wieder aufs Neue."
     },
     "skills": {
         "headline": "Meine Fähigkeiten",
@@ -32,9 +32,9 @@
     "portfolio": {
         "intro": "Entdecke eine Auswahl meiner Arbeit – Interagiere mit den Projekten und erlebe meine Fähigkeiten in Aktion!",
         "projectDiscription": {
-            "0": "Vom Kanban-System inspirierter Aufgabenmanager. Erstellen und organisieren Sie Aufgaben mithilfe von Drag and Drop Funktionen, weisen Sie Benutzer und Kategorien zu.",
-            "1": "Ein einfaches Jump and Run Spiel, das auf einem objektorientierten Ansatz basiert. Begleite Captain Pirate auf seiner abenteuerlichen Reise, sammle Münzen und Kanonenkugeln und stelle dich dem furchterregenden Inselmonster.",
-            "2": "Diese App ist eine Slack Klon App. Sie revolutioniert die Teamkommunikation und -zusammenarbeit mit ihrer intuitiven Benutzeroberfläche, Echtzeit-Messaging und einer leistungsstarken Kanalorganisation.",
+            "0": "Diese App ist eine Slack Klon App. Sie revolutioniert die Teamkommunikation und -zusammenarbeit mit ihrer intuitiven Benutzeroberfläche, Echtzeit-Messaging und einer leistungsstarken Kanalorganisation.",
+            "1": "Vom Kanban-System inspirierter Aufgabenmanager. Erstellen und organisieren Sie Aufgaben mithilfe von Drag and Drop Funktionen, weisen Sie Benutzer und Kategorien zu.",
+            "2": "Ein einfaches Jump and Run Spiel, das auf einem objektorientierten Ansatz basiert. Begleite Captain Pirate auf seiner abenteuerlichen Reise, sammle Münzen und Kanonenkugeln und stelle dich dem furchterregenden Inselmonster.",
             "3": "Ein simples CRM System, das eine Übersicht über Benutzer, Mitarbeiter und Kunden bietet. Neue Benutzer und Kunden können einfach hinzugefügt werden, Kundenzahlen werden erfasst und Rollen verwaltet. Das Dashboard zeigt Echtzeit Wetterdaten aus einer API. Zusätzliche Funktionen sind ein Kalender, eine ToDo Liste für strukturierte Arbeitsabläufe und eine Notizenseite für schnelle Dokumentation.",
             "4": "Basierend auf der PokéAPI, einer einfachen Bibliothek, die Pokémon Informationen bereitstellt und katalogisiert."
         },

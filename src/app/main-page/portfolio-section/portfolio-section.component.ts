@@ -19,6 +19,15 @@ import { TranslateModule } from '@ngx-translate/core';
 export class PortfolioSectionComponent {
 
   projects = [
+
+      {
+      name: 'DA Bubble',
+      skills: 'Angular | TypeScript | Firebase',
+      description: 'This App is a Slack Clone App. It revolutionizes team communication and collaboration with its intuitive interface, real-time messaging, and robust channel organization.',
+      img: 'projects/da-bubble-img.png',
+      live: 'https://da-bubble.jamalaman.com/',
+      github: 'https://github.com/JamalDrakeAman/DaBubble'
+    },
     {
       name: 'Join',
       skills: 'JavaScript | HTML | CSS',
@@ -51,14 +60,7 @@ export class PortfolioSectionComponent {
     //   live: 'https://pokedex.jamalaman.com/',
     //   github: 'https://github.com/JamalDrakeAman/Pokedex'
     // },
-    {
-      name: 'DA Bubble',
-      skills: 'Angular | TypeScript | Firebase',
-      description: 'This App is a Slack Clone App. It revolutionizes team communication and collaboration with its intuitive interface, real-time messaging, and robust channel organization.',
-      img: 'projects/da-bubble-img.png',
-      live: 'https://da-bubble.jamalaman.com/',
-      github: 'https://github.com/JamalDrakeAman/DaBubble'
-    }
+  
 
   ]
 

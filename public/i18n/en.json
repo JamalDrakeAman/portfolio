@@ -14,10 +14,10 @@
     },
     "aboutMe": {
         "headline": "About me",
-        "introduction": "Hi, I am a German-speaking frontend developer from Mannheim. The world of IT fascinates me and I love developing modern, intuitive and aesthetic web applications.",
-        "location": "I work both remotely and on site in Mannheim and adapt flexibly to different work environments.",
-        "workEnvironment": "I am open to new challenges and continually strive to improve my skills in modern technologies.",
-        "goal": "My mission is to build intuitive and visually stunning websites and apps that delight users and drive businesses forward."
+        "introduction": "Hi, I’m Jamal, a German-speaking frontend developer based in Mannheim, specializing in modern, responsive web applications. What excites me about web development is the opportunity to create solutions with code that truly help real people.",
+        "location": "I’m flexible – remote, hybrid, or on-site – and committed to clean, well-structured code.",
+        "workEnvironment": "My goal: To build web applications that do more than just work – they should genuinely engage users. I focus on solutions that are technically reliable, visually appealing, and easily accessible to everyone.",
+        "goal": "Currently, I’m expanding my backend knowledge to offer more holistic and end-to-end solutions in the future. I’m constantly driven by new tools, technologies, and the challenges they bring."
     },
     "skills": {
         "headline": "My skills",
@@ -32,9 +32,9 @@
     "portfolio": {
         "intro": "Discover a selection of my work – interact with the projects and see my skills in action!",
         "projectDiscription": {
-            "0": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
-            "1": "A simple Jump and Run game based on an object-oriented approach. Join Captain Pirate on his adventurous journey, collect coins and cannonballs, and face the fearsome island monster.",
-            "2": "This App is a Slack Clone App. It revolutionizes team communication and collaboration with its intuitive interface, real time messaging, and robust channel organization.",
+            "0": "This App is a Slack Clone App. It revolutionizes team communication and collaboration with its intuitive interface, real time messaging, and robust channel organization.",
+            "1": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
+            "2": "A simple Jump and Run game based on an object-oriented approach. Join Captain Pirate on his adventurous journey, collect coins and cannonballs, and face the fearsome island monster.",
             "3": "A simple CRM system that provides an overview of users, employees, and customers. Easily add new users and customers, track customer counts, and manage roles. The dashboard includes real time weather data from an API. Additional features include a calendar, a todo list for structured workflows, and a notes section for quick documentation.",
             "4": "Based on the PokéAPI a simple library that provides and catalogues pokemon information."
             
